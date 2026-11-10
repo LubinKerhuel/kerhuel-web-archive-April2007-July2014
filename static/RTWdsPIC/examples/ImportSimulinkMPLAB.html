@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template_Embedded_Target_dspic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Import Simulink Generated C code into MPLAB :: Examples (Embedded Target for Microchip dsPIC and PIC 24)</title>
+<style type="text/css">
+<!--
+.style4 {color: #0000FF}
+-->
+</style>
+<style type="text/css">
+<!--
+.style5 {font-weight: bold}
+-->
+</style>
+<style type="text/css">
+<!--
+.style6 {font-weight: bold}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+.Disclamer {font-size: x-small; color: #000000;}
+.Titre {font-family: Geneva, Arial, Helvetica, sans-serif}
+--> 
+</style>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript"> var sc_project=2355118; var sc_invisible=0; var sc_partition=21; var sc_security="1408e96f"; var sc_remove_link=1; </script>
+
+<script type="text/javascript" language="javascript" 
+src="http://www.statcounter.com/counter/counter.js"></script>
+<meta name="Keywords" content="Control applications; Rapid controller prototyping; Computer-aided control system design ; dsPIC ; Simulink ; embedded" />
+<noscript><img
+src="http://c22.statcounter.com/counter.php?sc_project=2355118&java=0&security=1408e96f&invisible=0" 
+alt="web log free" border="0"> </noscript>
+<!-- End of StatCounter Code -->
+</head>
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#AED1EE">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td>This website is no more updated ! <a href="http://www.kerhuel.eu/wiki/index.php5">New Website</a> </td>
+            <td><h1 align="center" class="Titre">Fast Prototyping tool for 16 bits PIC</h1></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td width="4%" bgcolor="#AED1EE"><a href="http://www.kerhuel.eu/"><img src="../../Img/Home.png" alt="home" width="30" height="30" border="0" /></a></td>
+            <td width="89%" valign="middle"><a href="../../index.html">home</a> <strong>&raquo;</strong> <a href="../index.html">Embedded Target for dsPIC</a> <strong>&raquo;</strong><!-- InstanceBeginEditable name="TopLink" --> <a href="index.html">Examples</a> <strong>&raquo;</strong> <strong>Explorer 16 Development Board </strong><!-- InstanceEndEditable --></td>
+            <td width="7%" align="right"><!-- InstanceBeginEditable name="Previous" --><a href="Explorer16DevBoard33f.html"><img src="../../Img/Back.png" alt="Back" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Next" --><a href="IMU.html"><img src="../../Img/Forward.png" alt="Forward" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td width="18%" align="center" valign="bottom"><p align="left">&nbsp;</p></td>
+    <td width="82%" align="center" valign="top"><h1><!-- InstanceBeginEditable name="Title" -->Import Generated C code into a new MPLAB project <!-- InstanceEndEditable --><br />
+      </h1></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bordercolor="#000000"><table width="100%" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" bordercolor="#000000" bgcolor="#66FFCC"><div align="center"><span class="noprintable"><a href="/RTWdsPIC/index.html"><img src="../../Img/Up.png" alt="Up" width="30" height="30" border="0" /></a> </span>
+              <p align="left" class="noprintable">&#8226; <a href="http://www.kerhuel.eu/wiki/index.php5"><strong>New Website</strong></a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/dspic-block/">Blocks Description</a><br />
+                <br />
+                &#8226; <a href="/wiki/download/">Download </a><br />
+              &#8226; <a href="../../wiki/Examples">Examples<br />
+              </a>&#8226; <a href="/wiki/licence/">Pricing</a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/review/">Review</a><a href="http://www.kerhuel.eu/forum/viewforum.php?f=1"><br />
+              </a>&#8226; <a href="http://www.kerhuel.eu/forum/index.php">Forum</a></p>
+              </div></td>
+        </tr>
+      </table></td>
+    <td align="center" valign="top"><!-- InstanceBeginEditable name="Corps" -->
+      <p>This example explain how to import the C code files, generated with simulink and the <a href="../index.html">dsPIC blockset</a>, into a MPLAB project. This allow to add or modify C code generated and to debug the software using the MPLAB deugging capabilities.</p>
+      <p>For the demonstration, I use the  simulink model described in the previous example (for Explorer 16 Development Board with the dsPIC 33FJ256GP710 or  PIC 24JF128GA010 microcontroller) .<br />
+        The model file is in the toolbox directory : <em><strong>examples \ dsPIC_33f_Explorer16.mdl </strong></em></p>
+      <p>This method <strong>do not</strong> use the new MPLAB function to import C code from simulink. </p>
+      <h1 align="left">In Matlab/Simulink</h1>
+      <ol>
+        <li>
+          <div align="left"><strong>Open model</strong></div>
+        </li>
+        <li>
+          <div align="left"><strong>Compile the model</strong><br />
+            The model must be compiled to get the matlab lirary compiled so as to import them easily in MPLAB.<br />
+          Subdirectory dsPIC_33f_Explorer16_dspic \ Source will be created with  .C and .h source files </div>
+        </li>
+      </ol>
+      <h1 align="left">In MPLAB </h1>
+      <ol>
+        <li>
+          <div align="left"><strong>Create a new project</strong></div>
+        </li>
+        <li>
+          <div align="left"><strong>Select the target device</strong> <br />
+            The same as the one defined in the simulink model : 33fJ256GP710</div>
+        </li>
+        <li>
+          <div align="left"><strong>Select Language Toolsuite</strong><br />
+            Use the C30 Compiler ( free student version available on the microchip website)</div>
+        </li>
+        <li>
+          <div align="left"><strong>Import C sources files</strong> (from *Toolbox* \ examples \ dsPIC_33f_Explorer16_dspic \ Source )</div>
+        </li>
+        <li>
+          <div align="left"><strong>Import h source files</strong> (from *Toolbox* \ examples \ dsPIC_33f_Explorer16_dspic \ Source )</div>
+        </li>
+        <li>
+          <div align="left"><strong>Import Matlab library and PIC/dsPIC library</strong> : <br />
+          all .a files in the  *Toolbox* \ examples \ dsPIC_33f_Explorer16_dspic \ Source directory <br />
+          The .a library corresponding to the PIC in the Microchip directory ==&gt; C:\Program Files\Microchip\MPLAB C30\lib<br />
+          for 24f pic, use the 24Fxxx file ( I use the coff version) </div>
+        </li>
+        <li>
+          <div align="left"><strong>Import Linker file for the chosen PIC/dsPIC</strong><br />
+          from the microchip directory : C:\Program Files\Microchip\MPLAB C30\support\gld</div>
+        </li>
+        <li>
+          <div align="left"><strong>Compile</strong>  </div>
+        </li>
+      </ol>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><img src="Img/ImportMPLAB/MPLAB_ResumeFilesProject.png" width="640" height="480" /></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Needed Files imported into the MPLAB project  </em></strong></div></td>
+        </tr>
+      </table>
+      <h1 align="left"><strong>Remarks : </strong></h1>
+      <h2 align="left">Know bug </h2>
+      <p align="left">Illustrations were realized using MPLAB 7.52.<br />
+      with MPLAB 7.60 and get the following message during the compilation process: </p>
+      <p>&quot;<span class="style4">A language-plugin exception occurred and was logged</span>&quot;      </p>
+      <p align="left">It seems to be an MPLAB error. Refere post about this error on the microchip forum. <br />
+      My advice would be to use MPLAB 7.52.</p>
+      <h2 align="left">Reasons to compile with MPLAB rather than in matlab </h2>
+      <p align="left">No real reason ! I would not recommend to import C code files generated with simulink into MPLAB for the following reasons :</p>
+      <ul>
+        <li>
+          <div align="left">I is easier to maintain and improve code using simulink</div>
+        </li>
+        <li>
+          <div align="left">Adding personnal C code can be done in simulink, either using the dsPIC block &quot;call C function&quot;  neither using simulink options to import your C code ( refere to simulink manual)</div>
+        </li>
+        <li>
+          <div align="left">Debugging should be done in real time without break points</div>
+        </li>
+        <li>
+          <div align="left">Simulation with simulink could also help to debug</div>
+        </li>
+      </ul>
+      <p>MPLAB should only be used if bug appears in the C code generated for peripheral ( If you find bugs in peripheral C code, please let me know) </p>
+      <h2 align="left">MPLAB function to import Generated Code from Simulink </h2>
+      <p align="left"> Since MPLAB IDE version 7.51&nbsp; Matlab/Simulink support for Simulink embedded Coder is added.<br />
+      This function allows to import C code generated with the Real Time Embedded Coder  matlab toolbox. However, this function do not provide the blockset to get PIC and dsPIC peripheral working. You must generate code from simulink,  import the C files into MPLAB and <strong>write the C code for every peripheral you want to use</strong>. You must also <strong>add C code to have the model to run at the correct frequency</strong>. In other words,  you have still quite a lot of work to do once you generated you C code.</p>
+      <p align="left">This function is today not compatile with the toolbox presented on this website. If you want to import generated code into MPLAB, you must use the procedure described on this wepage.<br />
+      This procedure also allow a get a faster compilation than project imported using the MPLAB function.</p>
+      <h1 align="left">Illustrations : </h1>
+      <h2 align="left">Matlab/Simulink</h2>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><img src="Img/ImportMPLAB/OpenModel.png" width="570" height="419" /></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Open Matlab and go to the example directory </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/CompileInMatlab.png" width="640" height="480" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Compile the Model </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/CompileInMatlabSuccess.png" width="570" height="419" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Compile process sucessfull </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><h2 align="left">&nbsp;</h2>
+            <h2 align="left">In MPLAB </h2>
+            <p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/MPLA_StartNewProject.png" width="640" height="480" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Start new project in MPLAB </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/MPLAB_SelectDevice.png" width="389" height="480" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Select Device (Use same PIC as defined in the simulink model) </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/MPLAB_SelectLanguageToolsuite2.png" width="482" height="263" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Select Language Toolsuite (select C30) </em></strong></div></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th scope="col"><p>&nbsp;</p>
+          <p><img src="Img/ImportMPLAB/MPLAB_AddCFiles.png" width="508" height="398" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center"><strong><em>Add C source Files from directory : </em></strong><em><strong>examples \ dsPIC_33f_Explorer16_dspic \ Source </strong></em></div></td>
+        </tr>
+      </table>
+      <p align="left">&nbsp;</p>
+      <center>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th scope="col"><img src="Img/ImportMPLAB/MPLAB_AddhFiles.png" width="508" height="398" /></th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em>Add C source Files from directory : </em></strong><em><strong>examples \ dsPIC_33f_Explorer16_dspic \ Source </strong></em></div></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th scope="col"><p>&nbsp;</p>
+            <p><img src="Img/ImportMPLAB/MPLAB_ResumeFilesProject.png" width="640" height="480" /></p></th>
+          </tr>
+          <tr>
+            <td><div align="center" class="style6">
+              <p><span class="style5"><em>Also add Library Files <br />
+                  rtwlib.a from directory ==&gt; examples \ dsPIC_33f_Explorer16_dspic \ Source  <br />
+                lip33FJ256GP710-coff.a from ==&gt; C:\Program Files\Microchip\MPLAB C30\lib</em></span></p>
+              <p><em>and Linker Script File<br />
+                p33FJ256GP710.gld from ==&gt; C:\Program Files\Microchip\MPLAB C30\support\gld</em></p>
+              </div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th scope="col"><img src="Img/ImportMPLAB/MPLAB_CompilationEnd.png" width="640" height="480" /></th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em>Compile</em></strong></div></td>
+          </tr>
+        </table>
+        <p>Then debug ? </p>
+      </center>
+      <center>
+        <p>For any question or unclear point, feel free to ask question on the <a href="http://www.kerhuel.eu/forum/viewforum.php?f=1">forum</a>.  </p>
+      </center>
+      <!-- InstanceEndEditable -->
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><div align="center"><img src="../../Img/black.png" width="300" height="1" /></div></td>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p class="Disclamer">The Microchip name PIC, dsPIC, and MPLAB are
+                  registered trademarks of Microchip Technology Inc.<br />
+                  MATLAB, Simulink, and Real-Time Workshop are
+                  registered trademarks of The MathWorks, Inc.</p>
+                <table width="100%" border="0">
+                  <tr>
+                    <td class="Disclamer">Lubin Kerhuel 's Website </td>
+                    <td><div align="right"><span class="Disclamer">Contact : [adresse e-mail retirée] </span></div></td>
+                  </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+        <br />
+        <div align="center">
+          <script src="http://gmodules.com/ig/ifr?url=http://www.google.com/coop/api/015195793385821636816/cse/qtgnealelsm/gadget&amp;synd=open&amp;w=294&amp;h=66&amp;title=Lubin's+Website+search+engine&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+      </div></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-90899-3";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>

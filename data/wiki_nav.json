@@ -1,0 +1,394 @@
+{
+ "sections": [
+  {
+   "title": "Blockset",
+   "items": [
+    {
+     "label": "Presentation",
+     "url": "/wiki/main-page/",
+     "external": false
+    },
+    {
+     "label": "User Feedback",
+     "url": "/wiki/customer-feedback/",
+     "external": false
+    },
+    {
+     "label": "Download v3.7e",
+     "url": "/wiki/download/",
+     "external": false
+    },
+    {
+     "label": "License",
+     "url": "/wiki/licence/",
+     "external": false
+    },
+    {
+     "label": "Forum",
+     "url": "/forum/",
+     "external": true
+    }
+   ]
+  },
+  {
+   "title": "News (2019)",
+   "items": [
+    {
+     "label": "Free Microchip blockset",
+     "url": "https://www.microchip.com/SimulinkBlocks",
+     "external": true
+    },
+    {
+     "label": "New Website",
+     "url": "https://lubin.kerhuel.eu",
+     "external": true
+    }
+   ]
+  },
+  {
+   "title": "Examples",
+   "items": [
+    {
+     "label": "Complete examples list",
+     "url": "/wiki/category/example/",
+     "external": false
+    },
+    {
+     "label": "Sensorless Speed Controller",
+     "url": "/wiki/pic32-sensorless-speed-controller-for-dc-motor-applied-on-picooz-main-rotor/",
+     "external": false
+    },
+    {
+     "label": "Autopilote",
+     "url": "/wiki/mems-based-autopilote-on-dspic-for-rc-model-airplane/",
+     "external": false
+    },
+    {
+     "label": "Inertial Measurement Unit (IMU)",
+     "url": "/wiki/miniature-inertial-measurement-unit-imu/",
+     "external": false
+    },
+    {
+     "label": "CAN communication",
+     "url": "/wiki/can-communication-between-two-dspic/",
+     "external": false
+    },
+    {
+     "label": "PWM communication",
+     "url": "/wiki/pwm-communication-between-two-dspic/",
+     "external": false
+    },
+    {
+     "label": "SPI communication between two dsPIC",
+     "url": "/wiki/spi-communication-between-two-dspic/",
+     "external": false
+    },
+    {
+     "label": "Synchronise PWM and ADC",
+     "url": "/wiki/hyper-sampling/",
+     "external": false
+    },
+    {
+     "label": "Flex Board",
+     "url": "/wiki/flex-board-blinking-led/",
+     "external": false
+    },
+    {
+     "label": "Explorer 16 Board",
+     "url": "/wiki/explorer-16-board/",
+     "external": false
+    },
+    {
+     "label": "Cerebot 32MX4 board",
+     "url": "/wiki/getting-started-with-digilent-cerebot-32mx4/",
+     "external": false
+    },
+    {
+     "label": "MPLAB X ide",
+     "url": "/wiki/mplab-x/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Blocks (Root level)",
+   "items": [
+    {
+     "label": "Blocks Summary",
+     "url": "/wiki/dspic-block/",
+     "external": false
+    },
+    {
+     "label": "Master",
+     "url": "/wiki/dspic-block-master/",
+     "external": false
+    },
+    {
+     "label": "Compiler Configuration",
+     "url": "/wiki/dspic-block-compiler-configuration/",
+     "external": false
+    },
+    {
+     "label": "Ports Info",
+     "url": "/wiki/dspic-block-ports-info/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Digital I/O",
+   "items": [
+    {
+     "label": "Digital Input",
+     "url": "/wiki/dspic-block-digital-input/",
+     "external": false
+    },
+    {
+     "label": "Digital Output Write",
+     "url": "/wiki/dspic-block-digital-output-write/",
+     "external": false
+    },
+    {
+     "label": "Digital Output Read",
+     "url": "/wiki/dspic-block-digital-output-read/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Peripheral I/O",
+   "items": [
+    {
+     "label": "Analog to Digital Converter (ADC)",
+     "url": "/wiki/dspic-block-adc-analog-to-digital-converter/",
+     "external": false
+    },
+    {
+     "label": "Input Capture (IC)",
+     "url": "/wiki/dspic-block-input-capture/",
+     "external": false
+    },
+    {
+     "label": "Change Notification (CN)",
+     "url": "/wiki/dspic-block-change-notification/",
+     "external": false
+    },
+    {
+     "label": "External Interrupt (EI)",
+     "url": "/wiki/dspic-block-external-interrupt-pwm/",
+     "external": false
+    },
+    {
+     "label": "Output Compare (OC)",
+     "url": "/wiki/dspic-block-output-compare/",
+     "external": false
+    },
+    {
+     "label": "Output  Compare Hardware (OC HW)",
+     "url": "/wiki/dspic-block-output-compare-hw/",
+     "external": false
+    },
+    {
+     "label": "PWM Motor Output",
+     "url": "/wiki/dspic-block-pwm-motor-output/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Serial PORT",
+   "items": [
+    {
+     "label": "UART Configuration",
+     "url": "/wiki/dspic-block-uart-configuration/",
+     "external": false
+    },
+    {
+     "label": "Tx Output",
+     "url": "/wiki/dspic-block-tx-output/",
+     "external": false
+    },
+    {
+     "label": "Rx Input",
+     "url": "/wiki/dspic-block-rx-input/",
+     "external": false
+    },
+    {
+     "label": "Tx  Output Multplexed for Matlab-Labview",
+     "url": "/wiki/dspic-block-tx-output-multiplexed-for-matlab-labview/",
+     "external": false
+    },
+    {
+     "label": "Interface  Tx-Matlab",
+     "url": "/wiki/dspic-block-interface-tx-matlab/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Numerical BUS",
+   "items": [
+    {
+     "label": "SPI Configuration",
+     "url": "/wiki/dspic-block-spi-configuration/",
+     "external": false
+    },
+    {
+     "label": "SPI Input/Output",
+     "url": "/wiki/dspic-block-spi-input-output/",
+     "external": false
+    },
+    {
+     "label": "SPI Input/Output interrupt driven",
+     "url": "/wiki/dspic-block-spi-input-output-interrupt-driven/",
+     "external": false
+    },
+    {
+     "label": "CAN Configuration",
+     "url": "/wiki/dspic-block-can-configuration/",
+     "external": false
+    },
+    {
+     "label": "CAN Transmit",
+     "url": "/wiki/dspic-block-can-transmit/",
+     "external": false
+    },
+    {
+     "label": "CAN Receive",
+     "url": "/wiki/dspic-block-can-receive/",
+     "external": false
+    },
+    {
+     "label": "I2C Master",
+     "url": "/wiki/dspic-block-i2c-master/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Others",
+   "items": [
+    {
+     "label": "Calculus Time Step",
+     "url": "/wiki/dspic-block-calculus-time-step/",
+     "external": false
+    },
+    {
+     "label": "Chronograph",
+     "url": "/wiki/dspic-block-chronograph/",
+     "external": false
+    },
+    {
+     "label": "C Function Call",
+     "url": "/wiki/dspic-block-c-function-call/",
+     "external": false
+    },
+    {
+     "label": "Clock Switch to Low Power mode",
+     "url": "/wiki/dspic-block-clock-switch-lp/",
+     "external": false
+    },
+    {
+     "label": "Nop",
+     "url": "/wiki/dspic-block-nop/",
+     "external": false
+    },
+    {
+     "label": "Software Reset",
+     "url": "/wiki/dspic-block-software-reset/",
+     "external": false
+    }
+   ]
+  },
+  {
+   "title": "Lubin Kerhuel",
+   "items": [
+    {
+     "label": "Publications",
+     "url": "/wiki/lubin-kerhuel/",
+     "external": false
+    },
+    {
+     "label": "Resume (En)",
+     "url": "http://www.doyoubuzz.com/lubin-kerhuel-english-version",
+     "external": true
+    },
+    {
+     "label": "Resume (CV-Fr)",
+     "url": "http://www.doyoubuzz.com/lubin-kerhuel",
+     "external": true
+    }
+   ]
+  },
+  {
+   "title": "Other pages",
+   "items": [
+    {
+     "label": "An amphibious robot based on ePaddle Modules",
+     "url": "/wiki/an-amphibious-robot-based-on-epaddle-modules/",
+     "external": false
+    },
+    {
+     "label": "Animation Compiling your first model",
+     "url": "/wiki/animation-compiling-your-first-model/",
+     "external": false
+    },
+    {
+     "label": "Animation Installation Procedure",
+     "url": "/wiki/animation-installation-procedure/",
+     "external": false
+    },
+    {
+     "label": "Animation Log and Plot datas from PIC with Matlab",
+     "url": "/wiki/animation-log-and-plot-datas-from-pic-with-matlab/",
+     "external": false
+    },
+    {
+     "label": "Case Study: Position Control of DC Motor",
+     "url": "/wiki/case-study-position-control-of-dc-motor/",
+     "external": false
+    },
+    {
+     "label": "Importing Simulink Generated Code into Mplab",
+     "url": "/wiki/importing-simulink-generated-code-into-mplab/",
+     "external": false
+    },
+    {
+     "label": "Pic30-gcc v3.12 bugfix",
+     "url": "/wiki/pic30-gcc-v3-12-bugfix/",
+     "external": false
+    },
+    {
+     "label": "Pic32-gcc v1.04 bugfix",
+     "url": "/wiki/pic32-gcc-v1-04-bugfix/",
+     "external": false
+    },
+    {
+     "label": "Picooz",
+     "url": "/wiki/picooz/",
+     "external": false
+    },
+    {
+     "label": "RegenerateSiteMap",
+     "url": "/wiki/regeneratesitemap/",
+     "external": false
+    },
+    {
+     "label": "Release Notes",
+     "url": "/wiki/release-notes/",
+     "external": false
+    },
+    {
+     "label": "Review",
+     "url": "/wiki/review/",
+     "external": false
+    },
+    {
+     "label": "Simulink - Embedded Target for PIC",
+     "url": "/wiki/simulink-embedded-target-for-pic/",
+     "external": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+Output in Command window when opening Data_Login_Matlab.mdl
+
+> In C:\Program Files (x86)\MATLAB\R2007b\toolbox\rtw\rtw\private\getSTFInfo.p>getSTFInfo at 73
+  In C:\Program Files (x86)\MATLAB\R2007b\toolbox\rtw\rtw\rtwprivate.p>rtwprivate at 12
+  In C:\Program Files (x86)\MATLAB\R2007b\toolbox\rtw\rtw\stf4target.p>stf4target at 35
+  In C:\Program Files (x86)\MATLAB\R2007b\toolbox\rtw\rtw\stf2target.p>stf2target at 61
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: dsPICdrivers.mdl, line 50: block_diagram does not have a parameter named 'CovForceBlockReductionOff'.
+> In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: dsPICdrivers.mdl, line 55: block_diagram does not have a parameter named 'CovModelRefEnable'.
+> In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: dsPICdrivers.mdl, line 56: block_diagram does not have a parameter named 'CovExternalEMLEnable'.
+> In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: GMAKE_PLACE not defined, check tlc target
+> In D:\MATLAB\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 45
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: The *System Target File must be defined to dsPIC Real Time workshop (Simulation ==> Configuration
+Parameters ==> Real Time workshop
+> In D:\MATLAB\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 408
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+PWarning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and UART Tx.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 124
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and Output Compare.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 182
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and PWM Output Compare.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 199
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and ADC.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 281
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and Change Notification.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 311
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and SPI In.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 331
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and SPI Out.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 333
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and SPI Clock Output.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 350
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and CAN Bus.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 399
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and CAN Bus.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 400
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and I2C Bus.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 462
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and I2C Bus.
+> In D:\MATLAB\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In D:\MATLAB\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 463
+  In D:\MATLAB\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In D:\MATLAB\blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p>dsPIC_UART_Rx_Tx_Matlab_InitMask at 9
+  In general\private\openmdl at 13
+  In open at 148
+  In uiopen at 196
+TLibrary detected, Fixed Step artificially set to 1ms
+***** Solver Mode change from Auto to SingleTasking (this mode allows single rate and multirate). See help to get the difference with the MultiTasking mode which is now supported by the blockset *****
+Old gmake exist, but newly GMAKE set at : C:\PROGRA~2\MATLAB\R2007b\bin\win32\gmake
+PT>> 
+
+Output in Command window when doing incremental build
+
+PTsources files not found. MPLAB project file not created.
+
+New info-window opens:
+
+Error building Real-Time Workshop target for block diagram 'Data_Login_Matlab'. MATLAB error message:
+Error using ==> make_rtw
+Too many output arguments.

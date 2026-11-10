@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template_Embedded_Target_dspic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Inertial Measurement Unit (IMU) :: Examples (Embedded Target for Microchip dsPIC and PIC 24)</title>
+<style type="text/css">
+<!--
+.style6 {color: #0000FF}
+-->
+</style>
+<style type="text/css">
+<!--
+.style7 {color: #000000}
+-->
+</style>
+<style type="text/css">
+<!--
+.style8 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: x-large;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.style9 {
+	font-size: xx-large;
+	font-weight: bold;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+.style10 {font-size: x-large}
+-->
+</style>
+<style type="text/css">
+<!--
+.style11 {color: #FF0000}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+.Disclamer {font-size: x-small; color: #000000;}
+.Titre {font-family: Geneva, Arial, Helvetica, sans-serif}
+--> 
+</style>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript"> var sc_project=2355118; var sc_invisible=0; var sc_partition=21; var sc_security="1408e96f"; var sc_remove_link=1; </script>
+
+<script type="text/javascript" language="javascript" 
+src="http://www.statcounter.com/counter/counter.js"></script>
+<meta name="Keywords" content="Control applications; Rapid controller prototyping; Computer-aided control system design ; dsPIC ; Simulink ; embedded" />
+<noscript><img
+src="http://c22.statcounter.com/counter.php?sc_project=2355118&java=0&security=1408e96f&invisible=0" 
+alt="web log free" border="0"> </noscript>
+<!-- End of StatCounter Code -->
+</head>
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#AED1EE">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td>This website is no more updated ! <a href="http://www.kerhuel.eu/wiki/index.php5">New Website</a> </td>
+            <td><h1 align="center" class="Titre">Fast Prototyping tool for 16 bits PIC</h1></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td width="4%" bgcolor="#AED1EE"><a href="http://www.kerhuel.eu/"><img src="../../Img/Home.png" alt="home" width="30" height="30" border="0" /></a></td>
+            <td width="89%" valign="middle"><a href="../../index.html">home</a> <strong>&raquo;</strong> <a href="../index.html">Embedded Target for dsPIC</a> <strong>&raquo;</strong><!-- InstanceBeginEditable name="TopLink" --><strong> <a href="../index.html">Examples</a></strong> <strong>&raquo;</strong> IMU<!-- InstanceEndEditable --></td>
+            <td width="7%" align="right"><!-- InstanceBeginEditable name="Previous" --><a href="ImportSimulinkMPLAB.html"><img src="../../Img/Back.png" alt="Back" width="30" height="30" border="0" /></a><a href="Explorer16DevBoard33f.html"></a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Next" --><a href="index.html"><img src="../../Img/Forward.png" alt="Forward" width="30" height="30" border="0" /></a><a href="../SinusPWM.html"></a><!-- InstanceEndEditable --></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td width="18%" align="center" valign="bottom"><p align="left">&nbsp;</p></td>
+    <td width="82%" align="center" valign="top"><h1><!-- InstanceBeginEditable name="Title" -->IMU   <!-- InstanceEndEditable --><br />
+      </h1></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bordercolor="#000000"><table width="100%" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" bordercolor="#000000" bgcolor="#66FFCC"><div align="center"><span class="noprintable"><a href="/RTWdsPIC/index.html"><img src="../../Img/Up.png" alt="Up" width="30" height="30" border="0" /></a> </span>
+              <p align="left" class="noprintable">&#8226; <a href="http://www.kerhuel.eu/wiki/index.php5"><strong>New Website</strong></a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/dspic-block/">Blocks Description</a><br />
+                <br />
+                &#8226; <a href="/wiki/download/">Download </a><br />
+              &#8226; <a href="../../wiki/Examples">Examples<br />
+              </a>&#8226; <a href="/wiki/licence/">Pricing</a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/review/">Review</a><a href="http://www.kerhuel.eu/forum/viewforum.php?f=1"><br />
+              </a>&#8226; <a href="http://www.kerhuel.eu/forum/index.php">Forum</a></p>
+              </div></td>
+        </tr>
+      </table></td>
+    <td align="center" valign="top"><!-- InstanceBeginEditable name="Corps" -->
+<center>
+  <p align="center">&nbsp;</p>
+  <p align="center" class="style8">!!! THIS PAGE IS NO MORE UPDATED !!! </p>
+  <p align="center" class="style7"><span class="style9 style10 style11"> <a href="/wiki/miniature-inertial-measurement-unit-imu/">Click here ==&gt;  GO TO THE NEW IMU PAGE</a></span></p>
+  <p align="center" class="style7"><br />
+  </p>
+  <p align="center">The micro-Inertial Measurement Unit (IMU) measures the absolute angle (or attitude). It is made of</p>
+</center>
+      <ul>
+        <li>
+          <div align="left">
+          2 one axis MEMS rate gyro measuring roll and pitch rotation speed</div>
+        </li>
+        <li>
+          <div align="left">1 tri axial MEMS accelerometer measuring both the IMU acceleration and the gravity</div>
+        </li>
+        <li>
+          <div align="left">1 dsPIC (30f or 33f) or 1 PIC24 </div>
+        </li>
+      </ul>
+      <p align="left">      Fusing  the rate gyro information with the accelerometer  information provide  a  better estimation of the roll and pitch angles.</p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/Photo_IMU.jpg" alt="Explorer16Board" width="400" height="536" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>IMU sensors : 1 accelerometer MMA7260 from freescale (3 axis) coupled with 2 gyrometers ADIS16080 from analog device (1 axis each)<br />
+              </strong></em><br />
+              </p>
+          </div></td>
+        </tr>
+      </table>
+      <h1 align="left">Fusing speed rate with acceleration ? </h1>
+      <p align="left"><strong>Angle estimation using rate gyro data only</strong> : The initial value of the integrator must be equal to the initial angle of the rate gyro. Speed rate is then integrated to track the angle.  However, non zero mean error of the rate gyro, due to temperature drift, is integrated. This integration of error induced an unrecoverable bias. Also, The initial value are impossible to set without additional sensor. </p>
+      <p align="left"><strong>Angle estimation using accelerometer data only</strong> : Accelerometer sense the gravity acceleration added with the acceleration of the sensor itself. Decomposing the gravity vector on the accelerometer axis is unique except for the yaw rotation axis. The resolution of the roll and the resolution of the pitch angle is done using the atan function. Note that calibration of the accelerometer is not necessary with the calculation. We must just have the same scale for the three axis measured. 
+      <ul>
+        <li>
+          <div align="left"><strong>roll = atan(z/x)</strong> with x the roll rotation axis, and z the yaw rotation axis</div>
+        </li>
+        <li>
+          <div align="left">
+            <div align="left"><strong>pitch = atan(z/y)</strong> with y the pitch rotation axis, and z the yaw rotation axis</div>
+          </div>
+        </li>
+      </ul>
+	  <p align="left">However, the roll and pitch angle resolved are correct only when the accelerometer measure   the gravity only. In other word, the resolution is biased when the accelerometer accelerate.</p>
+	  <p align="left">      <strong>Angle estimation fusing rate gyro data with accelerometer data</strong> : A complementary filter combines the two estimation. High freqency part of the angle estimated from the rate gyro is added to the low frequency part of the angle estimated with the accelerometer. Thus, the low drift of the estimated angle from the gyro is filtered and only high frequency estimated angle from the gyro is used. The low frequency part of the angle estimated rely on the angle estimated using the accelerometer. The high frequency of the angle is estimated with the gyro which provide a fast and acurate information but which cannot be integrated due to the accumulation of the bias error.</p>
+	  <h1 align="left">Electronics</h1>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/IMU_AccelGyro.png" alt="Explorer16Board" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>IMU Schematic : 1 accelerometer (3 axis) coupled with 2 gyrometers (1 axis each)<br />
+                One Gyro  supply the 2.5V alimentation to the accelerometer. The two gyro convert the three analog values of X,Y, and Z of the accelerometer. The IMU transfer the 5  data to the microcontroler through the SPI bus.</strong></em><br />
+              </p>
+          </div></td>
+        </tr>
+      </table>
+      <p align="left">This IMU use three sensor : <strong>One Three axial accelerometer</strong> and<strong> two one axis rate gyro</strong>. 
+      The accelerometer  is powered by the 2.5V analog refference of the 'Y axis' rate gyro.</p>
+      <h1 align="left">Complementary Filter </h1>
+      <p align="center"><a href="Img/IMU/IMU_With_dsPIC.zip">Download the three models described abore here with sample of sensor's data</a>. </p>
+      <p align="left">The aim of this complementary filter is to provide a method to implement a model on the dsPIC that has been previously improved thanks to the use of the simulation capabilities of simulink. Simulation uses real data logged by the dsPIC peripheral (same electronic circuit, same noise etc...)<br />
+        In a first step, the real data are logged by the <strong>IMU_LogData</strong>. The complementary filter is simulated using the real data in the 
+      <strong>IMU_simu_RealData.</strong> The resulting model is then implemented into the dsPIC in the <strong>IMU_ComplementaryFilter</strong> model. </p>
+      <h2 align="left">Log real data </h2>
+      <p align="left">The model IMU_LogData is compiled and the resulting .hex file is charged into the dsPIC (using the boot loader tinybld). </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/IMU_LogData.png" alt="Explorer16Board" width="502" height="545" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>IMU_LogData Simulink model : Once this model is compiled, the PIC (30f3012)  transmit the values from the X and Y axis of the accelerometer, and the Y axis of the rate gyro. Data are sent directly to Matlab (or labview) through the UART at 115200bps thanks to the Tx_Labview_Matlab bloc.</strong></em><br />
+              </p>
+              </div>
+            <p>The quartz and PLL of the dsPIC are choosen in order to have an low UART %error when UART is configured at 115200bps, the max baud rate available on most PC.<br />
+The model sample rate is 1Khz, corresponding to a time-step of 1ms. During 1ms,<strong> the UART can send 11 Bytes</strong> when configured at 115200 bps (including start and stop bits).We log 3 X (int16) data (X and Z acceleration ; and Y raw gyro). Adding one protocol byte for each variable sent, the model send <strong>9 bytes at each time step</strong>. Because the model send less that 11 data by time-step,<strong> all data will be sent and logged by the PC</strong>. Note that if the model send more that 11 bytes, some data would be lost (it is OK for visual checking but not for use as input data into in a simulation).</p>
+            <p>The data that get out from the <em>IMU_Sensors</em> block are fixed point data type. They are transformed into uint16 using the Store Integer method : in other word, their bits are not modified, but their representation for simulink is now uint16 (thus, their value has changed for simulink !) . They can be sent by the <a href="../Blocks/TxOutputMultiplexedForMatlabLabview.html">TxOutputMultiplexed block</a> that is able to send int8, uint8, int16, uint16, int32 or uint32 data type. </p>
+            <p>The dsPIC is connected to the PC COM port (with the Max232 component for level translation, or equivalent) and data are logged using the graphical interface (open the <a href="../Blocks/InterfaceTxMatlab.html">Interface TxMatlab</a> block, for more information, <a href="LoggingMatlab.html">see examples</a>). The following lines are typed at the maltab prompt to save data into a .mat file :<br />
+              <br />
+              &gt;&gt; <span class="style6">[R T] = padr(Rn,1,t_Rn);</span><br />
+              &gt;&gt; <span class="style6">AxelX_GyroY_AxelZ = [T R]';</span><br />
+              &gt;&gt; <span class="style6">AxelX_GyroY_AxelZ(1,:) = [0:33332]*1e-3;</span><br />
+            &gt;&gt; <span class="style6">save AxelX_GyroY_AxelZ3 AxelX_GyroY_AxelZ;</span></p>
+            <p>padr is a command from the blockset. It allow to remove the NaN from the <strong>Rn</strong> matrix. The resulting <strong>R</strong> matrix is transposed and time is added in its first line. The time <strong>T</strong> which is a modified copy of <strong>t_Rn</strong> is not accurate since it is estimated by the time at which values are received. We know that the data are sent at a 1Khz frequency so we can redifine the time of the <span class="style7 style6"><strong>AxelX_GyroY_AxelZ</strong></span> matrix before saving it into the <strong>AxelX_GyroY_AxelZ3.mat</strong>  file.</p>
+            <h2>Simulation based on real data </h2>
+            <p>The model IMU_Simu_RealData uses the logged data contained in the file <strong>AxelX_GyroY_AxelZ3.mat</strong>. Theses data are used to design a simple complementary filter and simulate it. Because we are using real data, the input of the simulation has precisely the right properties (noise, bias...). The filter can be design and simulated with data that are  close to reality.  </p>
+            <p>In this model, datas are converted back into their former fixed point representation data type. In other word, their binary data is not modified, but the scaling is modified. After the first conversion block, they are equivalent to the data of the IMU_sensors block of the previous model. </p></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/IMU_Simu_RealData_mdl.png" alt="Explorer16Board" width="890" height="497" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>The IMU_simu_RealData simulink model simulate the complementary filter using the real data previously logged with the dsPIC. Many filters can be tested using the same real data. The frequency of the filter and bias values can be tuned to get the best result (with the logged data). <br />
+                </strong></em><br />
+              </p>
+          </div></td>
+        </tr>
+      </table>
+      <p align="left">Data are converted again into double or single to simplify the design at this step. The upper part of the model estimates the Y axis angle computing the atan of the  X and Z accelerometers values. Because we use the Atan function, the two accelerometer axis do not need to be scaled. The only constraint is that the X and Z acceleration share the same scaling. </p>
+      <p align="left">The lower part of the model estimate the Y axis angle integrating the Y rate gyro. The dynamic of the gyro (low pass filter) is compensated for. The rate gyro is also high pass filtered to remove most of the DC part. </p>
+      <p align="left">The complementary filter, two first order filter (high pass and low pass) with cut off frequency at 0,08Hz. The final estimation of the angle is  the addition of the resulting values from theses two filters. The result is presented in pink on the lower part of the following figure. </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/IMU_Simu_RealData_Results.png" alt="Explorer16Board" width="649" height="463" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>Top curves : The X (yellow) and Z (cyan) accelerometers raw data with the Y axis rate gyro (pink). The y scale is the raw numerical value as read from the Gyro-SPI bus. The x scale is time (simulation duration is 33,32s).<br />
+                The three bottom curves are the simulated estimation of the  angle (Y axis) using  three different methods. The yellow curve is the estimated angle from the X and Z accelerometers, sensing the gravity. The cyan curve is the  estimated angle, integrated from the Y rate gyro. The pink curve is the estimated angle estimated with the complementary filter that fusion the relevant informations from both the Y rate gyro and the X-Z accelerometer.<br />
+                </strong></em><br />
+              </p>
+          </div></td>
+        </tr>
+      </table>
+      <h2 align="left">Complementary Filter running on dsPIC </h2>
+      <p align="left">To design the filter for the dsPIC, the two precedent models are mixed up. The filter is inserted by copy-past into the first model used to log data. </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><p><img src="Img/IMU/IMU_ComplementaryFilter.png" alt="Explorer16Board" width="899" height="601" /></p></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>The IMU_ComplementaryFilter  simulink model is a 'copy-past' mixture made of the IMU_LogData 'data management' part with the  IMU_simu_RealData model tuned and optimize filter. This model implement the complementary filter on the dsPIC and send the result to matlab. It will have the same behavious of the simulated filter. <br />
+                </strong></em><br />
+              </p>
+              </div></td>
+        </tr>
+      </table>
+      <p>Logging dara resulting from this filter running on the dsPIC, we get the following curves : </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><img src="Img/IMU/IMU_animation.gif" alt="Explorer16Board" width="568" height="502" /></th>
+        </tr>
+        <tr>
+          <td><div align="center">
+              <p><em><strong>Data logged in real time from the complementary filter implemented on the dsPIC (30f4012 running at 10MHz).  X axis : time in second. Y axis : angle multiplied by 100 (see model) <br />
+                The blue curve is the estimated angle from the X and Z accelerometers, resolving the gravity vector. The red curve is the  estimated angle integrated from the Y  rate gyro. The green curve is the angle estimated through the complementary filter that fusion the relevant informations from both the Y axis rate gyro and the X and Z accelerometers.<br />
+                </strong></em><br />
+              </p>
+          </div></td>
+        </tr>
+      </table>
+      <p align="left">The estimated angle using <strong>accelerometers (blue curve) is quite noisy</strong>. However, it steady value is correct. The estimated angle relying on the integration of the gyro is clean but drift (red curve). Note that the dsPIC has just been switch on and the High  pass filter of the pseudo integrator of the gyro has not yet removed the remaining DC bias of the gyro. The DC biais of the Gyro has probably change due to non constant temperature in my house. (I do not have a clim in my tiny room which is in a roof in Marseille ! ). Thus, the <strong>gyro integrated angle is slowing drifting</strong> away from its real value. <strong>The green curve that use both data is clean and driftfree</strong>. Its dynamics is as fast as the gyro dynamic. Note that at the beginning, the High pass filter (with a higher bandwidth than the gyro pseudo-integrator high pass filter) has not yet removed the  gyro bias. However, at the end of the animation(11 secondes long: from 3,5 to 14,5), <strong>both curves (blue and green) are merging as in the  simulation</strong>. </p>
+      <h2 align="left">Remarks</h2>
+      <p align="left">The integration of the gyro should be done after the high-pass filter of the complementary filter. This filter placed before the integration would avoid to get high value in the integration internal computation. High value with floating point data mean that the calculation lose its precision. The high-pass filter of the complementary filter has been placed at the end for reason of simplicity and to compare easily the estimation of the angle with the three methods ( integrating gyro, using accelerometer, or by combining both).</p>
+      <p align="left">All calculation are done in double data type or single data type. Theses float data slow down the calculation and use a large amount of memory. It is quite powerfull with the help of simulink to build a fixed point complementary filter. Thus, next step is to go back to the simulation model and to design a fixed point complementary filter ! (using the matlab fixed point toolbox) </p>
+      <h2 align="left">Conclusion</h2>
+      <p align="left">Programming dsPIC or PIC24 becomes exciting and fun with this toolbox. I do not have to worry  with the time consumming configuration of the dsPIC peripheral ! I can focus on simulink simulation, on Real time Workshop capabilities, and on fixed point optimization. </p>
+      <h2 align="left">Futur work : </h2>
+      <p align="left">I am planning to improve this IMU ( fixed point,  kalman filtering ? ) and then, to use it in  an autopilote for remote controlled glider ( as previous project described on my french website : http://lubink.free.fr) </p>
+      <p align="center">Point to clarify, error, remarks ? Please, leave your comment on the <a href="http://www.kerhuel.eu/forum">forum</a> ! </p>
+    <!-- InstanceEndEditable -->
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><div align="center"><img src="../../Img/black.png" width="300" height="1" /></div></td>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p class="Disclamer">The Microchip name PIC, dsPIC, and MPLAB are
+                  registered trademarks of Microchip Technology Inc.<br />
+                  MATLAB, Simulink, and Real-Time Workshop are
+                  registered trademarks of The MathWorks, Inc.</p>
+                <table width="100%" border="0">
+                  <tr>
+                    <td class="Disclamer">Lubin Kerhuel 's Website </td>
+                    <td><div align="right"><span class="Disclamer">Contact : [adresse e-mail retirée] </span></div></td>
+                  </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+        <br />
+        <div align="center">
+          <script src="http://gmodules.com/ig/ifr?url=http://www.google.com/coop/api/015195793385821636816/cse/qtgnealelsm/gadget&amp;synd=open&amp;w=294&amp;h=66&amp;title=Lubin's+Website+search+engine&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+      </div></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-90899-3";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>

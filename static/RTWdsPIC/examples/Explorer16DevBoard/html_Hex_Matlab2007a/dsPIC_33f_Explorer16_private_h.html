@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>RTW Report - dsPIC_33f_Explorer16_private.h </TITLE>
+<STYLE> .LineNumber { font-style: italic; color: #888888 } </STYLE>
+<STYLE> .Comment { font-style: italic; color: #117755 } </STYLE>
+<STYLE> .PreProcessor { font-style: bold;   color: #992211 } </STYLE>
+<STYLE> .Keyword { font-style: bold;   color: #112266 } </STYLE>
+<STYLE> .Datatype { font-style: bold;   color: #112266 } </STYLE>
+</HEAD>
+<BODY BGCOLOR="#eeeeee" TEXT=#1122aa>
+<P>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%" HEIGHT="100%"><TR><TD WIDTH="100%" VALIGN="top" BGCOLOR="#ffffff">
+<H4>File: <A HREF="file:///C:\prog\Matlab2\RTWdsPIC\examples\dsPIC_33f_Explorer16_dspic\sources\dsPIC_33f_Explorer16_private.h" TARGET="rtwreport_document_frame">C:\prog\Matlab2\RTWdsPIC\examples\dsPIC_33f_Explorer16_dspic\sources\dsPIC_33f_Explorer16_private.h</A></H4>
+<PRE>
+<SPAN class="LineNumber">    1   </SPAN><SPAN class="Comment">/*
+<SPAN class="LineNumber">    2   </SPAN> * File: dsPIC_33f_Explorer16_private.h
+<SPAN class="LineNumber">    3   </SPAN> *
+<SPAN class="LineNumber">    4   </SPAN> * Real-Time Workshop code generated for Simulink model dsPIC_33f_Explorer16.
+<SPAN class="LineNumber">    5   </SPAN> *
+<SPAN class="LineNumber">    6   </SPAN> * Model version                        : 1.219
+<SPAN class="LineNumber">    7   </SPAN> * Real-Time Workshop file version      : 6.6  (R2007a)  01-Feb-2007
+<SPAN class="LineNumber">    8   </SPAN> * Real-Time Workshop file generated on : Sun May 27 16:14:30 2007
+<SPAN class="LineNumber">    9   </SPAN> * TLC version                          : 6.6 (Jan 16 2007)
+<SPAN class="LineNumber">   10   </SPAN> * C source code generated on           : Sun May 27 16:14:31 2007
+<SPAN class="LineNumber">   11   </SPAN> *--------------------------------------------------------------
+<SPAN class="LineNumber">   12   </SPAN> *   Embedded Coder for Microchip dsPIC family.                 |
+<SPAN class="LineNumber">   13   </SPAN> *   Generate .c and .h files from your Matlab/simulink model   |
+<SPAN class="LineNumber">   14   </SPAN> *   and compile the diagram to .hex and .coff file that can be |
+<SPAN class="LineNumber">   15   </SPAN> *   downloaded directly into the microcontroller               |
+<SPAN class="LineNumber">   16   </SPAN> *                                                              |
+<SPAN class="LineNumber">   17   </SPAN> * Licence Accorded to &amp;&amp;               Licence Name          &amp;&amp;|
+<SPAN class="LineNumber">   18   </SPAN> *                     &amp;&amp;               Companie              &amp;&amp;|
+<SPAN class="LineNumber">   19   </SPAN> *                                                              |
+<SPAN class="LineNumber">   20   </SPAN> *   Written by Lubin KERHUEL -  http://www.kerhuel.eu          |
+<SPAN class="LineNumber">   21   </SPAN> *  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+<SPAN class="LineNumber">   22   </SPAN> *   Version &amp;&amp;Version&amp;&amp;                       &amp;&amp;  Date       &amp;&amp;|
+<SPAN class="LineNumber">   23   </SPAN> *   For Matlab &amp;&amp; VerMatlab &amp;&amp; &amp;&amp; Release &amp;&amp;                   |
+<SPAN class="LineNumber">   24   </SPAN> *--------------------------------------------------------------
+<SPAN class="LineNumber">   25   </SPAN> */</SPAN>
+<SPAN class="LineNumber">   26   </SPAN>
+<SPAN class="LineNumber">   27   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">ifndef</SPAN> _RTW_HEADER_dsPIC_33f_Explorer16_private_h_
+<SPAN class="LineNumber">   28   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> _RTW_HEADER_dsPIC_33f_Explorer16_private_h_
+<SPAN class="LineNumber">   29   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">include</SPAN> <FONT COLOR=#992211>&quot;rtwtypes.h&quot;</FONT>
+<SPAN class="LineNumber">   30   </SPAN>
+<SPAN class="LineNumber">   31   </SPAN><SPAN class="Comment">/* dsPIC library */</SPAN>
+<SPAN class="LineNumber">   32   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">include</SPAN> <FONT COLOR=#992211>&quot;p33fxxxx.h&quot;</FONT>
+<SPAN class="LineNumber">   33   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">include</SPAN> <FONT COLOR=#992211>&quot;timer.h&quot;</FONT>
+<SPAN class="LineNumber">   34   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> fcy                            4000000
+<SPAN class="LineNumber">   35   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> <A HREF=dsPIC_Multiplexed_out_UART2_c.html#var_SEND232_BUFF_SIZE_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">SEND232_BUFF_SIZE_Uart2</FONT></A>        16
+<SPAN class="LineNumber">   36   </SPAN>
+<SPAN class="LineNumber">   37   </SPAN><SPAN class="Comment">/*	 must be a power of 2 !	*/</SPAN>
+<SPAN class="LineNumber">   38   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">ifndef</SPAN> __RTWTYPES_H__
+<SPAN class="LineNumber">   39   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">error</SPAN> This file requires rtwtypes.h to be included
+<SPAN class="LineNumber">   40   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">else</SPAN>
+<SPAN class="LineNumber">   41   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">ifdef</SPAN> TMWTYPES_PREVIOUSLY_INCLUDED
+<SPAN class="LineNumber">   42   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">error</SPAN> This file requires rtwtypes.h to be included before tmwtypes.h
+<SPAN class="LineNumber">   43   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">else</SPAN>
+<SPAN class="LineNumber">   44   </SPAN>
+<SPAN class="LineNumber">   45   </SPAN><SPAN class="Comment">/* Check for inclusion of an incorrect version of rtwtypes.h */</SPAN>
+<SPAN class="LineNumber">   46   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">ifndef</SPAN> RTWTYPES_ID_C08S16I16L32N16F1
+<SPAN class="LineNumber">   47   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">error</SPAN> This code was generated with a different <FONT COLOR=#992211>&quot;rtwtypes.h&quot;</FONT> than the file included
+<SPAN class="LineNumber">   48   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">endif</SPAN>                                 <SPAN class="Comment">/* RTWTYPES_ID_C08S16I16L32N16F1 */</SPAN>
+<SPAN class="LineNumber">   49   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">endif</SPAN>                                 <SPAN class="Comment">/* TMWTYPES_PREVIOUSLY_INCLUDED */</SPAN>
+<SPAN class="LineNumber">   50   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">endif</SPAN>                                 <SPAN class="Comment">/* __RTWTYPES_H__ */</SPAN>
+<SPAN class="LineNumber">   51   </SPAN>
+<SPAN class="LineNumber">   52   </SPAN><SPAN class="Datatype">extern</SPAN> <SPAN class="Datatype">unsigned</SPAN> <SPAN class="Datatype">volatile</SPAN> <SPAN class="Datatype">char</SPAN> <A HREF=dsPIC_Multiplexed_out_UART2_c.html#var_RS232PtrHaut_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RS232PtrHaut_Uart2</FONT></A> ;
+<SPAN class="LineNumber">   53   </SPAN><SPAN class="Datatype">extern</SPAN> <SPAN class="Datatype">unsigned</SPAN> <SPAN class="Datatype">volatile</SPAN> <SPAN class="Datatype">char</SPAN> <A HREF=dsPIC_Multiplexed_out_UART2_c.html#var_RS232PtrBas_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RS232PtrBas_Uart2</FONT></A> ;
+<SPAN class="LineNumber">   54   </SPAN><SPAN class="Datatype">extern</SPAN> <SPAN class="Datatype">unsigned</SPAN> <SPAN class="Datatype">char</SPAN> <A HREF=dsPIC_Multiplexed_out_UART2_c.html#fcn_send232Buff_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">send232Buff_Uart2</FONT></A> (<SPAN class="Datatype">int</SPAN> valeur, <SPAN class="Datatype">unsigned</SPAN> <SPAN class="Datatype">char</SPAN> cannal);
+<SPAN class="LineNumber">   55   </SPAN>
+<SPAN class="LineNumber">   56   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">endif</SPAN>                                 <SPAN class="Comment">/* _RTW_HEADER_dsPIC_33f_Explorer16_private_h_ */</SPAN>
+<SPAN class="LineNumber">   57   </SPAN>
+<SPAN class="LineNumber">   58   </SPAN><SPAN class="Comment">/* File trailer for Real-Time Workshop generated code.
+<SPAN class="LineNumber">   59   </SPAN> *
+<SPAN class="LineNumber">   60   </SPAN> * [EOF]
+<SPAN class="LineNumber">   61   </SPAN> */</SPAN>
+</PRE>
+</TD></TR></TABLE>
+<P>
+</BODY>
+</HTML>

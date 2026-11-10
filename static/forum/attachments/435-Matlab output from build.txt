@@ -1,0 +1,90 @@
+### Starting Real-Time Workshop build procedure for model: SD_Datalogger
+### Generating code into build directory: C:\Users\ij8977\Documents\MatlabWork\SD_Datalogging\SD_Datalogger_dspic\sources
+PNumber of I/O PINs used : 6
+TPTPTPNumber of I/O PINs used : 6
+TTPNumber of I/O PINs used : 6
+TPTTTTPTPTPNumber of I/O PINs used : 6
+TTPTPTTWarning: Source 'SD_Datalogger/ADC Input' specifies that its sample time (-1) is back-inherited. You should
+explicitly specify the sample time of sources. You can disable this diagnostic by setting the 'Source block
+specifies -1 sample time' diagnostic to 'none' in the Sample Time group on the Diagnostics pane of the
+Configuration Parameters dialog box. 
+Warning: Source 'SD_Datalogger/Button1' specifies that its sample time (-1) is back-inherited. You should
+explicitly specify the sample time of sources. You can disable this diagnostic by setting the 'Source block
+specifies -1 sample time' diagnostic to 'none' in the Sample Time group on the Diagnostics pane of the
+Configuration Parameters dialog box. 
+Warning: Source 'SD_Datalogger/Card Detect' specifies that its sample time (-1) is back-inherited. You should
+explicitly specify the sample time of sources. You can disable this diagnostic by setting the 'Source block
+specifies -1 sample time' diagnostic to 'none' in the Sample Time group on the Diagnostics pane of the
+Configuration Parameters dialog box. 
+Warning: Source 'SD_Datalogger/FSinit/Pulse Generator' specifies that its sample time (-1) is back-inherited. You
+should explicitly specify the sample time of sources. You can disable this diagnostic by setting the 'Source
+block specifies -1 sample time' diagnostic to 'none' in the Sample Time group on the Diagnostics pane of the
+Configuration Parameters dialog box. 
+Warning: Source 'SD_Datalogger/Toggle' specifies that its sample time (-1) is back-inherited. You should
+explicitly specify the sample time of sources. You can disable this diagnostic by setting the 'Source block
+specifies -1 sample time' diagnostic to 'none' in the Sample Time group on the Diagnostics pane of the
+Configuration Parameters dialog box. 
+### Invoking Target Language Compiler on SD_Datalogger.rtw
+### Using System Target File: C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\dspic\pic32.tlc
+### Loading TLC function libraries
+.....
+### Initial pass through model to cache user defined code
+..
+### Caching model source code
+............................
+### Writing main
+--- Multi Rate & Single Tasking implementation
+.
+### Writing header file SD_Datalogger.h
+.
+### Writing header file SD_Datalogger_types.h
+### Writing header file rtwtypes.h
+.
+### Writing source file SD_Datalogger.c
+### Writing header file SD_Datalogger_private.h
+### Writing source file SD_Datalogger_data.c
+.
+### Writing header file autobuild.h
+### Writing source file SD_Datalogger_main.c
+.
+### TLC code generation complete.
+### Evaluating PostCodeGenCommand specified in the model
+
+     ----------------------------------------------------
+     ----------------------------------------------------
+Embedded Coder for dsPIC V3.6a(05-Aug-2011) for Matlab R2010b.
+
+
+Licence Accorded to  John Rogers, Ph.D., P.E.
+                     [adresse e-mail retirée]
+                     West Point University
+                     Civil and Mechanical Engineering
+                     United States Military Academy
+                     West Point, NY
+                     316 Mahan Hall 845 938 4179
+
+ Facturation to :    Johnston, J. MAJ CME
+                     [adresse e-mail retirée]
+                     West Point University
+                     United States Military Academy
+                     est Point, NY
+                     316 Mahan Hall
+
+     ----------------------------------------------------
+Check updates and new informations at :  www.kerhuel.eu 
+     ----------------------------------------------------
+
+.
+### Processing Template Makefile: C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\dspic\pic32_gcc.tmf
+-- Bypassing matlab internal LCC configuration --
+### SD_Datalogger.mk which is generated from C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\dspic\pic32_gcc.tmf is up to date
+### Building SD_Datalogger: "C:\PROGRA~1\MATLAB\R2010B~1\bin\win32\gmake" -f SD_Datalogger.mk  GENERATE_REPORT=0 MULTI_INSTANCE_CODE=0 PORTABLE_WORDSIZES=0 GENERATE_ASAP2=0 TMW_EXTMODE_TESTING=0
+''pic32-gcc  -c -mprocessor=32MX460F512L -O3 -fschedule-insns -fschedule-insns2                                                                                        -fno-short-double	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010B~1/simulink/include -IC:\PROGRA~1\MATLAB\R2010B~1/extern/include -IC:\PROGRA~1\MATLAB\R2010B~1/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010B~1/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010B~1/rtw/c/src/ext_mode/common -IC:\Users\ij8977\Documents\MatlabWork\SD_Datalogging\SD_Datalogger_dspic\sources -IC:\Users\ij8977\Documents\MatlabWork\SD_Datalogging -IC:\Users\ij8977\Documents\MatlabWork\Microchip -IC:\Users\ij8977\DOCUME~1\MATLAB~1\MICROC~1\Include\MDDFIL~1 -IC:\PROGRA~1\MATLAB\R2010B~1\toolbox\dspblks\include   -IC:\PROGRA~1\MICROC~1\mplabc32\v2.00\pic32mx\include -IC:\PROGRA~1\MICROC~1\mplabc32\v2.00\pic32mx\include\PERIPH~1    SD_Datalogger_data.c 
+SD_Datalogger_data.c:1:0: warning: Compiler option (forward propagate) ignored due to lite-mode limitations 
+In file included from ..\../timer.h:42:0, 
+                 from SD_Datalogger_private.h:33, 
+                 from SD_Datalogger_data.c:28: 
+..\../GenericTypeDefs.h:64:22: error: expected identifier before '(' token 
+gmake: *** [SD_Datalogger_data.o] Error 1 
+### Real-Time Workshop build procedure for model: 'SD_Datalogger' aborted due to an error.
+>> 

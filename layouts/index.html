@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="home-hero">
+  <p class="eyebrow">A TECHNICAL KNOWLEDGE ARCHIVE</p>
+  <h1>{{ .Title }}</h1>
+  <div class="home-intro prose">{{ .Content }}</div>
+  <div class="archive-cards">
+    <a class="archive-card" href="/wiki/"><span class="card-icon">W</span><span><strong>Technical wiki</strong><small>Embedded control, dsPIC/PIC32, Simulink and project notes</small></span><b aria-hidden="true">→</b></a>
+    <a class="archive-card" href="/forum/"><span class="card-icon forum-icon">F</span><span><strong>Community forum</strong><small>Archived discussions and attachments, read-only</small></span><b aria-hidden="true">→</b></a>
+  </div>
+  <div class="home-notice"><strong>Historical snapshot</strong><span>The wiki backup is dated 25 March 2019. The latest forum post in it is from 24 July 2014. Some software versions, links and downloads are obsolete.</span></div>
+</section>
+{{ end }}

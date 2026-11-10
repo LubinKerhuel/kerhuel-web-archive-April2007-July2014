@@ -1,0 +1,9 @@
+{{ define "main" }}
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a><span>/</span><span aria-current="page">{{ .Title }}</span></nav>
+<div class="article-grid wiki-page">
+  <article class="article-content wiki-content">
+    <header class="article-header"><div class="eyebrow">KERHUEL.EU ARCHIVE</div><h1>{{ .Title }}</h1></header>
+    <div class="prose">{{ .Content }}</div>
+  </article>
+</div>
+{{ end }}

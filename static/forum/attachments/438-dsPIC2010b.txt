@@ -1,0 +1,130 @@
+Output in Command window when opening Data_Login_Matlab.mdl
+
+> In C:\Program Files\MATLAB\R2010b\toolbox\rtw\rtw\private\getSTFInfo.p>getSTFInfo at 98
+  In rtwprivate at 12
+  In stf4target at 34
+  In stf2target at 61
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: GMAKE_PLACE not defined, check tlc target 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 45
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: The *System Target File must be defined to dsPIC Real Time workshop
+(Simulation ==> Configuration Parameters ==> Real Time workshop 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 408
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+PWarning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+UART Tx. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 124
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+Output Compare. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 182
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+PWM Output Compare. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 199
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+ADC. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 281
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+Change Notification. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 311
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+SPI In. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 331
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+SPI Out. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 333
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx and
+SPI Clock Output. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 350
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx
+and CAN Bus. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 399
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx
+and CAN Bus. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 400
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx
+and I2C Bus. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 462
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two peripheral :  UART Rx
+and I2C Bus. 
+> In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>setTypePort at 638
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 463
+  In C:\Program Files\MATLAB\toolbox\dspic\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+TLibrary detected, Fixed Step artificially set to 1ms
+***** Solver Mode change from Auto to SingleTasking (this mode allows single rate and multirate). See help to get the difference with the MultiTasking mode which is now supported by the blockset *****
+PT>> 
+Output in Command window when doing incremental build
+
+PT### Starting Real-Time Workshop build procedure for model: Data_Login_Matlab
+### Real-Time Workshop build procedure for model: 'Data_Login_Matlab' aborted due to an error.
+sources files not found. MPLAB project file not created.
+
+New info-window opens:
+
+Real-Time Workshop Embedded Coder is not licensed or not installed. The current target is: C:\Program Files\MATLAB\toolbox\dspic\dspic\dspic.tlc

@@ -1,0 +1,143 @@
+Warning: Could not find an exact (case-sensitive) match for
+'ExecBatch'.
+C:\Users\ij8977\Documents\MATLAB\LK
+Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\dspic\execBatch.p
+is a case-insensitive match and will be used instead.
+You can improve the performance of your code by using exact
+name matches and we therefore recommend that you update your
+usage accordingly. Alternatively, you can disable this warning
+using
+warning('off','MATLAB:dispatcher:InexactCaseMatch').
+This warning will become an error in future releases. 
+> In C:\Program Files\MATLAB\R2010bSP1\toolbox\rtw\rtw\private\getSTFInfo.p>getSTFInfo at 98
+  In rtwprivate at 12
+  In stf4target at 34
+  In stf2target at 61
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: GMAKE_PLACE not defined, check tlc target 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 45
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: The *System Target File must be defined to dsPIC Real Time
+workshop (Simulation ==> Configuration Parameters ==> Real Time
+workshop 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_ConfigRTWOption.p>dsPIC_ConfigRTWOption at 408
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 87
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+PWarning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and UART Tx. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 115
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and Output Compare. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 173
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and PWM Output Compare. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 190
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and ADC. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 272
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and Change Notification. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 302
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and SPI In. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 322
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and SPI Out. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 324
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and SPI Clock Output. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 341
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and CAN Bus. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 390
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and CAN Bus. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 391
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and I2C Bus. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 406
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+Warning: --- =========>  PORT A0 is used by at least two
+peripheral :  UART Rx and I2C Bus. 
+> In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>setTypePort at 583
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_PortSetting.p>dsPIC_PortSetting at 407
+  In C:\Users\ij8977\Documents\MATLAB\LK Blockset\install_dsPIC_R2010bJohnRogers_592382_WestPointUniversity\blocks\dsPIC_MASTER_callback.p>dsPIC_MASTER_callback at 89
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+TLibrary detected, Fixed Step artificially set to 1ms
+Warning: In instantiating linked block 'ArmFireX2/Master' :
+Invalid setting in Master block (mask) 'Master' for parameter
+'MCLR' 
+  In general\private\openmdl at 13
+  In open at 158
+  In uiopen at 196
+PT### Starting Real-Time Workshop build procedure for model: ArmFireX2
+### Generating code into build directory: C:\Users\ij8977\Documents\MatlabWork\ArmFireX2\ArmFireX2_dspic\sources
+PNumber of I/O PINs used : 5
+TPTPTPNumber of I/O PINs used : 5
+TTPNumber of I/O PINs used : 5
+TPTTTTPTPTPNumber of I/O PINs used : 5
+TTPTPTT### Real-Time Workshop build procedure for model: 'ArmFireX2' aborted due to an error.
+>> 

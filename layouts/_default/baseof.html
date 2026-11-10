@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Static archive of the Kerhuel.eu technical wiki and forum.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'self'">
+  <title>{{ if .Title }}{{ .Title }} · {{ end }}Kerhuel.eu Archive</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="https://lubin.kerhuel.eu/" aria-label="Kerhuel.eu Wiki &amp; Forum Archive, current site lubin.kerhuel.eu">
+      <span class="brand-mark">K</span>
+      <span><strong>Kerhuel.eu</strong><small>Wiki &amp; Forum Archive</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="/wiki/">Wiki</a>
+      <a href="/forum/">Forum</a>
+      <a href="/wiki/categories/">Categories</a>
+    </nav>
+    <span class="archive-badge">READ-ONLY ARCHIVE</span>
+  </header>
+  <aside class="tool-notice" aria-label="New tool notice">
+    <span><strong>New tool:</strong> MPLAB Device Blocks for Simulink is now developed for Microchip by the same author.</span>
+    <a href="https://mplab-blockset.github.io/MPLAB-Device-Blocks-for-Simulink/">Tool help site</a>
+    <a href="https://lubin.kerhuel.eu/">Lubin Kerhuel's current site</a>
+  </aside>
+  <div class="page-layout">
+    <aside class="side-nav" aria-label="Archive navigation">
+      {{ if or (eq .Section "wiki") (eq .Section "categories") }}
+      {{ $nav := .Site.Data.wiki_nav }}
+      <a href="/wiki/">Technical wiki</a>
+      <a href="/wiki/categories/">Wiki categories</a>
+      <a href="/forum/">Community forum</a>
+      <hr>
+      <nav class="wiki-tree" aria-label="Wiki contents">
+        <p class="side-label">WIKI CONTENTS</p>
+        {{ range $nav.sections }}
+        <details open>
+          <summary>{{ .title }}</summary>
+          <ul>
+            {{ range .items }}
+            <li>{{ if .url }}<a href="{{ .url }}"{{ if eq .url $.RelPermalink }} aria-current="page"{{ end }}{{ if .external }} rel="noopener"{{ end }}>{{ .label }}</a>{{ else }}<span class="nav-plain">{{ .label }}</span>{{ end }}</li>
+            {{ end }}
+          </ul>
+        </details>
+        {{ end }}
+      </nav>
+      <hr>
+      {{ end }}
+      <p class="side-label"><a href="https://lubin.kerhuel.eu/">ARCHIVE</a></p>
+      {{ if not (or (eq .Section "wiki") (eq .Section "categories")) }}
+      <a href="/wiki/">Technical wiki</a>
+      <a href="/wiki/categories/">Wiki categories</a>
+      <a href="/forum/">Community forum</a>
+      {{ end }}
+      <hr>
+      <p class="side-label">SNAPSHOT</p>
+      <p class="snapshot"><span>Wiki</span><strong>25 Mar 2019</strong></p>
+      <p class="snapshot"><span>Forum posts</span><strong>to 24 Jul 2014</strong></p>
+      <p class="side-note">This is a frozen copy. The original site allowed posting; this archive does not.</p>
+    </aside>
+    <main id="main" class="main-content">
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  <footer class="site-footer">
+    <span>Kerhuel.eu technical wiki &amp; forum — static archive</span>
+    <span>No accounts, tracking or server-side database.</span>
+  </footer>
+</body>
+</html>

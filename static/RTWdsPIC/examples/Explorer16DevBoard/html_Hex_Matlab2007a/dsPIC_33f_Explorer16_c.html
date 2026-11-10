@@ -1,0 +1,353 @@
+<HTML>
+<HEAD>
+<TITLE>RTW Report - dsPIC_33f_Explorer16.c </TITLE>
+<STYLE> .LineNumber { font-style: italic; color: #888888 } </STYLE>
+<STYLE> .Comment { font-style: italic; color: #117755 } </STYLE>
+<STYLE> .PreProcessor { font-style: bold;   color: #992211 } </STYLE>
+<STYLE> .Keyword { font-style: bold;   color: #112266 } </STYLE>
+<STYLE> .Datatype { font-style: bold;   color: #112266 } </STYLE>
+</HEAD>
+<BODY BGCOLOR="#eeeeee" TEXT=#1122aa>
+<P>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="6" WIDTH="100%" HEIGHT="100%"><TR><TD WIDTH="100%" VALIGN="top" BGCOLOR="#ffffff">
+<H4>File: <A HREF="file:///C:\prog\Matlab2\RTWdsPIC\examples\dsPIC_33f_Explorer16_dspic\sources\dsPIC_33f_Explorer16.c" TARGET="rtwreport_document_frame">C:\prog\Matlab2\RTWdsPIC\examples\dsPIC_33f_Explorer16_dspic\sources\dsPIC_33f_Explorer16.c</A></H4>
+<PRE>
+<SPAN class="LineNumber">    1   </SPAN><SPAN class="Comment">/*
+<SPAN class="LineNumber">    2   </SPAN> * File: dsPIC_33f_Explorer16.c
+<SPAN class="LineNumber">    3   </SPAN> *
+<SPAN class="LineNumber">    4   </SPAN> * Real-Time Workshop code generated for Simulink model dsPIC_33f_Explorer16.
+<SPAN class="LineNumber">    5   </SPAN> *
+<SPAN class="LineNumber">    6   </SPAN> * Model version                        : 1.219
+<SPAN class="LineNumber">    7   </SPAN> * Real-Time Workshop file version      : 6.6  (R2007a)  01-Feb-2007
+<SPAN class="LineNumber">    8   </SPAN> * Real-Time Workshop file generated on : Sun May 27 16:14:30 2007
+<SPAN class="LineNumber">    9   </SPAN> * TLC version                          : 6.6 (Jan 16 2007)
+<SPAN class="LineNumber">   10   </SPAN> * C source code generated on           : Sun May 27 16:14:31 2007
+<SPAN class="LineNumber">   11   </SPAN> *--------------------------------------------------------------
+<SPAN class="LineNumber">   12   </SPAN> *   Embedded Coder for Microchip dsPIC family.                 |
+<SPAN class="LineNumber">   13   </SPAN> *   Generate .c and .h files from your Matlab/simulink model   |
+<SPAN class="LineNumber">   14   </SPAN> *   and compile the diagram to .hex and .coff file that can be |
+<SPAN class="LineNumber">   15   </SPAN> *   downloaded directly into the microcontroller               |
+<SPAN class="LineNumber">   16   </SPAN> *                                                              |
+<SPAN class="LineNumber">   17   </SPAN> * Licence Accorded to &amp;&amp;               Licence Name          &amp;&amp;|
+<SPAN class="LineNumber">   18   </SPAN> *                     &amp;&amp;               Companie              &amp;&amp;|
+<SPAN class="LineNumber">   19   </SPAN> *                                                              |
+<SPAN class="LineNumber">   20   </SPAN> *   Written by Lubin KERHUEL -  http://www.kerhuel.eu          |
+<SPAN class="LineNumber">   21   </SPAN> *  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+<SPAN class="LineNumber">   22   </SPAN> *   Version &amp;&amp;Version&amp;&amp;                       &amp;&amp;  Date       &amp;&amp;|
+<SPAN class="LineNumber">   23   </SPAN> *   For Matlab &amp;&amp; VerMatlab &amp;&amp; &amp;&amp; Release &amp;&amp;                   |
+<SPAN class="LineNumber">   24   </SPAN> *--------------------------------------------------------------
+<SPAN class="LineNumber">   25   </SPAN> */</SPAN>
+<SPAN class="LineNumber">   26   </SPAN>
+<SPAN class="LineNumber">   27   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">include</SPAN> <FONT COLOR=#992211>&quot;dsPIC_33f_Explorer16.h&quot;</FONT>
+<SPAN class="LineNumber">   28   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">include</SPAN> <FONT COLOR=#992211>&quot;dsPIC_33f_Explorer16_private.h&quot;</FONT>
+<SPAN class="LineNumber">   29   </SPAN>
+<SPAN class="LineNumber">   30   </SPAN><SPAN class="Comment">/* Block signals (auto storage) */</SPAN>
+<SPAN class="LineNumber">   31   </SPAN><A HREF=dsPIC_33f_Explorer16_h.html#type_BlockIO_dsPIC_33f_Explorer16 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">BlockIO_dsPIC_33f_Explorer16</FONT></A> dsPIC_33f_Explorer16_B;
+<SPAN class="LineNumber">   32   </SPAN>
+<SPAN class="LineNumber">   33   </SPAN><SPAN class="Comment">/* Block states (auto storage) */</SPAN>
+<SPAN class="LineNumber">   34   </SPAN><A HREF=dsPIC_33f_Explorer16_h.html#type_D_Work_dsPIC_33f_Explorer16 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">D_Work_dsPIC_33f_Explorer16</FONT></A> dsPIC_33f_Explorer16_DWork;
+<SPAN class="LineNumber">   35   </SPAN>
+<SPAN class="LineNumber">   36   </SPAN><SPAN class="Comment">/* Real-time model */</SPAN>
+<SPAN class="LineNumber">   37   </SPAN><A HREF=dsPIC_33f_Explorer16_types_h.html#type_RT_MODEL_dsPIC_33f_Explorer16 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RT_MODEL_dsPIC_33f_Explorer16</FONT></A> dsPIC_33f_Explorer16_M_;
+<SPAN class="LineNumber">   38   </SPAN><A HREF=dsPIC_33f_Explorer16_types_h.html#type_RT_MODEL_dsPIC_33f_Explorer16 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RT_MODEL_dsPIC_33f_Explorer16</FONT></A> *dsPIC_33f_Explorer16_M = &amp;dsPIC_33f_Explorer16_M_;
+<SPAN class="LineNumber">   39   </SPAN><SPAN class="Datatype">static</SPAN> <SPAN class="Datatype">void</SPAN> <A HREF=dsPIC_33f_Explorer16_c.html#fcn_rate_monotonic_scheduler TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">rate_monotonic_scheduler</FONT></A>(<SPAN class="Datatype">void</SPAN>);
+<SPAN class="LineNumber">   40   </SPAN>
+<SPAN class="LineNumber">   41   </SPAN><SPAN class="Comment">/* Set which subrates need to run this base step (base rate always runs).
+<SPAN class="LineNumber">   42   </SPAN> * This function must be called prior to calling the model step function
+<SPAN class="LineNumber">   43   </SPAN> * in order to &quot;remember&quot; which rates need to run this base step.  The
+<SPAN class="LineNumber">   44   </SPAN> * buffering of events allows for overlapping preemption.
+<SPAN class="LineNumber">   45   </SPAN> */</SPAN>
+<SPAN class="LineNumber">   46   </SPAN><SPAN class="Datatype">void</SPAN> <A NAME=fcn_dsPIC_33f_Explorer16_SetEventsForThisBaseStep>dsPIC_33f_Explorer16_SetEventsForThisBaseStep</A>(<A HREF=rtwtypes_h.html#type_boolean_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">boolean_T</FONT></A> *eventFlags)
+<SPAN class="LineNumber">   47   </SPAN><B>{</B>
+<SPAN class="LineNumber">   48   </SPAN>  <SPAN class="Comment">/* Task runs when its counter is zero, computed via rtmStepTask macro */</SPAN>
+<SPAN class="LineNumber">   49   </SPAN>  eventFlags[1] = ((<A HREF=rtwtypes_h.html#type_boolean_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">boolean_T</FONT></A>)rtmStepTask(dsPIC_33f_Explorer16_M, 1));
+<SPAN class="LineNumber">   50   </SPAN><B>}</B>
+<SPAN class="LineNumber">   51   </SPAN>
+<SPAN class="LineNumber">   52   </SPAN><SPAN class="Comment">/* This function updates active task flag for each subrate
+<SPAN class="LineNumber">   53   </SPAN> * and rate transition flags for tasks that exchagne data.
+<SPAN class="LineNumber">   54   </SPAN> * The function assumes rate-monotonic multitasking scheduler.
+<SPAN class="LineNumber">   55   </SPAN> * The function must be called at model base rate so that
+<SPAN class="LineNumber">   56   </SPAN> * the generated code self-manages all its subrates and rate
+<SPAN class="LineNumber">   57   </SPAN> * transition flags.
+<SPAN class="LineNumber">   58   </SPAN> */</SPAN>
+<SPAN class="LineNumber">   59   </SPAN><SPAN class="Datatype">static</SPAN> <SPAN class="Datatype">void</SPAN> <A NAME=fcn_rate_monotonic_scheduler>rate_monotonic_scheduler</A>(<SPAN class="Datatype">void</SPAN>)
+<SPAN class="LineNumber">   60   </SPAN><B>{</B>
+<SPAN class="LineNumber">   61   </SPAN>  <SPAN class="Comment">/* To ensure a safe and deterministic data transfer between two rates,
+<SPAN class="LineNumber">   62   </SPAN>   * data is transfered at the priority of a fast task and the frequency
+<SPAN class="LineNumber">   63   </SPAN>   * of the slow task.  The following flags indicate when the data transfer
+<SPAN class="LineNumber">   64   </SPAN>   * happens.  That is, a rate interaction flag is set true when both rates
+<SPAN class="LineNumber">   65   </SPAN>   * will run, and false otherwise.
+<SPAN class="LineNumber">   66   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">   67   </SPAN>
+<SPAN class="LineNumber">   68   </SPAN>  <SPAN class="Comment">/* tid 0 shares data with slower tid rate: 1 */</SPAN>
+<SPAN class="LineNumber">   69   </SPAN>  dsPIC_33f_Explorer16_M-&gt;Timing.RateInteraction.TID0_1 =
+<SPAN class="LineNumber">   70   </SPAN>    (dsPIC_33f_Explorer16_M-&gt;Timing.TaskCounters.TID[1] == 0);
+<SPAN class="LineNumber">   71   </SPAN>
+<SPAN class="LineNumber">   72   </SPAN>  <SPAN class="Comment">/* Compute which subrates run during the next base time step.  Subrates
+<SPAN class="LineNumber">   73   </SPAN>   * are an integer multiple of the base rate counter.  Therefore, the subtask
+<SPAN class="LineNumber">   74   </SPAN>   * counter is reset when it reaches its limit (zero means run).
+<SPAN class="LineNumber">   75   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">   76   </SPAN>  <SPAN class="Keyword">if</SPAN> (++dsPIC_33f_Explorer16_M-&gt;Timing.TaskCounters.TID[1] == 50) <B>{</B><SPAN class="Comment">/* Sample time: [0.25s, 0.0s] */</SPAN>
+<SPAN class="LineNumber">   77   </SPAN>    dsPIC_33f_Explorer16_M-&gt;Timing.TaskCounters.TID[1] = 0;
+<SPAN class="LineNumber">   78   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">   79   </SPAN><B>}</B>
+<SPAN class="LineNumber">   80   </SPAN>
+<SPAN class="LineNumber">   81   </SPAN><SPAN class="Comment">/* Model step function for TID0 */</SPAN>
+<SPAN class="LineNumber">   82   </SPAN><SPAN class="Datatype">void</SPAN> <A NAME=fcn_dsPIC_33f_Explorer16_step0>dsPIC_33f_Explorer16_step0</A>(<SPAN class="Datatype">void</SPAN>)  <SPAN class="Comment">/* Sample time: [0.005s, 0.0s] */</SPAN>
+<SPAN class="LineNumber">   83   </SPAN><B>{</B>
+<SPAN class="LineNumber">   84   </SPAN>  <SPAN class="Comment">/* local block i/o variables */</SPAN>
+<SPAN class="LineNumber">   85   </SPAN>  <A HREF=rtwtypes_h.html#type_real_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">real_T</FONT></A> rtb_DataTypeConversion2;
+<SPAN class="LineNumber">   86   </SPAN>  <A HREF=rtwtypes_h.html#type_real_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">real_T</FONT></A> rtb_LowPass10Hz;
+<SPAN class="LineNumber">   87   </SPAN>
+<SPAN class="LineNumber">   88   </SPAN>  <B>{</B>                                    <SPAN class="Comment">/* Sample time: [0.005s, 0.0s] */</SPAN>
+<SPAN class="LineNumber">   89   </SPAN>    <A HREF=dsPIC_33f_Explorer16_c.html#fcn_rate_monotonic_scheduler TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">rate_monotonic_scheduler</FONT></A>();
+<SPAN class="LineNumber">   90   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">   91   </SPAN>
+<SPAN class="LineNumber">   92   </SPAN>  <SPAN class="Comment">/* S-Function &quot;ADC&quot; Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/ADC#-SP-#Input;"><FONT COLOR=#117755><I>&lt;Root&gt;/ADC Input</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">   93   </SPAN>  dsPIC_33f_Explorer16_B.RawADCdata = ADC1BUF0;
+<SPAN class="LineNumber">   94   </SPAN>
+<SPAN class="LineNumber">   95   </SPAN>  <SPAN class="Comment">/* DataTypeConversion: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Data#-SP-#Type#-SP-#Conversion2;"><FONT COLOR=#117755><I>&lt;Root&gt;/Data Type Conversion2</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">   96   </SPAN>  rtb_DataTypeConversion2 = (<A HREF=rtwtypes_h.html#type_real_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">real_T</FONT></A>)dsPIC_33f_Explorer16_B.RawADCdata;
+<SPAN class="LineNumber">   97   </SPAN>
+<SPAN class="LineNumber">   98   </SPAN>  <SPAN class="Comment">/* DiscreteTransferFcn: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Low#-SP-#Pass#-SP-#1Hz;"><FONT COLOR=#117755><I>&lt;Root&gt;/Low Pass 1Hz</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">   99   </SPAN>  rtb_LowPass10Hz = 0.01478*rtb_DataTypeConversion2;
+<SPAN class="LineNumber">  100   </SPAN>  rtb_LowPass10Hz += 0.029122512*dsPIC_33f_Explorer16_DWork.LowPass1Hz_DSTATE;
+<SPAN class="LineNumber">  101   </SPAN>
+<SPAN class="LineNumber">  102   </SPAN>  <B>{</B>
+<SPAN class="LineNumber">  103   </SPAN>    <A HREF=rtwtypes_h.html#type_real_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">real_T</FONT></A> tmp;
+<SPAN class="LineNumber">  104   </SPAN>
+<SPAN class="LineNumber">  105   </SPAN>    <SPAN class="Comment">/* DataTypeConversion: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Data#-SP-#Type#-SP-#Conversion3;"><FONT COLOR=#117755><I>&lt;Root&gt;/Data Type Conversion3</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  106   </SPAN>    tmp = fmod(floor(rtb_LowPass10Hz), 65536.0);
+<SPAN class="LineNumber">  107   </SPAN>    <SPAN class="Keyword">if</SPAN> (tmp &lt; 0.0) <B>{</B>
+<SPAN class="LineNumber">  108   </SPAN>      tmp += 65536.0;
+<SPAN class="LineNumber">  109   </SPAN>    <B>}</B>
+<SPAN class="LineNumber">  110   </SPAN>
+<SPAN class="LineNumber">  111   </SPAN>    dsPIC_33f_Explorer16_B.DataTypeConversion3 = (<A HREF=rtwtypes_h.html#type_uint16_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint16_T</FONT></A>)tmp;
+<SPAN class="LineNumber">  112   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  113   </SPAN>
+<SPAN class="LineNumber">  114   </SPAN>  <SPAN class="Comment">/* DiscreteTransferFcn: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Low#-SP-#Pass#-SP-#10Hz;"><FONT COLOR=#117755><I>&lt;Root&gt;/Low Pass 10Hz</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  115   </SPAN>  rtb_LowPass10Hz = 0.1304*rtb_DataTypeConversion2;
+<SPAN class="LineNumber">  116   </SPAN>  rtb_LowPass10Hz += 2.2677863999999998E-001*
+<SPAN class="LineNumber">  117   </SPAN>    dsPIC_33f_Explorer16_DWork.LowPass10Hz_DSTATE;
+<SPAN class="LineNumber">  118   </SPAN>
+<SPAN class="LineNumber">  119   </SPAN>  <B>{</B>
+<SPAN class="LineNumber">  120   </SPAN>    <A HREF=rtwtypes_h.html#type_real_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">real_T</FONT></A> tmp;
+<SPAN class="LineNumber">  121   </SPAN>
+<SPAN class="LineNumber">  122   </SPAN>    <SPAN class="Comment">/* DataTypeConversion: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Data#-SP-#Type#-SP-#Conversion5;"><FONT COLOR=#117755><I>&lt;Root&gt;/Data Type Conversion5</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  123   </SPAN>    tmp = fmod(floor(rtb_LowPass10Hz), 65536.0);
+<SPAN class="LineNumber">  124   </SPAN>    <SPAN class="Keyword">if</SPAN> (tmp &lt; 0.0) <B>{</B>
+<SPAN class="LineNumber">  125   </SPAN>      tmp += 65536.0;
+<SPAN class="LineNumber">  126   </SPAN>    <B>}</B>
+<SPAN class="LineNumber">  127   </SPAN>
+<SPAN class="LineNumber">  128   </SPAN>    dsPIC_33f_Explorer16_B.DataTypeConversion5 = (<A HREF=rtwtypes_h.html#type_uint16_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint16_T</FONT></A>)tmp;
+<SPAN class="LineNumber">  129   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  130   </SPAN>
+<SPAN class="LineNumber">  131   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_UART_TX_Labview_Matlab&quot; Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/TX#-SP-#Output#-SP-#Multiplexed#-SP-#for#-SP-#Matlab#-SP-#//#-SP-#Labview;"><FONT COLOR=#117755><I>&lt;Root&gt;/TX Output Multiplexed for Matlab // Labview</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  132   </SPAN>  <B>{</B>
+<SPAN class="LineNumber">  133   </SPAN>    <SPAN class="Datatype">static</SPAN> <SPAN class="Datatype">unsigned</SPAN> <SPAN class="Datatype">int</SPAN> nextToSend = 1;
+<SPAN class="LineNumber">  134   </SPAN>    <SPAN class="Keyword">if</SPAN> ((nextToSend &amp; 1) != 0) <B>{</B>
+<SPAN class="LineNumber">  135   </SPAN>      <SPAN class="Keyword">if</SPAN> (!<A HREF=dsPIC_Multiplexed_out_UART2_c.html#fcn_send232Buff_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">send232Buff_Uart2</FONT></A>(dsPIC_33f_Explorer16_B.RawADCdata,1 + 0U*4) )
+<SPAN class="LineNumber">  136   </SPAN>        nextToSend = (nextToSend &lt;&lt; 1);
+<SPAN class="LineNumber">  137   </SPAN>    <B>}</B>
+<SPAN class="LineNumber">  138   </SPAN>
+<SPAN class="LineNumber">  139   </SPAN>    <SPAN class="Keyword">if</SPAN> ((nextToSend &amp; 2) != 0) <B>{</B>
+<SPAN class="LineNumber">  140   </SPAN>      <SPAN class="Keyword">if</SPAN> (!<A HREF=dsPIC_Multiplexed_out_UART2_c.html#fcn_send232Buff_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">send232Buff_Uart2</FONT></A>(dsPIC_33f_Explorer16_B.DataTypeConversion3,1 + 1U*4)
+<SPAN class="LineNumber">  141   </SPAN>          )
+<SPAN class="LineNumber">  142   </SPAN>        nextToSend = (nextToSend &lt;&lt; 1);
+<SPAN class="LineNumber">  143   </SPAN>    <B>}</B>
+<SPAN class="LineNumber">  144   </SPAN>
+<SPAN class="LineNumber">  145   </SPAN>    <SPAN class="Keyword">if</SPAN> (nextToSend &gt;= 4)               <SPAN class="Comment">/* should be &amp;, but get robust here */</SPAN>
+<SPAN class="LineNumber">  146   </SPAN>    <B>{</B>
+<SPAN class="LineNumber">  147   </SPAN>      <SPAN class="Keyword">if</SPAN> (!<A HREF=dsPIC_Multiplexed_out_UART2_c.html#fcn_send232Buff_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">send232Buff_Uart2</FONT></A>(dsPIC_33f_Explorer16_B.DataTypeConversion5,1 + 2U*4)
+<SPAN class="LineNumber">  148   </SPAN>          )
+<SPAN class="LineNumber">  149   </SPAN>        nextToSend = 1;
+<SPAN class="LineNumber">  150   </SPAN>    <B>}</B>
+<SPAN class="LineNumber">  151   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  152   </SPAN>
+<SPAN class="LineNumber">  153   </SPAN>  <SPAN class="Comment">/* RateTransition: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Rate#-SP-#Transition;"><FONT COLOR=#117755><I>&lt;Root&gt;/Rate Transition</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  154   </SPAN>  <SPAN class="Keyword">if</SPAN> (dsPIC_33f_Explorer16_M-&gt;Timing.RateInteraction.TID0_1) <B>{</B>
+<SPAN class="LineNumber">  155   </SPAN>    dsPIC_33f_Explorer16_B.Led01Hz =
+<SPAN class="LineNumber">  156   </SPAN>      dsPIC_33f_Explorer16_DWork.RateTransition_Buffer0;
+<SPAN class="LineNumber">  157   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  158   </SPAN>
+<SPAN class="LineNumber">  159   </SPAN>  <SPAN class="Comment">/* RateTransition: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Rate#-SP-#Transition1;"><FONT COLOR=#117755><I>&lt;Root&gt;/Rate Transition1</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  160   </SPAN>  <SPAN class="Keyword">if</SPAN> (dsPIC_33f_Explorer16_M-&gt;Timing.RateInteraction.TID0_1) <B>{</B>
+<SPAN class="LineNumber">  161   </SPAN>    dsPIC_33f_Explorer16_B.Led105Hz =
+<SPAN class="LineNumber">  162   </SPAN>      dsPIC_33f_Explorer16_DWork.RateTransition1_Buffer0;
+<SPAN class="LineNumber">  163   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  164   </SPAN>
+<SPAN class="LineNumber">  165   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_Digital_Input&quot; Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Digital#-SP-#Input;"><FONT COLOR=#117755><I>&lt;Root&gt;/Digital Input</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  166   </SPAN>  dsPIC_33f_Explorer16_B.DigitalInput = PORTDbits.RD6;
+<SPAN class="LineNumber">  167   </SPAN>
+<SPAN class="LineNumber">  168   </SPAN>  <SPAN class="Comment">/* Switch: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Switch;"><FONT COLOR=#117755><I>&lt;Root&gt;/Switch</I></FONT></a>' incorporates:
+<SPAN class="LineNumber">  169   </SPAN>   *  Logic: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Logical#-SP-#Operator;"><FONT COLOR=#117755><I>&lt;Root&gt;/Logical Operator</I></FONT></a>'
+<SPAN class="LineNumber">  170   </SPAN>   *  RelationalOperator: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Compare#-NL-#To#-SP-#Constant/Compare;"><FONT COLOR=#117755><I>&lt;S1&gt;/Compare</I></FONT></a>'
+<SPAN class="LineNumber">  171   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">  172   </SPAN>  <SPAN class="Keyword">if</SPAN> (!dsPIC_33f_Explorer16_B.DigitalInput) <B>{</B>
+<SPAN class="LineNumber">  173   </SPAN>    dsPIC_33f_Explorer16_B.Switch = dsPIC_33f_Explorer16_B.Led105Hz;
+<SPAN class="LineNumber">  174   </SPAN>  <B>}</B> <SPAN class="Keyword">else</SPAN> <B>{</B>
+<SPAN class="LineNumber">  175   </SPAN>    dsPIC_33f_Explorer16_B.Switch = (dsPIC_33f_Explorer16_B.RawADCdata &gt; 512U);
+<SPAN class="LineNumber">  176   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  177   </SPAN>
+<SPAN class="LineNumber">  178   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_Digital_OutputWrite&quot; Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Digital#-SP-#Output#-SP-#Write;"><FONT COLOR=#117755><I>&lt;Root&gt;/Digital Output Write</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  179   </SPAN>  LATAbits.LATA0 = dsPIC_33f_Explorer16_B.Led01Hz;
+<SPAN class="LineNumber">  180   </SPAN>  LATAbits.LATA7 = dsPIC_33f_Explorer16_B.Switch;
+<SPAN class="LineNumber">  181   </SPAN>
+<SPAN class="LineNumber">  182   </SPAN>  <SPAN class="Comment">/* DiscreteTransferFcn Block: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Low#-SP-#Pass#-SP-#1Hz;"><FONT COLOR=#117755><I>&lt;Root&gt;/Low Pass 1Hz</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  183   </SPAN>  <B>{</B>
+<SPAN class="LineNumber">  184   </SPAN>    dsPIC_33f_Explorer16_DWork.LowPass1Hz_DSTATE = rtb_DataTypeConversion2 +
+<SPAN class="LineNumber">  185   </SPAN>      0.9704*dsPIC_33f_Explorer16_DWork.LowPass1Hz_DSTATE;
+<SPAN class="LineNumber">  186   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  187   </SPAN>
+<SPAN class="LineNumber">  188   </SPAN>  <SPAN class="Comment">/* DiscreteTransferFcn Block: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Low#-SP-#Pass#-SP-#10Hz;"><FONT COLOR=#117755><I>&lt;Root&gt;/Low Pass 10Hz</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  189   </SPAN>  <B>{</B>
+<SPAN class="LineNumber">  190   </SPAN>    dsPIC_33f_Explorer16_DWork.LowPass10Hz_DSTATE = rtb_DataTypeConversion2 +
+<SPAN class="LineNumber">  191   </SPAN>      0.7391*dsPIC_33f_Explorer16_DWork.LowPass10Hz_DSTATE;
+<SPAN class="LineNumber">  192   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  193   </SPAN><B>}</B>
+<SPAN class="LineNumber">  194   </SPAN>
+<SPAN class="LineNumber">  195   </SPAN><SPAN class="Comment">/* Model step function for TID1 */</SPAN>
+<SPAN class="LineNumber">  196   </SPAN><SPAN class="Datatype">void</SPAN> <A NAME=fcn_dsPIC_33f_Explorer16_step1>dsPIC_33f_Explorer16_step1</A>(<SPAN class="Datatype">void</SPAN>)  <SPAN class="Comment">/* Sample time: [0.25s, 0.0s] */</SPAN>
+<SPAN class="LineNumber">  197   </SPAN><B>{</B>
+<SPAN class="LineNumber">  198   </SPAN>  <SPAN class="Comment">/* local block i/o variables */</SPAN>
+<SPAN class="LineNumber">  199   </SPAN>  <A HREF=rtwtypes_h.html#type_uint8_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint8_T</FONT></A> rtb_FixPtSum1;
+<SPAN class="LineNumber">  200   </SPAN>  <A HREF=rtwtypes_h.html#type_uint8_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint8_T</FONT></A> rtb_FixPtSwitch;
+<SPAN class="LineNumber">  201   </SPAN>  <A HREF=rtwtypes_h.html#type_boolean_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">boolean_T</FONT></A> rtb_DataTypeConversion;
+<SPAN class="LineNumber">  202   </SPAN>  <A HREF=rtwtypes_h.html#type_boolean_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">boolean_T</FONT></A> rtb_DataTypeConversion1;
+<SPAN class="LineNumber">  203   </SPAN>
+<SPAN class="LineNumber">  204   </SPAN>  <SPAN class="Comment">/* Sum: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Increment#-NL-#Real#-SP-#World/FixPt#-SP-#Sum1;"><FONT COLOR=#117755><I>&lt;S4&gt;/FixPt Sum1</I></FONT></a>' incorporates:
+<SPAN class="LineNumber">  205   </SPAN>   *  Constant: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Increment#-NL-#Real#-SP-#World/FixPt#-SP-#Constant;"><FONT COLOR=#117755><I>&lt;S4&gt;/FixPt Constant</I></FONT></a>'
+<SPAN class="LineNumber">  206   </SPAN>   *  UnitDelay: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Output;"><FONT COLOR=#117755><I>&lt;S2&gt;/Output</I></FONT></a>'
+<SPAN class="LineNumber">  207   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">  208   </SPAN>  rtb_FixPtSum1 = (<A HREF=rtwtypes_h.html#type_uint8_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint8_T</FONT></A>)((<A HREF=rtwtypes_h.html#type_uint16_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">uint16_T</FONT></A>)dsPIC_33f_Explorer16_DWork.Output_DSTATE +
+<SPAN class="LineNumber">  209   </SPAN>    1U);
+<SPAN class="LineNumber">  210   </SPAN>
+<SPAN class="LineNumber">  211   </SPAN>  <SPAN class="Comment">/* Switch: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Wrap#-SP-#To#-SP-#Zero/FixPt#-SP-#Switch;"><FONT COLOR=#117755><I>&lt;S5&gt;/FixPt Switch</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  212   </SPAN>  <SPAN class="Keyword">if</SPAN> (rtb_FixPtSum1 &gt; 3U) <B>{</B>
+<SPAN class="LineNumber">  213   </SPAN>    rtb_FixPtSwitch = 0U;
+<SPAN class="LineNumber">  214   </SPAN>  <B>}</B> <SPAN class="Keyword">else</SPAN> <B>{</B>
+<SPAN class="LineNumber">  215   </SPAN>    rtb_FixPtSwitch = rtb_FixPtSum1;
+<SPAN class="LineNumber">  216   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  217   </SPAN>
+<SPAN class="LineNumber">  218   </SPAN>  <SPAN class="Comment">/* DataTypeConversion: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Data#-SP-#Type#-SP-#Conversion;"><FONT COLOR=#117755><I>&lt;Root&gt;/Data Type Conversion</I></FONT></a>' incorporates:
+<SPAN class="LineNumber">  219   </SPAN>   *  S-Function (sfix_bitop): '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Bitwise#-SP-#Operator;"><FONT COLOR=#117755><I>&lt;Root&gt;/Bitwise Operator</I></FONT></a>'
+<SPAN class="LineNumber">  220   </SPAN>   *  UnitDelay: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Output;"><FONT COLOR=#117755><I>&lt;S2&gt;/Output</I></FONT></a>'
+<SPAN class="LineNumber">  221   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">  222   </SPAN>  rtb_DataTypeConversion = ((dsPIC_33f_Explorer16_DWork.Output_DSTATE &amp; 2U) !=
+<SPAN class="LineNumber">  223   </SPAN>    0U);
+<SPAN class="LineNumber">  224   </SPAN>
+<SPAN class="LineNumber">  225   </SPAN>  <SPAN class="Comment">/* DataTypeConversion: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Data#-SP-#Type#-SP-#Conversion1;"><FONT COLOR=#117755><I>&lt;Root&gt;/Data Type Conversion1</I></FONT></a>' incorporates:
+<SPAN class="LineNumber">  226   </SPAN>   *  S-Function (sfix_bitop): '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Bitwise#-SP-#Operator1;"><FONT COLOR=#117755><I>&lt;Root&gt;/Bitwise Operator1</I></FONT></a>'
+<SPAN class="LineNumber">  227   </SPAN>   *  UnitDelay: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Output;"><FONT COLOR=#117755><I>&lt;S2&gt;/Output</I></FONT></a>'
+<SPAN class="LineNumber">  228   </SPAN>   */</SPAN>
+<SPAN class="LineNumber">  229   </SPAN>  rtb_DataTypeConversion1 = ((dsPIC_33f_Explorer16_DWork.Output_DSTATE &amp; 1U) !=
+<SPAN class="LineNumber">  230   </SPAN>    0U);
+<SPAN class="LineNumber">  231   </SPAN>  dsPIC_33f_Explorer16_DWork.RateTransition_Buffer0 = rtb_DataTypeConversion;
+<SPAN class="LineNumber">  232   </SPAN>  dsPIC_33f_Explorer16_DWork.RateTransition1_Buffer0 = rtb_DataTypeConversion1;
+<SPAN class="LineNumber">  233   </SPAN>
+<SPAN class="LineNumber">  234   </SPAN>  <SPAN class="Comment">/* Update for UnitDelay: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Counter#-NL-#Limited/Output;"><FONT COLOR=#117755><I>&lt;S2&gt;/Output</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  235   </SPAN>  dsPIC_33f_Explorer16_DWork.Output_DSTATE = rtb_FixPtSwitch;
+<SPAN class="LineNumber">  236   </SPAN><B>}</B>
+<SPAN class="LineNumber">  237   </SPAN>
+<SPAN class="LineNumber">  238   </SPAN><SPAN class="Datatype">void</SPAN> <A NAME=fcn_dsPIC_33f_Explorer16_step>dsPIC_33f_Explorer16_step</A>(<A HREF=rtwtypes_h.html#type_int_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">int_T</FONT></A> tid)
+<SPAN class="LineNumber">  239   </SPAN><B>{</B>
+<SPAN class="LineNumber">  240   </SPAN>  <SPAN class="Keyword">switch</SPAN> (tid) <B>{</B>
+<SPAN class="LineNumber">  241   </SPAN>   <SPAN class="Keyword">case</SPAN> 0 :
+<SPAN class="LineNumber">  242   </SPAN>    <A HREF=dsPIC_33f_Explorer16_c.html#fcn_dsPIC_33f_Explorer16_step0 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">dsPIC_33f_Explorer16_step0</FONT></A>();
+<SPAN class="LineNumber">  243   </SPAN>    <SPAN class="Keyword">break</SPAN>;
+<SPAN class="LineNumber">  244   </SPAN>
+<SPAN class="LineNumber">  245   </SPAN>   <SPAN class="Keyword">case</SPAN> 1 :
+<SPAN class="LineNumber">  246   </SPAN>    <A HREF=dsPIC_33f_Explorer16_c.html#fcn_dsPIC_33f_Explorer16_step1 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">dsPIC_33f_Explorer16_step1</FONT></A>();
+<SPAN class="LineNumber">  247   </SPAN>    <SPAN class="Keyword">break</SPAN>;
+<SPAN class="LineNumber">  248   </SPAN>
+<SPAN class="LineNumber">  249   </SPAN>   <SPAN class="Keyword">default</SPAN> :
+<SPAN class="LineNumber">  250   </SPAN>    <SPAN class="Keyword">break</SPAN>;
+<SPAN class="LineNumber">  251   </SPAN>  <B>}</B>
+<SPAN class="LineNumber">  252   </SPAN><B>}</B>
+<SPAN class="LineNumber">  253   </SPAN>
+<SPAN class="LineNumber">  254   </SPAN><SPAN class="Comment">/* Model initialize function */</SPAN>
+<SPAN class="LineNumber">  255   </SPAN><SPAN class="Datatype">void</SPAN> <A NAME=fcn_dsPIC_33f_Explorer16_initialize>dsPIC_33f_Explorer16_initialize</A>(<A HREF=rtwtypes_h.html#type_boolean_T TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">boolean_T</FONT></A> firstTime)
+<SPAN class="LineNumber">  256   </SPAN><B>{</B>
+<SPAN class="LineNumber">  257   </SPAN>  (<SPAN class="Datatype">void</SPAN>)firstTime;
+<SPAN class="LineNumber">  258   </SPAN>
+<SPAN class="LineNumber">  259   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_MASTER&quot; initialization Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Master;"><FONT COLOR=#117755><I>&lt;Root&gt;/Master</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  260   </SPAN>
+<SPAN class="LineNumber">  261   </SPAN>  <SPAN class="Comment">/* 1 testfcy 	*/</SPAN>
+<SPAN class="LineNumber">  262   </SPAN>  <SPAN class="Comment">/*  4.0E+006	*/</SPAN>
+<SPAN class="LineNumber">  263   </SPAN>
+<SPAN class="LineNumber">  264   </SPAN>  <SPAN class="Comment">/* CONFIG TIMER 1 for scheduling steps 	*/</SPAN>
+<SPAN class="LineNumber">  265   </SPAN>  ConfigIntTimer1(T1_INT_PRIOR_0 &amp; T1_INT_OFF);
+<SPAN class="LineNumber">  266   </SPAN>  T1CON = 0x8000 ;                     <SPAN class="Comment">/* T1_PS_1_1	*/</SPAN>
+<SPAN class="LineNumber">  267   </SPAN>  PR1 = 20000;
+<SPAN class="LineNumber">  268   </SPAN>
+<SPAN class="LineNumber">  269   </SPAN>  <SPAN class="Comment">/* Configuration TRIS */</SPAN>
+<SPAN class="LineNumber">  270   </SPAN>  TRISA = 65406;
+<SPAN class="LineNumber">  271   </SPAN>
+<SPAN class="LineNumber">  272   </SPAN>  <SPAN class="Comment">/* Configuration ADCHS */</SPAN>
+<SPAN class="LineNumber">  273   </SPAN>  AD1PCFGL = (0&amp; 65535);
+<SPAN class="LineNumber">  274   </SPAN>  AD2PCFGL = (0&amp; 65535);
+<SPAN class="LineNumber">  275   </SPAN>  AD1PCFGH = ((0 &gt;&gt; 16) &amp; 65535);
+<SPAN class="LineNumber">  276   </SPAN>
+<SPAN class="LineNumber">  277   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_UART_config&quot; initialization Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/UART#-SP-#Configuration;"><FONT COLOR=#117755><I>&lt;Root&gt;/UART Configuration</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  278   </SPAN>
+<SPAN class="LineNumber">  279   </SPAN>  <SPAN class="Comment">/* set priority */</SPAN>
+<SPAN class="LineNumber">  280   </SPAN>  _U2RXIP = 0x0007 &amp; 1;
+<SPAN class="LineNumber">  281   </SPAN>  _U2TXIP = 0x0007 &amp; 7;
+<SPAN class="LineNumber">  282   </SPAN>
+<SPAN class="LineNumber">  283   </SPAN>  <SPAN class="Comment">/* enable/disable interrupt */</SPAN>
+<SPAN class="LineNumber">  284   </SPAN>  _U2RXIE = 0;
+<SPAN class="LineNumber">  285   </SPAN>  _U2TXIE = 0;
+<SPAN class="LineNumber">  286   </SPAN>  U2MODE = 0x8080 + 0;
+<SPAN class="LineNumber">  287   </SPAN>  U2STA = 0x0 + 0 + 1024;
+<SPAN class="LineNumber">  288   </SPAN>  U2BRG = 12;
+<SPAN class="LineNumber">  289   </SPAN>
+<SPAN class="LineNumber">  290   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_ADC&quot; initialization Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/ADC#-SP-#Input;"><FONT COLOR=#117755><I>&lt;Root&gt;/ADC Input</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  291   </SPAN>  <SPAN class="Comment">/* Initialise ADC converter */</SPAN>
+<SPAN class="LineNumber">  292   </SPAN>
+<SPAN class="LineNumber">  293   </SPAN>  <SPAN class="Comment">/* 0 mean each 1 conversion */</SPAN>
+<SPAN class="LineNumber">  294   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> NoSamplesADC                   0
+<SPAN class="LineNumber">  295   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> ADCSval                        1
+<SPAN class="LineNumber">  296   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> SAMCval                        (31 <FONT COLOR=#992211>&lt;<FONT COLOR=#992211>&lt; 8)
+<SPAN class="LineNumber">  297   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> OutFormatBitsval               (0 <FONT COLOR=#992211>&lt;<FONT COLOR=#992211>&lt; 8)
+<SPAN class="LineNumber">  298   </SPAN><FONT COLOR=#992211>#</FONT><SPAN class="PreProcessor">define</SPAN> VoltRef                        (0 <FONT COLOR=#992211>&lt;<FONT COLOR=#992211>&lt; 13)
+<SPAN class="LineNumber">  299   </SPAN>
+<SPAN class="LineNumber">  300   </SPAN>  <SPAN class="Comment">/* Use internal counter Trigger, continuous simulatenous sampling */</SPAN>
+<SPAN class="LineNumber">  301   </SPAN>  AD1CON1 = 0x00E4 | (0 &lt;&lt; 10)| OutFormatBitsval;
+<SPAN class="LineNumber">  302   </SPAN>  AD1CON2 = 0x0400 | (NoSamplesADC &lt;&lt; 2) | VoltRef;
+<SPAN class="LineNumber">  303   </SPAN>  AD1CSSL = (32 &amp; 65535);
+<SPAN class="LineNumber">  304   </SPAN>  AD1CSSH = ((32 &gt;&gt; 16) &amp; 65535);
+<SPAN class="LineNumber">  305   </SPAN>  AD1CON3 = (ADCSval | SAMCval) &amp; 0xff7f;
+<SPAN class="LineNumber">  306   </SPAN>  AD1CHS0 = 0x0000;
+<SPAN class="LineNumber">  307   </SPAN>  IPC2 = (IPC2 | (6 &lt;&lt; 12));           <SPAN class="Comment">/*Interrupt Priority : 6*/</SPAN>
+<SPAN class="LineNumber">  308   </SPAN>  IFS0bits.AD1IF = 0;
+<SPAN class="LineNumber">  309   </SPAN>
+<SPAN class="LineNumber">  310   </SPAN>  <SPAN class="Comment">/* _ADIE = 1; */</SPAN>
+<SPAN class="LineNumber">  311   </SPAN>  <SPAN class="Comment">/* 1 sample/output-Step ; Do not need interrupt so do not enable it. */</SPAN>
+<SPAN class="LineNumber">  312   </SPAN>  <SPAN class="Comment">/* Clear Off Any Interrupt Due To Configuration */</SPAN>
+<SPAN class="LineNumber">  313   </SPAN>  <SPAN class="Comment">/* Turn on ADC Module */</SPAN>
+<SPAN class="LineNumber">  314   </SPAN>  AD1CON1bits.ADON= 1;
+<SPAN class="LineNumber">  315   </SPAN>
+<SPAN class="LineNumber">  316   </SPAN>  <SPAN class="Comment">/* S-Function &quot;dsPIC_UART_TX_Labview_Matlab&quot; initialization Block: <a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/TX#-SP-#Output#-SP-#Multiplexed#-SP-#for#-SP-#Matlab#-SP-#//#-SP-#Labview;"><FONT COLOR=#117755><I>&lt;Root&gt;/TX Output Multiplexed for Matlab // Labview</I></FONT></a> */</SPAN>
+<SPAN class="LineNumber">  317   </SPAN>  <SPAN class="Comment">/* Initialise cyclic buffer pointer variables */</SPAN>
+<SPAN class="LineNumber">  318   </SPAN>  <A HREF=dsPIC_Multiplexed_out_UART2_c.html#var_RS232PtrHaut_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RS232PtrHaut_Uart2</FONT></A> = 0;
+<SPAN class="LineNumber">  319   </SPAN>  <A HREF=dsPIC_Multiplexed_out_UART2_c.html#var_RS232PtrBas_Uart2 TARGET="rtwreport_document_frame"><FONT COLOR="#1122aa">RS232PtrBas_Uart2</FONT></A> = 0;
+<SPAN class="LineNumber">  320   </SPAN>
+<SPAN class="LineNumber">  321   </SPAN>  <SPAN class="Comment">/* config interrupt reception for UART	*/</SPAN>
+<SPAN class="LineNumber">  322   </SPAN>  U2STAbits.UTXISEL1 = 1;              <SPAN class="Comment">/* interrupt when 4 bytes UART buffer is empty ; (default 0) ==&gt; interrupt when at least 1 empty byte in buffer	*/</SPAN>
+<SPAN class="LineNumber">  323   </SPAN>
+<SPAN class="LineNumber">  324   </SPAN>  <SPAN class="Comment">/* InitializeConditions for RateTransition: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Rate#-SP-#Transition;"><FONT COLOR=#117755><I>&lt;Root&gt;/Rate Transition</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  325   </SPAN>  dsPIC_33f_Explorer16_DWork.RateTransition_Buffer0 = 0U;
+<SPAN class="LineNumber">  326   </SPAN>
+<SPAN class="LineNumber">  327   </SPAN>  <SPAN class="Comment">/* InitializeConditions for RateTransition: '<a href="matlab: rtwprivate rtwctags_hilite dsPIC_33f_Explorer16/Rate#-SP-#Transition1;"><FONT COLOR=#117755><I>&lt;Root&gt;/Rate Transition1</I></FONT></a>' */</SPAN>
+<SPAN class="LineNumber">  328   </SPAN>  dsPIC_33f_Explorer16_DWork.RateTransition1_Buffer0 = 0U;
+<SPAN class="LineNumber">  329   </SPAN><B>}</B>
+<SPAN class="LineNumber">  330   </SPAN>
+<SPAN class="LineNumber">  331   </SPAN><SPAN class="Comment">/* File trailer for Real-Time Workshop generated code.
+<SPAN class="LineNumber">  332   </SPAN> *
+<SPAN class="LineNumber">  333   </SPAN> * [EOF]
+<SPAN class="LineNumber">  334   </SPAN> */</SPAN>
+</PRE>
+</TD></TR></TABLE>
+<P>
+</BODY>
+</HTML>

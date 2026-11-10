@@ -1,0 +1,184 @@
+### Starting Real-Time Workshop build procedure for model: pwm1
+### Generating code into build directory: C:\Documents and Settings\Tapesh\My Documents\MATLAB\pwm1_dspic\sources
+PNumber of I/O PINs used : 2
+TPTPTPNumber of I/O PINs used : 2
+TTPNumber of I/O PINs used : 2
+TPTTTTPTPTPNumber of I/O PINs used : 2
+TTPTPTT### Invoking Target Language Compiler on pwm1.rtw
+### Using System Target File: C:\Documents and Settings\Tapesh\Desktop\install_dsPIC_R2010a\dspic\dspic.tlc
+### Loading TLC function libraries
+.....
+### Initial pass through model to cache user defined code
+..
+### Caching model source code
+...........................
+### Writing main
+..
+### Writing header file pwm1.h
+.
+### Writing header file pwm1_types.h
+### Writing header file rtwtypes.h
+.
+### Writing header file rt_rem_snf.h
+### Writing source file rt_rem_snf.c
+.
+### Writing header file rt_look1d.h
+### Writing source file rt_look1d.c
+.
+### Writing header file rt_look.h
+### Writing source file rt_look.c
+.
+### Writing header file rt_nonfinite.h
+### Writing source file rt_nonfinite.c
+### Writing header file rtGetInf.h
+.
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+.
+### Writing source file rtGetNaN.c
+### Writing source file pwm1.c
+.
+### Writing header file pwm1_private.h
+### Writing source file pwm1_data.c
+.
+### Writing header file autobuild.h
+### Writing source file pwm1_main.c
+.
+### TLC code generation complete.
+### Evaluating PostCodeGenCommand specified in the model
+
+     ----------------------------------------------------
+     ----------------------------------------------------
+Embedded Coder for dsPIC V3.4c(28-Feb-2011) for Matlab R2010a.
+
+
+Licence Accorded to  Demonstration Version
+                     [adresse e-mail retirée]
+                     Author : Lubin KERHUEL
+                     WEBSITE : http://www.kerhuel.eu/wiki
+                     
+                     SIRENE : 503 920 456
+                     SIRET : 503 920 456 00012
+
+ Facturation to :    Demo
+                     Demo
+                     Lubin KERHUEL
+                     1, rue Alfred Fredet
+                     38100 Grenoble
+                     FRANCE
+
+     ----------------------------------------------------
+Check updates and new informations at :  www.kerhuel.eu 
+     ----------------------------------------------------
+
+.
+### Processing Template Makefile: C:\Documents and Settings\Tapesh\Desktop\install_dsPIC_R2010a\dspic\dspic_pic30_gcc.tmf
+-- Bypassing matlab internal LCC configuration --
+### pwm1.mk which is generated from C:\Documents and Settings\Tapesh\Desktop\install_dsPIC_R2010a\dspic\dspic_pic30_gcc.tmf is up to date
+### Building pwm1: "C:\PROGRA~1\MATLAB\R2010a\bin\win32\gmake" -f pwm1.mk  GENERATE_REPORT=0 MULTI_INSTANCE_CODE=0 PORTABLE_WORDSIZES=0 GENERATE_ASAP2=0 TMW_EXTMODE_TESTING=0 OPTS="-DTID01EQ=1"
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    pwm1_data.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    pwm1_main.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rtGetInf.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rtGetNaN.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rt_look.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rt_look1d.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rt_nonfinite.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    rt_rem_snf.c 
+''pic30-gcc  -c -mcpu=33fJ256GP710 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2010a/simulink/include -IC:\PROGRA~1\MATLAB\R2010a/extern/include -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2010a/rtw/c/src/ext_mode/common -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB\pwm1_dspic\sources -IC:\DOCUME~1\Tapesh\MYDOCU~1\MATLAB   -I C:\PROGRA~1\MICROC~1\mplabc30\v3.25\include    pwm1.c 
+" ================================================================" 
+"*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu" 
+" | Licence Accorded to Demonstration Version                    |" 
+" |                     [adresse e-mail retirée]                      |"	     
+" |          Companie : Author : Lubin KERHUEL                   |"  
+" |                     WEBSITE : http://www.kerhuel.eu/wiki     |" 
+" |                                                              |" 		 
+" |                     SIRENE : 503 920 456                     |" 
+" |                     SIRET : 503 920 456 00012                |"		 		 
+" | Financial Service : Demo                                     |" 
+" | Contact             Demo                                     |" 
+" |                     Lubin KERHUEL                            |" 
+" |                     1, rue Alfred Fredet                     |" 
+" |                     38100 Grenoble                           |" 
+" |                     FRANCE                                   |" 
+" | Version 3.4c                              28-Feb-2011        |" 
+" | For Matlab 7.10            R2010a                            |" 
+" ================================================================"	 
+''pic30-gcc   -mcpu=33fJ256GP710  pwm1_data.o pwm1_main.o rtGetInf.o rtGetNaN.o rt_look.o rt_look1d.o rt_nonfinite.o rt_rem_snf.o pwm1.o      C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libpic30-coff.a C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\dsPIC33F\libp33fJ256GP710-coff.a C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libc-coff.a C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a -o ..\../pwm1.cof -Xlinker --script=C:\PROGRA~1\MICROC~1\mplabc30\v3.25\support\dsPIC33F\gld\p33fJ256GP710.gld -Xlinker -t -Xlinker --report-mem -Xlinker -Map=../untitled.map -Xlinker --heap=0 -Xlinker -cref	  
+c:\program files\microchip\mplabc30\v3.25\bin\bin\..\bin/pic30-coff-ld.exe: mode pic30_coff 
+pwm1_data.o 
+pwm1_main.o 
+rtGetInf.o 
+rtGetNaN.o 
+rt_look.o 
+rt_look1d.o 
+rt_nonfinite.o 
+rt_rem_snf.o 
+pwm1.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libpic30-coff.a)crt0_standard.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libpic30-coff.a)data_init_standard.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\dsPIC33F\libp33fJ256GP710-coff.a)ConfigIntTimer1.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libc-coff.a)memset.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fgtge.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)feqltle.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)addsf3.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)divsf3.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)mulsf3.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fne.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)ceilf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)floorf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)sinf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)floatsisf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fcompare.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)funpack2.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)futil.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fpack.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fchop.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)sincosf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)funpack.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)errno.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fmodf.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fixsfsi.o 
+(C:\PROGRA~1\MICROC~1\mplabc30\v3.25\lib\libm-coff.a)fmodrem.o 
+ 
+ 
+Program Memory  [Origin = 0x200, Length = 0x2aa00] 
+ 
+section                    address   length (PC units)   length (bytes) (dec) 
+-------                    -------   -----------------   -------------------- 
+.text                        0x200               0x5d6           0x8c1  (2241) 
+.const                       0x7d6                0x12            0x1b  (27) 
+.text                        0x7e8               0x3f2           0x5eb  (1515) 
+.dinit                       0xbda                0x58            0x84  (132) 
+.text                        0xc32                0x8e            0xd5  (213) 
+.isr                         0xcc0                 0x2             0x3  (3) 
+ 
+                     Total program memory used (bytes):         0x1023  (4131) 1% 
+ 
+ 
+Data Memory  [Origin = 0x800, Length = 0x7800] 
+ 
+section                    address      alignment gaps    total length  (dec) 
+-------                    -------      --------------    ------------------- 
+.nbss                        0x800                   0            0x92  (146) 
+.ndata                       0x892                   0            0x50  (80) 
+.nbss                        0x8e2                   0            0x18  (24) 
+.ndata                       0x8fa                   0             0x2  (2) 
+.nbss                        0x8fc                   0             0x2  (2) 
+ 
+                        Total data memory used (bytes):           0xfe  (254) <1% 
+ 
+ 
+Dynamic Memory Usage 
+ 
+region                     address                      maximum length  (dec) 
+------                     -------                      --------------------- 
+heap                             0                                   0  (0) 
+stack                        0x8fe                              0x7702  (30466) 
+ 
+                        Maximum dynamic memory (bytes):         0x7702  (30466) 
+ 
+pwm1_main.o(.text+0x4):C:\Documents and Settings\Tapesh\My Documents\MATLAB\pwm1_dspic\sources\pwm1_main.c: undefined reference to `pwm1_SetEventsForThisBaseStep' 
+c:\program files\microchip\mplabc30\v3.25\bin\bin\..\bin/pic30-coff-ld.exe: link errors found, deleting executable `..\../pwm1.cof' 
+gmake: *** [..\../pwm1.cof] Error 255 
+### Real-Time Workshop build procedure for model: 'pwm1' aborted due to an error.
+>> 

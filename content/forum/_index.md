@@ -1,0 +1,490 @@
+---
+title: "Forum"
+url: "/forum/"
+archiveKind: "section"
+---
+# Forum en lecture seule
+
+Archive phpBB issue de la sauvegarde locale du 25 mars 2019. Les derniers messages sauvegardés datent de juillet 2014.
+
+Aucun compte, adresse e-mail de compte, mot de passe, adresse IP de connexion ni message privé n’est publié.
+
+<h2 id="forum-6">Advanced Simulink &amp;amp; RTW Questions</h2>
+
+- [Another method of gyro integrating.](/forum/topic/144/) — 27 messages
+- [Block Orderring fails for Blocks with infinite sample time](/forum/topic/193/) — 3 messages
+- [C-Function Call and Muxes - to solve](/forum/topic/153/) — 4 messages
+- [Chronograph block](/forum/topic/436/) — 1 messages
+- [COMPILATION ERROR: MEMORY PROBLEM](/forum/topic/490/) — 1 messages
+- [Compiling Stateflow Charts](/forum/topic/222/) — 2 messages
+- [Confused about calculus time step](/forum/topic/253/) — 3 messages
+- [Control of DC servomotor with digital encoder](/forum/topic/196/) — 6 messages
+- [counter application](/forum/topic/66/) — 9 messages
+- [Develop Your Own Embedded Target](/forum/topic/263/) — 2 messages
+- [Did anyone implement a controller in dsPIC by this toolbox?](/forum/topic/181/) — 16 messages
+- [Digital Output Write whole 16 bit word](/forum/topic/367/) — 3 messages
+- [Embedded MATLAB and Infinite Sampling Time](/forum/topic/274/) — 1 messages
+- [fuzzy in dspic 30f4011](/forum/topic/164/) — 6 messages
+- [fuzzy logic](/forum/topic/187/) — 9 messages
+- [Fuzzy Logic..](/forum/topic/159/) — 2 messages
+- [Help using angle estimation](/forum/topic/208/) — 2 messages
+- [How much RAM area can a program use?](/forum/topic/101/) — 13 messages
+- [Huge tables. full memory. Type Double vs Other. Optimization](/forum/topic/171/) — 4 messages
+- [Interfacing with an VN100 (INS/AHRS SENSOR)](/forum/topic/396/) — 6 messages
+- [Model Reference Compliance](/forum/topic/304/) — 1 messages
+- [Problem of configuring a dspic with Simulink Blockset](/forum/topic/294/) — 8 messages
+- [Question about Filter](/forum/topic/87/) — 4 messages
+- [Recive Multiple Data from the same UART](/forum/topic/471/) — 2 messages
+- [Rs 232 Gui Interface with PIC 32 starter kit](/forum/topic/351/) — 2 messages
+- [RS232 DATA TRANSFER](/forum/topic/441/) — 3 messages
+- [rs232gui and PIC32 starter kit](/forum/topic/331/) — 17 messages
+- [Rx Interrupt buffer size](/forum/topic/143/) — 13 messages
+- [Simulink to dspic](/forum/topic/383/) — 2 messages
+- [Sintax Error in Microchip Header File? - .c and .s ext files](/forum/topic/117/) — 4 messages
+- [Some help needed model for self-balancing](/forum/topic/109/) — 9 messages
+- [sparkfun - UAV v2 Development Platform - dspic30f4011](/forum/topic/296/) — 6 messages
+- [Speed and current control](/forum/topic/175/) — 4 messages
+- [Thrust for unmanned two-engine aircraf : Problem with blocks](/forum/topic/70/) — 2 messages
+- [UART TX BLOCK ORDERING](/forum/topic/618/) — 1 messages
+- [use delay_ms and delay_us with Simulink](/forum/topic/571/) — 1 messages
+- [Variable step solver model to dsPIC target](/forum/topic/503/) — 1 messages
+
+<h2 id="forum-8">bug reports</h2>
+
+- [&quot;link errors found&quot;](/forum/topic/484/) — 3 messages
+- [about matlab blocks](/forum/topic/459/) — 1 messages
+- [ADC block sets configures all pins to the ADC](/forum/topic/412/) — 9 messages
+- [ADC doesn't produce correct output type](/forum/topic/239/) — 2 messages
+- [ADC Input block - solved](/forum/topic/152/) — 5 messages
+- [ADC output vector BUG?](/forum/topic/576/) — 1 messages
+- [Alignment of DMA memory for ADC corrupts](/forum/topic/566/) — 1 messages
+- [bug while compiling the PIC24Fj128GA010](/forum/topic/325/) — 2 messages
+- [Bug, or Matlab needs P4 instruction set, or...](/forum/topic/50/) — 3 messages
+- [build error in GenericTypeDefs.h](/forum/topic/432/) — 14 messages
+- [c 30 compiler problems with missing files](/forum/topic/560/) — 1 messages
+- [C Function Call error for output size != 1](/forum/topic/107/) — 2 messages
+- [CAN configuration bug](/forum/topic/387/) — 1 messages
+- [CAN module with dspic33fj256gp710 or pic24fj128ga010](/forum/topic/112/) — 4 messages
+- [CAN num in &quot;CAN receive&quot; block](/forum/topic/219/) — 3 messages
+- [Compilation error using 2 Interrupt driven blocks](/forum/topic/203/) — 3 messages
+- [Compilation error. Please help.](/forum/topic/223/) — 2 messages
+- [Compilation time](/forum/topic/384/) — 1 messages
+- [Compilation with submodels](/forum/topic/414/) — 4 messages
+- [Compiling error p**.gld:9: syntax error - solved](/forum/topic/126/) — 1 messages
+- [Configuring in a sub-system](/forum/topic/154/) — 2 messages
+- [dsPIC33FJ32MC204 fails 1Hz blink LED test](/forum/topic/562/) — 2 messages
+- [dsPIC_PWM_motor.tlc problem](/forum/topic/498/) — 7 messages
+- [Error after using Integer to Bit Converter](/forum/topic/251/) — 4 messages
+- [error compilation](/forum/topic/358/) — 6 messages
+- [error compilation](/forum/topic/382/) — 4 messages
+- [Error for having multiple dsPIC Master blocks](/forum/topic/316/) — 1 messages
+- [Error loading example](/forum/topic/315/) — 18 messages
+- [error programmation](/forum/topic/395/) — 2 messages
+- [Errors on testing the first examples in 0.94eb version...](/forum/topic/61/) — 7 messages
+- [Failed compilation still generated MPLAB 8 project](/forum/topic/472/) — 5 messages
+- [Generated MPLAB projects don't allow debugging](/forum/topic/370/) — 3 messages
+- [Generated MPLAB projects don't properly include source files](/forum/topic/371/) — 7 messages
+- [Heap can't be configured for MPLAB](/forum/topic/479/) — 2 messages
+- [I2C does not build on PIC32](/forum/topic/492/) — 4 messages
+- [ICS configured incorrectly](/forum/topic/303/) — 13 messages
+- [IMU Simulation : error while running (lookup table)](/forum/topic/158/) — 4 messages
+- [Infinite sampling-time blocks can't chain together](/forum/topic/365/) — 5 messages
+- [Interface Tx-Matlab rs232gui block fails in 2011b](/forum/topic/474/) — 2 messages
+- [Internal Quartz and PLL](/forum/topic/308/) — 1 messages
+- [Know when using interrupt driven UART (Tx or Rx)](/forum/topic/136/) — 1 messages
+- [Main function not found](/forum/topic/391/) — 2 messages
+- [Matlab Variables do not Propagate to C-Function Call Block](/forum/topic/151/) — 3 messages
+- [MPLAB 8.x project not generated properly during compile](/forum/topic/457/) — 7 messages
+- [MPLAB Compilation](/forum/topic/369/) — 2 messages
+- [MPLAB X link post-compilation errors](/forum/topic/439/) — 2 messages
+- [MPLAB X not found during compilation](/forum/topic/458/) — 1 messages
+- [Multiple blocks of ADC doesn't trigger error](/forum/topic/425/) — 1 messages
+- [No OC2 with 30f3012?](/forum/topic/228/) — 4 messages
+- [OC and Matlab2010a](/forum/topic/298/) — 3 messages
+- [Output Compare block - Behaviour at edges values for OC1max](/forum/topic/93/) — 5 messages
+- [Passing a Vector to the C-Function Call block](/forum/topic/122/) — 6 messages
+- [PIC32. Problems with I2C.](/forum/topic/267/) — 4 messages
+- [PLL does not seem to work correctly (bug report)](/forum/topic/54/) — 2 messages
+- [PORT D bug on DSPIC33FJ64(128)MC804](/forum/topic/268/) — 4 messages
+- [Possible Bug in ADC in 33FJ256MC710](/forum/topic/132/) — 2 messages
+- [Possible bug in ADC of dsPIC30F6010A](/forum/topic/133/) — 4 messages
+- [possible bug using 2 ADC - solved](/forum/topic/213/) — 5 messages
+- [Problem with rs232gui](/forum/topic/465/) — 13 messages
+- [probleme - Matlab Version](/forum/topic/29/) — 4 messages
+- [problems with embedded coder](/forum/topic/597/) — 1 messages
+- [problems with installation](/forum/topic/596/) — 1 messages
+- [problems with toolbox DSPIC](/forum/topic/246/) — 11 messages
+- [PSV model for interrupts not explicitly declared](/forum/topic/350/) — 3 messages
+- [PTsources files not found. MPLAB project file not created.](/forum/topic/442/) — 5 messages
+- [PWM module 1 and 2](/forum/topic/360/) — 6 messages
+- [PWM simultaneous switching problem](/forum/topic/570/) — 1 messages
+- [restorePath, and slbuild errors, matlab working directory ch](/forum/topic/430/) — 9 messages
+- [rs232gui problem](/forum/topic/388/) — 2 messages
+- [Slow Compilation Time](/forum/topic/92/) — 3 messages
+- [slow matlab](/forum/topic/329/) — 6 messages
+- [Some help needed : Error while compiling](/forum/topic/88/) — 4 messages
+- [Teething problems - PIC32](/forum/topic/142/) — 6 messages
+- [TraDesto Limited](/forum/topic/595/) — 1 messages
+- [Trial block-sets for R2006a and R2006b broken?](/forum/topic/559/) — 1 messages
+- [Two UARTs in a single model](/forum/topic/366/) — 3 messages
+- [Typing Error!](/forum/topic/480/) — 2 messages
+- [UART on DsPic33FJ256MC710](/forum/topic/165/) — 15 messages
+- [UART RX interrupt always included with config block](/forum/topic/323/) — 2 messages
+- [Windows Viste 64-bits](/forum/topic/270/) — 3 messages
+- [wont install](/forum/topic/206/) — 7 messages
+
+<h2 id="forum-9">dsPIC Peripherals</h2>
+
+- [A more friendly way to create a chip select with SPI ?](/forum/topic/115/) — 4 messages
+- [ADC inputs yet again](/forum/topic/218/) — 3 messages
+- [ADC: some problems (revisited)](/forum/topic/147/) — 2 messages
+- [analog in PWM out](/forum/topic/186/) — 15 messages
+- [C function call](/forum/topic/62/) — 5 messages
+- [Can anyone help me!](/forum/topic/262/) — 1 messages
+- [CAN Configuration](/forum/topic/237/) — 2 messages
+- [Correct use of UART peripheral](/forum/topic/354/) — 2 messages
+- [DSPIC 30f4011 help needed](/forum/topic/434/) — 2 messages
+- [dsPIC programming Help](/forum/topic/565/) — 1 messages
+- [dsPIC33fj256710A programming on explorer 16 board](/forum/topic/409/) — 3 messages
+- [dsPIC33fj256GP710A](/forum/topic/567/) — 2 messages
+- [dsPIC33fj256GP710A GUI](/forum/topic/568/) — 1 messages
+- [dspPIC33FJ256MC710](/forum/topic/247/) — 2 messages
+- [Enquiry](/forum/topic/416/) — 1 messages
+- [Error on compilation of examples in dspic toolbox](/forum/topic/456/) — 1 messages
+- [frequency mismatching](/forum/topic/256/) — 6 messages
+- [Generating dsPIC code from continous time model](/forum/topic/505/) — 1 messages
+- [How to read data from a text file containing ECG data](/forum/topic/411/) — 1 messages
+- [How to setup the SPI module to send and recieve data](/forum/topic/210/) — 6 messages
+- [I/O pins allocation](/forum/topic/347/) — 2 messages
+- [I2C - alternative pin](/forum/topic/265/) — 3 messages
+- [I2C problem on UDB4 board](/forum/topic/476/) — 2 messages
+- [I2C syntax](/forum/topic/291/) — 1 messages
+- [Importing a MATLAB code from the workspace?](/forum/topic/421/) — 2 messages
+- [input capture](/forum/topic/380/) — 3 messages
+- [No SPI output on the pins?](/forum/topic/146/) — 4 messages
+- [OC minimum to maximum range](/forum/topic/415/) — 2 messages
+- [Output Compare block](/forum/topic/64/) — 2 messages
+- [pwm 2+2](/forum/topic/261/) — 5 messages
+- [Question about SPI](/forum/topic/114/) — 1 messages
+- [RS232gui problem...](/forum/topic/332/) — 2 messages
+- [Rx Input Multiplexed?](/forum/topic/131/) — 6 messages
+- [SD card data logger](/forum/topic/422/) — 1 messages
+- [SPI EEPROM Record and Playback on Explorer 16](/forum/topic/297/) — 18 messages
+- [UART](/forum/topic/290/) — 2 messages
+- [UART Rx configuration](/forum/topic/608/) — 1 messages
+- [UART2, UART alternativ et I2C in the same time](/forum/topic/400/) — 3 messages
+- [uartrx and uarttx configuration blocks](/forum/topic/610/) — 1 messages
+- [Using 2 UART](/forum/topic/139/) — 4 messages
+- [Wrong I2C output on UDB4 board](/forum/topic/481/) — 3 messages
+
+<h2 id="forum-1">General Remark and Questions</h2>
+
+- [[Fractional Data in dsPIC]](/forum/topic/489/) — 1 messages
+- [about Tx-Matlab](/forum/topic/207/) — 4 messages
+- [ADC, QEI and PWM on dsPIC30f4012 problem](/forum/topic/189/) — 4 messages
+- [Angle accuracy](/forum/topic/2029/) — 1 messages
+- [Any Plans to Open Source the Blockset?](/forum/topic/12/) — 2 messages
+- [Atmega128 Blockset](/forum/topic/324/) — 1 messages
+- [Begin with dsPIC and LCD screen](/forum/topic/56/) — 5 messages
+- [Block ordering ?](/forum/topic/86/) — 2 messages
+- [Blockset as sub-system of larger system](/forum/topic/508/) — 1 messages
+- [bonjour](/forum/topic/259/) — 1 messages
+- [bonjour monsieur](/forum/topic/260/) — 1 messages
+- [C Call function - Vector Input](/forum/topic/478/) — 1 messages
+- [c code and mplab](/forum/topic/46/) — 4 messages
+- [C function call block](/forum/topic/182/) — 5 messages
+- [C function call variable input size](/forum/topic/435/) — 1 messages
+- [C30 compiler problem](/forum/topic/192/) — 2 messages
+- [C32 directory not found](/forum/topic/2030/) — 1 messages
+- [CAN block on 33fj256MC710 target](/forum/topic/374/) — 5 messages
+- [CAN Communication Between two PIC microcontrollers](/forum/topic/337/) — 2 messages
+- [can i create a GUI for pic32 starter kit using simulink](/forum/topic/577/) — 1 messages
+- [can i make real time speech processing and dsc starter kit](/forum/topic/339/) — 6 messages
+- [Can not add anything to my schematic](/forum/topic/353/) — 3 messages
+- [Can't run examples](/forum/topic/563/) — 3 messages
+- [cheap path to program dspic from dspic blockset](/forum/topic/302/) — 1 messages
+- [circuit interface between MATLAB and dsPIC?](/forum/topic/91/) — 6 messages
+- [Communication blockset - bpsk modulation - Error  at 1138](/forum/topic/249/) — 14 messages
+- [computer &amp; internet](/forum/topic/506/) — 1 messages
+- [continuous time  ERROR!](/forum/topic/394/) — 1 messages
+- [corrupted package 2009a?](/forum/topic/238/) — 2 messages
+- [Creating my own block set](/forum/topic/111/) — 2 messages
+- [Creating sinusoidal PWM](/forum/topic/123/) — 5 messages
+- [DAC on 33fj64GP802](/forum/topic/176/) — 16 messages
+- [Data Comunication - rs232GUI - Signed Number](/forum/topic/103/) — 2 messages
+- [Difference between Ports Info block and PIN Mapping blocK](/forum/topic/572/) — 1 messages
+- [Difference btw MATLAB Device Blocks for MPLAB IDE](/forum/topic/419/) — 3 messages
+- [does not appear Interface tx-Matlab](/forum/topic/137/) — 4 messages
+- [dsPIC &amp; MCP23017 using I2C](/forum/topic/172/) — 6 messages
+- [Dspic and ICD2 problem](/forum/topic/99/) — 3 messages
+- [dspic blockset demo vs lab2sim](/forum/topic/482/) — 2 messages
+- [dsPIC Master error](/forum/topic/437/) — 13 messages
+- [dsPIC virtual simulation in Simulink](/forum/topic/155/) — 2 messages
+- [dspic30f6010](/forum/topic/65/) — 2 messages
+- [dspic33E](/forum/topic/569/) — 1 messages
+- [dsPIC33F DMA](/forum/topic/108/) — 2 messages
+- [dsPIC33FJ256GP710A compatible?](/forum/topic/420/) — 4 messages
+- [Duty cycle of OC(HW)](/forum/topic/242/) — 5 messages
+- [Enable a code Block at 480Hz](/forum/topic/301/) — 4 messages
+- [erreur](/forum/topic/258/) — 3 messages
+- [Error](/forum/topic/235/) — 5 messages
+- [Error](/forum/topic/310/) — 1 messages
+- [Error 0xff appears while compiling](/forum/topic/205/) — 8 messages
+- [error 255 - tcpip not found](/forum/topic/393/) — 10 messages
+- [Error building dsPIC30F3012 with Fuzzy](/forum/topic/248/) — 3 messages
+- [error building your model Hypersampling](/forum/topic/234/) — 5 messages
+- [error generating code using blockset](/forum/topic/386/) — 2 messages
+- [Error in Compiling Model from demo](/forum/topic/236/) — 4 messages
+- [Error in PWM motor control output](/forum/topic/493/) — 1 messages
+- [Error in SPWM Motor PWM Output](/forum/topic/494/) — 4 messages
+- [Error using ==&gt; rs232gui](/forum/topic/211/) — 7 messages
+- [Error using S-function and dsPIC Blockset](/forum/topic/586/) — 1 messages
+- [Error when compiling](/forum/topic/307/) — 4 messages
+- [Error(s) encountered while building model &quot;Servo_ADC&quot;](/forum/topic/2027/) — 1 messages
+- [error:  make (e=2)](/forum/topic/460/) — 2 messages
+- [Ethernet](/forum/topic/427/) — 1 messages
+- [Evaluation and matlab version compatibility](/forum/topic/417/) — 3 messages
+- [Explorer 16](/forum/topic/190/) — 3 messages
+- [explorer16 demo still working?](/forum/topic/352/) — 3 messages
+- [Fixed step/MIPS](/forum/topic/399/) — 2 messages
+- [Frequency in Explorer16 demo board](/forum/topic/507/) — 1 messages
+- [fuzzy input and the output](/forum/topic/169/) — 1 messages
+- [fuzzy logic controlller](/forum/topic/440/) — 4 messages
+- [Getting PWM generation of wrong frequency](/forum/topic/491/) — 1 messages
+- [GUI in Matlab2010a with virtual Com port problem](/forum/topic/295/) — 8 messages
+- [How can I open RS232 user interface?](/forum/topic/80/) — 16 messages
+- [How to find a box in Matlab?](/forum/topic/404/) — 1 messages
+- [How to install pic30 on Matlab](/forum/topic/408/) — 2 messages
+- [how to send data using rs232gui](/forum/topic/346/) — 4 messages
+- [how to use custom c source code](/forum/topic/468/) — 10 messages
+- [how to use fuzzy](/forum/topic/167/) — 2 messages
+- [I2C master block](/forum/topic/573/) — 1 messages
+- [I2C on PIC32](/forum/topic/314/) — 7 messages
+- [I2C on PIC32](/forum/topic/318/) — 4 messages
+- [IGBT Bridge Driver](/forum/topic/330/) — 1 messages
+- [Importing data from Interface TX-Matlab to excel](/forum/topic/134/) — 2 messages
+- [IMU Complementary filter method](/forum/topic/200/) — 4 messages
+- [IMU inertial Measurement Unit](/forum/topic/90/) — 4 messages
+- [input capture](/forum/topic/279/) — 1 messages
+- [Input Capture Block and Output Compare block](/forum/topic/226/) — 4 messages
+- [installation problems windows 7 64 bits](/forum/topic/473/) — 5 messages
+- [internet &amp; computer](/forum/topic/502/) — 1 messages
+- [Interrupt function instead of a while cicle?](/forum/topic/209/) — 2 messages
+- [LED blink - Real time and Quartz Configuration](/forum/topic/141/) — 5 messages
+- [License for Full blockset](/forum/topic/466/) — 1 messages
+- [limitation](/forum/topic/22/) — 5 messages
+- [Link Error: Could not allocate data memory](/forum/topic/349/) — 1 messages
+- [Long time acquisitions using rs232gui/labview](/forum/topic/340/) — 6 messages
+- [Matlab 64 bits - Starter Kit for dsPIC](/forum/topic/173/) — 4 messages
+- [Matlab and phlip](/forum/topic/462/) — 1 messages
+- [maximum speed on PIC32?](/forum/topic/138/) — 5 messages
+- [mcp23017](/forum/topic/390/) — 2 messages
+- [Microstick](/forum/topic/398/) — 2 messages
+- [mikroelektronika compiler and development board](/forum/topic/333/) — 3 messages
+- [Modifying source file TinyBld](/forum/topic/185/) — 7 messages
+- [mon programme ne marche pas](/forum/topic/257/) — 1 messages
+- [Monitoring RCON register](/forum/topic/407/) — 2 messages
+- [MPLAB C30 Optimizations](/forum/topic/252/) — 4 messages
+- [Mplab Or Matlab RTW compilation ?](/forum/topic/89/) — 8 messages
+- [Need Help](/forum/topic/273/) — 3 messages
+- [New dsPIC33EP512MU814 processor](/forum/topic/426/) — 1 messages
+- [Oscillator mode  &amp; MIPS configuration](/forum/topic/184/) — 7 messages
+- [Pathing Problem in Compilation](/forum/topic/241/) — 2 messages
+- [PIC12f](/forum/topic/424/) — 2 messages
+- [PIC18f4620 with mcc18 Fsfprintf Error SD card](/forum/topic/486/) — 1 messages
+- [PIC24 RS-232???](/forum/topic/255/) — 2 messages
+- [PIC32 Bootloader memory offset](/forum/topic/319/) — 2 messages
+- [PIC32 kit](/forum/topic/326/) — 2 messages
+- [PIC32 SPI](/forum/topic/345/) — 8 messages
+- [PIC32 Stater Kit and MATLAB](/forum/topic/463/) — 4 messages
+- [PIC32MX360F512L and MCP4922](/forum/topic/467/) — 2 messages
+- [PID control](/forum/topic/2028/) — 1 messages
+- [Problem about QEI and DisPIC33fj256mc710](/forum/topic/202/) — 5 messages
+- [problem in output fuzzy](/forum/topic/178/) — 3 messages
+- [Problem using ADC and SPI](/forum/topic/199/) — 16 messages
+- [Problem using PWM_motor - Solved](/forum/topic/163/) — 10 messages
+- [problem with dspic30f4013](/forum/topic/2025/) — 1 messages
+- [problem with filter](/forum/topic/221/) — 5 messages
+- [Problem with Flag Output of UART RX Block](/forum/topic/464/) — 4 messages
+- [problem with master and ADC block](/forum/topic/183/) — 5 messages
+- [Problem with Nop blocks](/forum/topic/220/) — 4 messages
+- [problem with simulation time step, mips &amp; measured freq](/forum/topic/469/) — 2 messages
+- [processor specific configuration settings](/forum/topic/402/) — 1 messages
+- [Programming PIC24F](/forum/topic/224/) — 1 messages
+- [PWM motor output error](/forum/topic/250/) — 17 messages
+- [PWM out &amp; counter](/forum/topic/496/) — 1 messages
+- [PWM output](/forum/topic/129/) — 8 messages
+- [Quad-Rotor project I2C blockset](/forum/topic/277/) — 2 messages
+- [Quartz](/forum/topic/403/) — 1 messages
+- [Receive data from the dspic](/forum/topic/373/) — 1 messages
+- [remappable Pin](/forum/topic/225/) — 3 messages
+- [rs232gui data format](/forum/topic/375/) — 9 messages
+- [RTWdsPIC for MATLAB 7R1](/forum/topic/97/) — 2 messages
+- [S-function and define microcontroleur](/forum/topic/405/) — 1 messages
+- [Sample time C-function Call](/forum/topic/245/) — 7 messages
+- [send and receive multiple data using GUI](/forum/topic/477/) — 10 messages
+- [Send data from Explorer16 to Matlab ?](/forum/topic/217/) — 3 messages
+- [send more data within one time step](/forum/topic/212/) — 2 messages
+- [Servo Sinus at 0.95 compiled well and Some Question.](/forum/topic/63/) — 2 messages
+- [setting variables in OPC server](/forum/topic/289/) — 1 messages
+- [SIM2LAB Blockset for dsPIC](/forum/topic/336/) — 3 messages
+- [simulation dspic](/forum/topic/401/) — 1 messages
+- [Simulink : Creating a Mask with tabs](/forum/topic/413/) — 2 messages
+- [Simulink interface dspic](/forum/topic/195/) — 2 messages
+- [Some help needed reg  data conversion for this model](/forum/topic/96/) — 3 messages
+- [Speeding up the chip](/forum/topic/317/) — 1 messages
+- [SPI - IMU &quot;2&quot;](/forum/topic/278/) — 3 messages
+- [SPI on dsPic30F2010](/forum/topic/406/) — 3 messages
+- [sr232 read data](/forum/topic/67/) — 3 messages
+- [Stateflow and timer1/freerun](/forum/topic/2026/) — 1 messages
+- [Syntax error in compilation](/forum/topic/244/) — 2 messages
+- [The QEItest example error](/forum/topic/191/) — 3 messages
+- [trame ppm](/forum/topic/410/) — 4 messages
+- [trial to run a dsPIC](/forum/topic/194/) — 4 messages
+- [Trying a simple model](/forum/topic/311/) — 2 messages
+- [tutorial](/forum/topic/118/) — 2 messages
+- [Tx block](/forum/topic/428/) — 2 messages
+- [uart configuration](/forum/topic/611/) — 1 messages
+- [UART on Explore16](/forum/topic/276/) — 12 messages
+- [UART1 &amp; UART2 at the same time!](/forum/topic/488/) — 1 messages
+- [UART232 Configuration Problem](/forum/topic/275/) — 6 messages
+- [UART_Tx bloc code comprehension problem](/forum/topic/574/) — 3 messages
+- [undefined reference to `sbrk'](/forum/topic/150/) — 2 messages
+- [Use I2C for communication between dsPics](/forum/topic/334/) — 1 messages
+- [Using Output Compare](/forum/topic/312/) — 2 messages
+- [Warning at opening time and can't open dialog in library](/forum/topic/52/) — 2 messages
+- [Wikipedia-like user manual proposal](/forum/topic/300/) — 2 messages
+
+<h2 id="forum-17">MPLAB IDE tricks</h2>
+
+- [debugging with MPLAB](/forum/topic/348/) — 1 messages
+- [MPLAB X](/forum/topic/429/) — 2 messages
+- [Variable step solver model of simulink to MPLAB IDE](/forum/topic/504/) — 1 messages
+
+<h2 id="forum-5">Request for new functions / Peripheral / Chip support</h2>
+
+- [30f3010 support](/forum/topic/7/) — 3 messages
+- [6 I/O limitations](/forum/topic/102/) — 1 messages
+- [Add floating point support to TX Matlab support](/forum/topic/418/) — 1 messages
+- [Add support for dsPIC33E line](/forum/topic/451/) — 1 messages
+- [Add support for dsPIC33fj64mc802](/forum/topic/475/) — 2 messages
+- [Adding Linux Support](/forum/topic/518/) — 1 messages
+- [Any plans to support new dsPics with 2 QEI ?](/forum/topic/125/) — 3 messages
+- [C-function block can't inherit input vector dimensions](/forum/topic/322/) — 1 messages
+- [Changing oscillator configuration (was Two-speed start-up)](/forum/topic/161/) — 3 messages
+- [Configuration Option Missing in Master Block](/forum/topic/119/) — 6 messages
+- [counter](/forum/topic/385/) — 1 messages
+- [Data Logging to LabVIEW](/forum/topic/98/) — 3 messages
+- [debugging registry](/forum/topic/272/) — 3 messages
+- [delay between PWM](/forum/topic/364/) — 2 messages
+- [dsPIC and PIC 18F](/forum/topic/55/) — 7 messages
+- [DSPIC30F1010/DSPIC30F2020   support](/forum/topic/71/) — 8 messages
+- [dspic30f4011](/forum/topic/17/) — 5 messages
+- [dsPIC33E compatibility..](/forum/topic/558/) — 2 messages
+- [DSPIC33F Matlab Models](/forum/topic/48/) — 2 messages
+- [Encoder interface?](/forum/topic/94/) — 4 messages
+- [Encoder interfacing with dsPIC33FJ256MC710](/forum/topic/177/) — 2 messages
+- [Errata for dsPIC33FJXXXMCX06/X08/X10](/forum/topic/128/) — 4 messages
+- [Exemple QEI without Index, DsPic33FJ256MC710](/forum/topic/168/) — 3 messages
+- [fuzzy logic](/forum/topic/156/) — 6 messages
+- [I2C alternative pins](/forum/topic/309/) — 1 messages
+- [I2C Tab for Peripheral Mapping Block](/forum/topic/455/) — 2 messages
+- [Implementing the C Function Call](/forum/topic/100/) — 6 messages
+- [Improve duplicate ports warning](/forum/topic/361/) — 3 messages
+- [Issues in dsPIC 30f6014 compiling : Missing gld &amp; DCI Periph](/forum/topic/73/) — 3 messages
+- [p30f6014](/forum/topic/8/) — 5 messages
+- [PIC32](/forum/topic/214/) — 3 messages
+- [Please add support for 32MX775F512H](/forum/topic/499/) — 1 messages
+- [Please support 32MX320F128H](/forum/topic/487/) — 4 messages
+- [Port Info block annotation](/forum/topic/397/) — 1 messages
+- [QEI - changed target, stoped working](/forum/topic/266/) — 3 messages
+- [QEI module](/forum/topic/58/) — 5 messages
+- [Question about I2C](/forum/topic/85/) — 3 messages
+- [RC5 remote decoding model](/forum/topic/328/) — 1 messages
+- [Req: Block set for PIC18F4431](/forum/topic/243/) — 1 messages
+- [Request Support for DSPIC33FJ64(128)MC802](/forum/topic/110/) — 10 messages
+- [RTWdsPIC: I2C &amp; Complete version ?](/forum/topic/82/) — 5 messages
+- [Simulation of dsPIC peripheral](/forum/topic/78/) — 2 messages
+- [Support for CAN Module?](/forum/topic/11/) — 35 messages
+- [Support for dsPIC30F6014A ?](/forum/topic/140/) — 2 messages
+- [Support for dsPIC33xxGSxx series](/forum/topic/376/) — 3 messages
+- [Support for PIC24F Starter Kit (PIC24fj256GB106)](/forum/topic/381/) — 2 messages
+- [Support for returning structs from C-Function Call block](/forum/topic/321/) — 4 messages
+- [Support more inputs for C-function Call Block](/forum/topic/470/) — 5 messages
+- [Timeout for Input Capture Block](/forum/topic/240/) — 4 messages
+- [Two-speed start-up](/forum/topic/157/) — 4 messages
+
+<h2 id="forum-4">Requirement, Installation &amp;amp; Configuration</h2>
+
+- ['CompileAllModels' Error](/forum/topic/306/) — 5 messages
+- ['InitFcn' callback of Master block](/forum/topic/575/) — 1 messages
+- [100% beginners](/forum/topic/113/) — 5 messages
+- [64-Bit Compatibility](/forum/topic/271/) — 3 messages
+- [bad installation](/forum/topic/320/) — 2 messages
+- [bad link](/forum/topic/232/) — 8 messages
+- [blocksets do not appear in simulink](/forum/topic/135/) — 4 messages
+- [Build error](/forum/topic/160/) — 2 messages
+- [Build error in function rt_MatMultAndIncCC_Dbl](/forum/topic/264/) — 26 messages
+- [Buying a full license](/forum/topic/579/) — 1 messages
+- [C32 directory not found](/forum/topic/2031/) — 1 messages
+- [Can not find dsPIC.tlc](/forum/topic/51/) — 17 messages
+- [Compiling error](/forum/topic/423/) — 1 messages
+- [compiling error for PIC32 starter kits](/forum/topic/495/) — 2 messages
+- [Compiling problem](/forum/topic/116/) — 30 messages
+- [Configuration bits warning](/forum/topic/204/) — 3 messages
+- [Configuration error](/forum/topic/313/) — 1 messages
+- [Configure Model won't open](/forum/topic/95/) — 2 messages
+- [Does this blockset work with MPLAB c30 v3.12?](/forum/topic/233/) — 3 messages
+- [dspic building error - solved](/forum/topic/145/) — 5 messages
+- [dsPIC/PIC Blockset for Matlab 2012B](/forum/topic/589/) — 1 messages
+- [Error on MASTER BLOCK libpchoose_dsPIC_Target-coff.a](/forum/topic/609/) — 1 messages
+- [Error using S-function and dsPIC Blockset](/forum/topic/587/) — 1 messages
+- [Error while compiling &quot;dsPIC_33f_Explorer16.mdl&quot;](/forum/topic/305/) — 2 messages
+- [error while opening Master Block or compiling model](/forum/topic/14/) — 4 messages
+- [Error(s) encountered while building model &quot;ADC6&quot;](/forum/topic/483/) — 4 messages
+- [genMakefileAndBuild](/forum/topic/74/) — 13 messages
+- [Getting Started PIC32 Cerebot](/forum/topic/355/) — 2 messages
+- [How to change directory?](/forum/topic/84/) — 21 messages
+- [How to configure PLL and maintain correct time](/forum/topic/338/) — 9 messages
+- [HOW TO DELETE REGISTRY ENTRIES](/forum/topic/174/) — 1 messages
+- [how to remove &quot;the Embedded Target for dsPIC&quot;](/forum/topic/53/) — 5 messages
+- [install blockset on windows 8](/forum/topic/578/) — 1 messages
+- [Install on one computer two version in same time ?](/forum/topic/299/) — 2 messages
+- [install_ds_PICR20XX.m effor](/forum/topic/431/) — 4 messages
+- [Installation failure on matlab 6.5](/forum/topic/130/) — 2 messages
+- [Installation problem :(](/forum/topic/121/) — 7 messages
+- [Matlab 2008b ?](/forum/topic/180/) — 2 messages
+- [Matlab error](/forum/topic/49/) — 2 messages
+- [Matlab: Error while building model](/forum/topic/81/) — 4 messages
+- [Missing 128ms POR delay](/forum/topic/216/) — 3 messages
+- [MPLAB matlab](/forum/topic/104/) — 3 messages
+- [Not able to install dspic toolbox... Errors](/forum/topic/293/) — 9 messages
+- [PTfile not found](/forum/topic/433/) — 4 messages
+- [RC5 remote decoding model](/forum/topic/327/) — 1 messages
+- [Required Matlab components](/forum/topic/438/) — 5 messages
+- [RTW requirements](/forum/topic/179/) — 2 messages
+- [RTW vs. RTW embedded coder](/forum/topic/75/) — 2 messages
+- [sample time](/forum/topic/269/) — 1 messages
+- [Simulink access](/forum/topic/170/) — 3 messages
+- [Target for dsPIC's errors on my system...](/forum/topic/57/) — 6 messages
+
+<h2 id="forum-15">Version compatibility issues</h2>
+
+- [Matlab 2012](/forum/topic/500/) — 3 messages
+- [MATLAB R2006a full licience](/forum/topic/497/) — 1 messages
+- [SLUGS - an open source autopilot](/forum/topic/335/) — 25 messages
+- [switching complier C30 to XC16](/forum/topic/557/) — 1 messages
+
+<h2 id="forum-10">Website</h2>
+
+- [6 E / S limitaciones](/forum/topic/501/) — 2 messages
+- [a page disapear on the website](/forum/topic/227/) — 2 messages
+- [CAN compunication Error](/forum/topic/517/) — 1 messages
+- [Error using S-function and dsPIC Blockset](/forum/topic/585/) — 1 messages
+- [Forum Updates](/forum/topic/230/) — 3 messages
+- [MATLAB to Explorer Board through USB](/forum/topic/485/) — 1 messages
+- [Set up a Wiki ?](/forum/topic/120/) — 6 messages
+- [Syndication - RSS](/forum/topic/188/) — 1 messages
+- [Website unavailable from june 15 until june  20 (2009)](/forum/topic/229/) — 1 messages
+- [Wiki Update](/forum/topic/231/) — 3 messages
+

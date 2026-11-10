@@ -1,0 +1,182 @@
+### Starting Real-Time Workshop build procedure for model: uart_comm
+### Generating code into build directory: D:\Documents and Settings\Administrator\Plocha\Keywatko\uart_comm_dspic\sources
+PTTTTTTTTTPTPTPTTPTPTTTPTPTPNumber of I/O PINs used : 16
+TTPNumber of I/O PINs used : 16
+TPTTTTTTTTTPTTTTTTTPTTTTTTTPTTTTTTTTTTTTTTPTTTTTTTPTTTTTTTTTTTTTTWarning: Parameter precision loss occurred for 'Gain'. The parameter's value cannot be represented exactly using the
+run-time data type. A small quantization error has occurred. You can control this diagnostic on the Diagnostics pane of
+the Configuration Parameters dialog. This originated from 'uart_comm/Gain'. 
+### Invoking Target Language Compiler on uart_comm.rtw
+	tlc
+	-r
+	D:\Documents and Settings\Administrator\Plocha\Keywatko\uart_comm_dspic\sources\uart_comm.rtw
+	D:\Program Files\Kerhuel\dspic\dspic.tlc
+	-OD:\Documents and Settings\Administrator\Plocha\Keywatko\uart_comm_dspic\sources
+	-ID:\Program Files\Kerhuel\dspic
+	-ID:\Program Files\Kerhuel\blocks
+	-ID:\Documents and Settings\Administrator\Plocha\Keywatko\uart_comm_dspic\sources\tlc
+	-ID:\Program Files\MATLAB\R2009a\rtw\c\tlc\mw
+	-ID:\Program Files\MATLAB\R2009a\rtw\c\tlc\lib
+	-ID:\Program Files\MATLAB\R2009a\rtw\c\tlc\blocks
+	-ID:\Program Files\MATLAB\R2009a\rtw\c\tlc\fixpt
+	-ID:\Program Files\MATLAB\R2009a\stateflow\c\tlc
+	-aEnforceIntegerDowncast=1
+	-aFoldNonRolledExpr=1
+	-aInlineInvariantSignals=0
+	-aInlineParameters=0
+	-aLocalBlockOutputs=1
+	-aRollThreshold=5
+	-aZeroInternalMemoryAtStartup=1
+	-aZeroExternalMemoryAtStartup=1
+	-aInitFltsAndDblsToZero=0
+	-aForceBlockIOInitOptimize=0
+	-aGenerateReport=0
+	-aGenCodeOnly=0
+	-aRTWVerbose=1
+	-aIncludeHyperlinkInReport=0
+	-aLaunchReport=0
+	-aGenerateTraceInfo=0
+	-aForceParamTrailComments=0
+	-aGenerateComments=1
+	-aIgnoreCustomStorageClasses=0
+	-aIncHierarchyInIds=0
+	-aMaxRTWIdLen=31
+	-aShowEliminatedStatements=0
+	-aIncDataTypeInIds=0
+	-aInsertBlockDesc=0
+	-aIgnoreTestpoints=0
+	-aSimulinkBlockComments=1
+	-aInlinedPrmAccess="Literals"
+	-aTargetFcnLib="ansi_tfl_table_tmw.mat"
+	-aGenFloatMathFcnCalls="ANSI_C"
+	-aIsPILTarget=0
+	-aIncludeMdlTerminateFcn=0
+	-aCombineOutputUpdateFcns=1
+	-aSuppressErrorStatus=1
+	-aERTCustomFileBanners=1
+	-aLogVarNameModifier="rt_"
+	-aGenerateFullHeader=1
+	-aGenerateSampleERTMain=0
+	-aMatFileLogging=0
+	-aMultiInstanceERTCode=0
+	-aPurelyIntegerCode=0
+	-aPortableWordSizes=0
+	-aGenerateErtSFunction=0
+	-aGenerateASAP2=0
+	-aExtMode=0
+	-aExtModeStaticAlloc=0
+	-aExtModeStaticAllocSize=1000000
+	-aExtModeTransport=0
+	-aExtModeTesting=0
+	-aInlinedParameterPlacement="NonHierarchical"
+	-aTargetOS="BareBoardExample"
+	-aMultiInstanceErrorCode="Error"
+	-aRateGroupingCode=1
+	-aRTWCAPISignals=0
+	-aRTWCAPIParams=0
+	-aRootIOStructures=0
+	-aERTCustomFileTemplate="dsPIC_main.tlc"
+	-aGMAKE_PLACE="D:\PROGRA~1\MATLAB\R2009a\bin\win32\gmake"
+	-aOPTIM_GCC="-mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 "
+	-aLDFLAGS=" -Xlinker -t -Xlinker --report-mem -Xlinker -Map=../untitled.map -Xlinker --heap=0 -Xlinker -cref"
+	-aLDPICTYPE=" -Xlinker --script=D:\PROGRA~1\MICROC~1\MPLABC~3\support\dsPIC33F\gld\p33fj128MC804.gld"
+	-aLDLIBPIC=" D:\PROGRA~1\MICROC~1\MPLABC~3\lib\libpic30-coff.a D:\PROGRA~1\MICROC~1\MPLABC~3\lib\dsPIC33F\libp33fj128MC804-coff.a D:\PROGRA~1\MICROC~1\MPLABC~3\lib\libc-coff.a D:\PROGRA~1\MICROC~1\MPLABC~3\lib\libm-coff.a"
+	-aPIC_INCLUDES=" -I D:\PROGRA~1\MICROC~1\MPLABC~3\include"
+	-aPIC_REF="33fj128MC804"
+	-aGCCPATH=""
+	-aGenerateTraceInfo=0
+	-aIgnoreTestpoints=0
+	-p10000
+
+
+### Loading TLC function libraries
+
+.....
+### Initial pass through model to cache user defined code
+.
+### Caching model source code
+.........................
+### Writing main
+..
+### Writing header file uart_comm_types.h
+### Writing header file uart_comm.h
+### Writing header file rt_nonfinite.h
+.
+### Writing source file rt_nonfinite.c
+### Writing header file rtGetInf.h
+.
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+.
+### Writing source file uart_comm.c
+### Writing header file uart_comm_private.h
+### Writing source file uart_comm_data.c
+.
+### Writing header file autobuild.h
+### Writing source file uart_comm_main.c
+### TLC code generation complete.
+### Evaluating PostCodeGenCommand specified in the model
+
+     ----------------------------------------------------
+     ----------------------------------------------------
+Embedded Coder for dsPIC V3.4b(11-Jan-2011) for Matlab R2009a.
+
+
+Licence Accorded to  Ing. Robert Grepl, Ph.D.
+                     [adresse e-mail retirée]
+                     Technical University Brno
+                     Faculty of Mechanica Engineering
+                     Institute of Solid Mechanics, Mechatronics and Biomechanics
+                     Technicka 2
+                     616 69 Brno, Czech Republic
+
+ Facturation to :    Jiri Sehnal, technical manager
+                     [adresse e-mail retirée]
+                     HUMUSOFT s.r.o.
+                     Pobrezni 20
+                     186 00 Praha 8
+                     Czech Republic
+
+     ----------------------------------------------------
+Check updates and new informations at :  www.kerhuel.eu 
+     ----------------------------------------------------
+
+.
+### Processing Template Makefile: D:\Program Files\Kerhuel\dspic\dspic_pic30_gcc.tmf
+-- Bypassing matlab internal LCC configuration --
+### uart_comm.mk which is generated from D:\Program Files\Kerhuel\dspic\dspic_pic30_gcc.tmf is up to date
+### Building uart_comm: "D:\PROGRA~1\MATLAB\R2009a\bin\win32\gmake" -f uart_comm.mk  GENERATE_REPORT=0 MULTI_INSTANCE_CODE=0 PORTABLE_WORDSIZES=0 GENERATE_ASAP2=0 TMW_EXTMODE_TESTING=0
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    dsPIC_DMA_Buffers.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    dsPIC_Multiplexed_out_UART1.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    dsPIC_UART1_Interrupt.c 
+dsPIC_UART1_Interrupt.c: In function '_U1TXInterrupt': 
+dsPIC_UART1_Interrupt.c:19: warning:  PSV model not specified for '_U1TXInterrupt'; 
+   assuming 'auto_psv' this may affect latency 
+dsPIC_UART1_Interrupt.c: In function '_U1RXInterrupt': 
+dsPIC_UART1_Interrupt.c:31: warning:  PSV model not specified for '_U1RXInterrupt'; 
+   assuming 'auto_psv' this may affect latency 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    rtGetInf.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    rtGetNaN.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    rt_nonfinite.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    uart_comm_data.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    uart_comm_main.c 
+''pic30-gcc  -c -mcpu=33fj128MC804 -O3 -fschedule-insns -fschedule-insns2 	 -O   -I. -I..\.. -ID:\PROGRA~1\MATLAB\R2009a/simulink/include -ID:\PROGRA~1\MATLAB\R2009a/extern/include -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/ert -ID:\PROGRA~1\MATLAB\R2009a/rtw/c/src/ext_mode/common -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko\uart_comm_dspic\sources -ID:\DOCUME~1\ADMINI~1\Plocha\Keywatko   -I D:\PROGRA~1\MICROC~1\MPLABC~3\include    uart_comm.c 
+uart_comm.c: In function 'uart_comm_initialize': 
+uart_comm.c:312: error: 'PWM2_INT_DIS' undeclared (first use in this function) 
+uart_comm.c:312: error: (Each undeclared identifier is reported only once 
+uart_comm.c:312: error: for each function it appears in.) 
+uart_comm.c:312: error: 'PWM2_FLTA_DIS_INT' undeclared (first use in this function) 
+uart_comm.c:312: error: 'PWM2_INT_PR1' undeclared (first use in this function) 
+uart_comm.c:312: error: 'PWM2_FLTA_INT_PR0' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_EN' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_OP_SCALE1' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_IPCLK_SCALE16' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_MOD_FREE' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_PEN1L' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_MOD1_COMP' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_PEN1H' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_SEVOPS1' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_OSYNC_TCY' undeclared (first use in this function) 
+uart_comm.c:318: error: 'PWM2_UEN' undeclared (first use in this function) 
+gmake: *** [uart_comm.o] Error 255 
+### Real-Time Workshop build procedure for model: 'uart_comm' aborted due to an error.

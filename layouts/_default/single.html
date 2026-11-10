@@ -1,0 +1,16 @@
+{{ define "main" }}
+<nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="/">Home</a>{{ if .Section }}<span>/</span><a href="/{{ .Section }}/">{{ title .Section }}</a>{{ end }}{{ if not .IsSection }}<span>/</span><span aria-current="page">{{ .Title }}</span>{{ end }}</nav>
+<div class="article-grid {{ if eq .Params.archiveKind "topic" }}forum-page{{ else }}wiki-page{{ end }}">
+  {{ if and (ne .Params.archiveKind "topic") (gt (len .TableOfContents) 40) }}
+  <aside class="toc-panel"><div class="toc-title">ON THIS PAGE</div>{{ .TableOfContents }}</aside>
+  {{ end }}
+  <article class="article-content {{ if eq .Params.archiveKind "topic" }}forum-content{{ else }}wiki-content{{ end }}">
+    <header class="article-header">
+      {{ if eq .Params.archiveKind "topic" }}<div class="eyebrow">FORUM TOPIC · READ ONLY</div>{{ else if eq .Params.archiveKind "category" }}<div class="eyebrow">WIKI CATEGORY</div>{{ else if eq .Section "wiki" }}<div class="eyebrow">TECHNICAL WIKI</div>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lastmod }}<p class="article-meta">Last wiki revision: {{ . }}</p>{{ end }}
+    </header>
+    <div class="prose">{{ .Content }}</div>
+  </article>
+</div>
+{{ end }}

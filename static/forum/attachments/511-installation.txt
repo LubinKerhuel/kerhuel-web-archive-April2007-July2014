@@ -1,0 +1,293 @@
+-------------------------
+  INSTALLATION RTWdsPIC
+-------------------------
+  Reading the archiv 
+  Checksum test passed (2EBFEBAA811C1)
+  RTWdsPIC version none 
+  RTWdsPIC time stamp 26-Mar-2012 02:17:19
+  Importing the archiv 100% |******************************|
+  Toolbox folder is C:\Users\Ebacher\Desktop\Baja
+addpath 'C:\Users\Ebacher\Desktop\Baja' 
+  Make directory C:\Users\Ebacher\Desktop\Baja\blocks
+addpath 'C:\Users\Ebacher\Desktop\Baja\blocks' 
+  Make directory C:\Users\Ebacher\Desktop\Baja\dspic
+addpath 'C:\Users\Ebacher\Desktop\Baja\dspic' 
+  Make directory C:\Users\Ebacher\Desktop\Baja\examples
+  Make directory C:\Users\Ebacher\Desktop\Baja\examples\Communication_Between_two_dsPIC_PWM_SPI_CAN
+  Creating Readme.html
+  Creating blocks\EmptySFunction.mexw32
+  Creating blocks\EmptySFunction.mexw64
+  Creating blocks\EmptySFunction.tlc
+  Creating blocks\GetDsPICParam.p
+  Creating blocks\RS232_analyzBloc.p
+  Creating blocks\Set_DialogBoxMask.p
+  Creating blocks\Testing.p
+  Creating blocks\Testing_01.mexw32
+  Creating blocks\Testing_01.mexw64
+  Creating blocks\Testing_01.tlc
+  Creating blocks\combinatoire.p
+  Creating blocks\dsPIC_ADC.mexw32
+  Creating blocks\dsPIC_ADC.mexw64
+  Creating blocks\dsPIC_ADC.tlc
+  Creating blocks\dsPIC_ADC_callback.p
+  Creating blocks\dsPIC_ADC_callback_InitMask.p
+  Creating blocks\dsPIC_ADC_param2mex.p
+  Creating blocks\dsPIC_CAN_Config.mexw32
+  Creating blocks\dsPIC_CAN_Config.mexw64
+  Creating blocks\dsPIC_CAN_Config.tlc
+  Creating blocks\dsPIC_CAN_Config_callback.p
+  Creating blocks\dsPIC_CAN_Receive.mexw32
+  Creating blocks\dsPIC_CAN_Receive.mexw64
+  Creating blocks\dsPIC_CAN_Receive.tlc
+  Creating blocks\dsPIC_CAN_Receive_callback.p
+  Creating blocks\dsPIC_CAN_Transmit.mexw32
+  Creating blocks\dsPIC_CAN_Transmit.mexw64
+  Creating blocks\dsPIC_CAN_Transmit.tlc
+  Creating blocks\dsPIC_CAN_Transmit_callback.p
+  Creating blocks\dsPIC_C_function_Call.mexw32
+  Creating blocks\dsPIC_C_function_Call.mexw64
+  Creating blocks\dsPIC_C_function_Call.tlc
+  Creating blocks\dsPIC_C_function_Call_callback.p
+  Creating blocks\dsPIC_CalculusTimeStep.mexw32
+  Creating blocks\dsPIC_CalculusTimeStep.mexw64
+  Creating blocks\dsPIC_CalculusTimeStep.tlc
+  Creating blocks\dsPIC_CalculusTimeStep_initMask.p
+  Creating blocks\dsPIC_CheckParamSimulation.p
+  Creating blocks\dsPIC_Chronograph.mexw32
+  Creating blocks\dsPIC_Chronograph.mexw64
+  Creating blocks\dsPIC_Chronograph.tlc
+  Creating blocks\dsPIC_Chronograph_Callback.p
+  Creating blocks\dsPIC_ClockSwitch.mexw32
+  Creating blocks\dsPIC_ClockSwitch.mexw64
+  Creating blocks\dsPIC_ClockSwitch.tlc
+  Creating blocks\dsPIC_ClockSwitch_callback.p
+  Creating blocks\dsPIC_Compile.p
+  Creating blocks\dsPIC_ConfigClock32f.p
+  Creating blocks\dsPIC_ConfigClock33f.p
+  Creating blocks\dsPIC_ConfigRTWOption.p
+  Creating blocks\dsPIC_ConfigureModelFordsPICTarget.p
+  Creating blocks\dsPIC_Digital_Input.mexw32
+  Creating blocks\dsPIC_Digital_Input.mexw64
+  Creating blocks\dsPIC_Digital_Input.tlc
+  Creating blocks\dsPIC_Digital_Input_callback.p
+  Creating blocks\dsPIC_Digital_OutputRead.mexw32
+  Creating blocks\dsPIC_Digital_OutputRead.mexw64
+  Creating blocks\dsPIC_Digital_OutputRead.tlc
+  Creating blocks\dsPIC_Digital_OutputRead_callback.p
+  Creating blocks\dsPIC_Digital_OutputWrite.mexw32
+  Creating blocks\dsPIC_Digital_OutputWrite.mexw64
+  Creating blocks\dsPIC_Digital_OutputWrite.tlc
+  Creating blocks\dsPIC_Digital_OutputWrite_callback.p
+  Creating blocks\dsPIC_ECAN_Config.mexw32
+  Creating blocks\dsPIC_ECAN_Config.mexw64
+  Creating blocks\dsPIC_ECAN_Config.tlc
+  Creating blocks\dsPIC_EXT_INT_PWM_callback_InitMask.p
+  Creating blocks\dsPIC_EXT_INT_PWM_param2mex.p
+  Creating blocks\dsPIC_Ext_Interrupt_PWM.mexw32
+  Creating blocks\dsPIC_Ext_Interrupt_PWM.mexw64
+  Creating blocks\dsPIC_Ext_Interrupt_PWM.tlc
+  Creating blocks\dsPIC_Get_Dialog_PopUp_Param.p
+  Creating blocks\dsPIC_Get_Dialog_PromptString.p
+  Creating blocks\dsPIC_I2C_Master.mexw32
+  Creating blocks\dsPIC_I2C_Master.mexw64
+  Creating blocks\dsPIC_I2C_Master.tlc
+  Creating blocks\dsPIC_I2C_Master_callback.p
+  Creating blocks\dsPIC_MASTER.mexw32
+  Creating blocks\dsPIC_MASTER.mexw64
+  Creating blocks\dsPIC_MASTER.tlc
+  Creating blocks\dsPIC_MASTER_callback.p
+  Creating blocks\dsPIC_MASTER_callback_InitMask.p
+  Creating blocks\dsPIC_Nop.mexw32
+  Creating blocks\dsPIC_Nop.mexw64
+  Creating blocks\dsPIC_Nop.tlc
+  Creating blocks\dsPIC_PIN_Mapping.mexw32
+  Creating blocks\dsPIC_PIN_Mapping.mexw64
+  Creating blocks\dsPIC_PIN_Mapping.tlc
+  Creating blocks\dsPIC_PIN_Mapping_Callback.p
+  Creating blocks\dsPIC_PWM_CN.mexw32
+  Creating blocks\dsPIC_PWM_CN.mexw64
+  Creating blocks\dsPIC_PWM_CN.tlc
+  Creating blocks\dsPIC_PWM_CN_CheckDiag.p
+  Creating blocks\dsPIC_PWM_CN_callback.p
+  Creating blocks\dsPIC_PWM_IC.mexw32
+  Creating blocks\dsPIC_PWM_IC.mexw64
+  Creating blocks\dsPIC_PWM_IC.tlc
+  Creating blocks\dsPIC_PWM_IC_CheckDiag.p
+  Creating blocks\dsPIC_PWM_IC_callback.p
+  Creating blocks\dsPIC_PWM_Motor_callback.p
+  Creating blocks\dsPIC_PWM_Motor_callback_InitMask.p
+  Creating blocks\dsPIC_PWM_OC.mexw32
+  Creating blocks\dsPIC_PWM_OC.mexw64
+  Creating blocks\dsPIC_PWM_OC.tlc
+  Creating blocks\dsPIC_PWM_OC_CheckDiag.p
+  Creating blocks\dsPIC_PWM_OC_HW.mexw32
+  Creating blocks\dsPIC_PWM_OC_HW.mexw64
+  Creating blocks\dsPIC_PWM_OC_HW.tlc
+  Creating blocks\dsPIC_PWM_OC_HW_CheckDiag.p
+  Creating blocks\dsPIC_PWM_OC_HW_callback.p
+  Creating blocks\dsPIC_PWM_OC_HW_callback_InitMask.p
+  Creating blocks\dsPIC_PWM_OC_callback.p
+  Creating blocks\dsPIC_PWM_OC_callback_InitMask.p
+  Creating blocks\dsPIC_PWM_motor.mexw32
+  Creating blocks\dsPIC_PWM_motor.mexw64
+  Creating blocks\dsPIC_PWM_motor.tlc
+  Creating blocks\dsPIC_PortSetting.p
+  Creating blocks\dsPIC_Reset.mexw32
+  Creating blocks\dsPIC_Reset.mexw64
+  Creating blocks\dsPIC_Reset.tlc
+  Creating blocks\dsPIC_SPI_IO.mexw32
+  Creating blocks\dsPIC_SPI_IO.mexw64
+  Creating blocks\dsPIC_SPI_IO.tlc
+  Creating blocks\dsPIC_SPI_IO_Interrupt.mexw32
+  Creating blocks\dsPIC_SPI_IO_Interrupt.mexw64
+  Creating blocks\dsPIC_SPI_IO_Interrupt.tlc
+  Creating blocks\dsPIC_SPI_IO_Interrupt_Callback.p
+  Creating blocks\dsPIC_SPI_IO_callback.p
+  Creating blocks\dsPIC_SPI_IO_param2mex.p
+  Creating blocks\dsPIC_SPI_config.mexw32
+  Creating blocks\dsPIC_SPI_config.mexw64
+  Creating blocks\dsPIC_SPI_config.tlc
+  Creating blocks\dsPIC_SPI_config_callback.p
+  Creating blocks\dsPIC_SPI_config_param2mex.p
+  Creating blocks\dsPIC_SerialReadSimulink.p
+  Creating blocks\dsPIC_Set_Dialog_PopUp_Param.p
+  Creating blocks\dsPIC_Set_Dialog_PromptString.p
+  Creating blocks\dsPIC_TimerSetting.p
+  Creating blocks\dsPIC_UART_RX.mexw32
+  Creating blocks\dsPIC_UART_RX.mexw64
+  Creating blocks\dsPIC_UART_RX.tlc
+  Creating blocks\dsPIC_UART_RX_callback.p
+  Creating blocks\dsPIC_UART_RX_param2mex.p
+  Creating blocks\dsPIC_UART_Rx_Tx_Matlab_InitMask.p
+  Creating blocks\dsPIC_UART_TX.mexw32
+  Creating blocks\dsPIC_UART_TX.mexw64
+  Creating blocks\dsPIC_UART_TX.tlc
+  Creating blocks\dsPIC_UART_TX_Labview_Matlab.mexw32
+  Creating blocks\dsPIC_UART_TX_Labview_Matlab.mexw64
+  Creating blocks\dsPIC_UART_TX_Labview_Matlab.tlc
+  Creating blocks\dsPIC_UART_TX_Labview_Matlab_callback.p
+  Creating blocks\dsPIC_UART_TX_callback.p
+  Creating blocks\dsPIC_UART_callback_InitMask.p
+  Creating blocks\dsPIC_UART_config.mexw32
+  Creating blocks\dsPIC_UART_config.mexw64
+  Creating blocks\dsPIC_UART_config.tlc
+  Creating blocks\dsPIC_UART_config_callback.p
+  Creating blocks\dsPIC_UART_rs232gui_icon.png
+  Creating blocks\dsPIC_UpdateModel_ForCompatibility.p
+  Creating blocks\dsPIC_code_template.cgt
+  Creating blocks\dsPIC_main.tlc
+  Creating blocks\dsPIC_mrmain.tlc
+  Creating blocks\dsPIC_srmain.tlc
+  Creating blocks\dsPICdrivers.mdl
+  Creating blocks\dsPICdrivers_Blocks_InDvpt.mdl
+  Creating blocks\dspicListe.mat
+  Creating blocks\fOrderingInOut.p
+  Creating blocks\fPin.p
+  Creating blocks\fPortRef.p
+  Creating blocks\pad.p
+  Creating blocks\padr.p
+  Creating blocks\rs232gui.fig
+  Creating blocks\rs232gui.p
+  Creating blocks\slblocks.m
+  Creating dspic\Contents.m
+  Creating dspic\Contents.p
+  Creating dspic\Contents.txt
+  Creating dspic\dsPIC_CreateMPLAB.p
+  Creating dspic\dspic.tlc
+  Creating dspic\dspic_pic30_gcc.tmf
+  Creating dspic\dspic_select_callback_handler.p
+  Creating dspic\execBatch.p
+  Creating dspic\getPath.bat
+  Creating dspic\getProgramFilesPath.bat
+  Creating dspic\getProgramFilesx86Path.bat
+  Creating dspic\info.xml
+  Creating dspic\make_CreateMPLAB.p
+  Creating dspic\nbprojectTemplate_Makefile.txt
+  Creating dspic\nbprojectTemplate_configurations_C30.xml
+  Creating dspic\nbprojectTemplate_configurations_C32.xml
+  Creating dspic\nbprojectTemplate_project.xml
+  Creating dspic\pic32.tlc
+  Creating dspic\pic32_gcc.tmf
+  Creating dspic\pic32_select_callback_handler.p
+  Creating dspic\setup_for_lcc.p
+  Creating dspic\sl_customization.p
+  Creating examples\CompileAllModels.m
+  Creating examples\Data_Login_Matlab.mdl
+  Creating examples\FlexBoard_Blinking_Led.mdl
+  Creating examples\Servo_ADC.mdl
+  Creating examples\Servo_Sinus.mdl
+  Creating examples\dsPIC_32MX460F512L_Explorer16_HyperSampling.mdl
+  Creating examples\dsPIC_33f_Explorer16.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\CAN_a_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\CAN_b_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\PWM_a_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\PWM_b_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\SPI_a_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\SPI_b_30f4012.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\Sinus_Generation_Simulation.mdl
+  Creating examples\Communication_Between_two_dsPIC_PWM_SPI_CAN\tinybld_ds30f4012_10MHz_XT_PLL8_115200_AltTxRx.hex
+  Update path...
+
+     ----------------------------------------------------
+     ----------------------------------------------------
+Embedded Coder for dsPIC V3.7d(26-Mar-2012) for Matlab R2011a.
+
+
+Licence Accorded to  Demonstration Version
+                     [adresse e-mail retirée]
+                     Author : Lubin KERHUEL
+                     WEBSITE : http://www.kerhuel.eu/wiki
+                     
+                     
+                     
+
+ Facturation to :    Demo
+                     Demo
+                     Lubin KERHUEL
+                     8 Chemin de Madame
+                     64100 Bayonne
+                     FRANCE
+
+     ----------------------------------------------------
+Check updates and new informations at :  www.kerhuel.eu 
+     ----------------------------------------------------
+
+
+  Installation of Real Time Embedded Coder for dsPIC is finished!
+
+
+
+ - YOU MUST INSTALL C30 and/or C32 COMPILER AVAILABLE ON THE MICROCHIP WEBSITE.
+The C30 version included in the MPLAB distribution (v8.10) will 
+ produce a error like "gld file not found"
+
+
+  - Checking that C30 PIC24 and/or dsPIC are installed on your system :
+>>!pic30-lm
+Microchip MPLAB C30 License Manager Version v3_30 (Build Date Jun 21 2011). 
+Copyright (c) 2008 Microchip Technology Inc. All rights reserved. 
+Academic license for MPLAB C for 16-bit devices, 
+   does not expire. 
+
+
+  - checking that C32 PIC32 is also installed on your system :
+>>!pic32-gcc -v
+Using built-in specs. 
+COLLECT_GCC=pic32-gcc 
+COLLECT_LTO_WRAPPER=c:/program files (x86)/microchip/mplab c32 suite/bin/../pic32mx/bin/gcc/pic32mx/4.5.1/lto-wrapper.exe 
+Target: pic32mx 
+Configured with: ../../src45x/gcc/configure --build=i386-pc-linux-gnu --host=i586-mingw32msvc --target=pic32mx --disable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --disable-hosted-libstdcxx --with-arch=pic32mx --enable-sgxx-sde-multilibs --disable-threads --with-gnu-as --with-gnu-ld --disable-sim --disable-bootstrap --enable-obsolete --disable-__cxa_atexit --disable-libfortran --enable-languages=c --disable-shared --with-newlib --disable-nls --prefix=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/pic32-tools --disable-libgomp --without-headers --disable-libffi --enable-gofast --enable-poison-system-directories --program-prefix=pic32- --libexecdir=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/pic32-tools/pic32mx/bin --with-dwarf2 --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-libelf=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/canadian-cross-build/mingw32-libs --enable-lto --with-gmp=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/canadian-cross-build/mingw32-libs --with-ppl=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/canadian-cross-build/mingw32-libs --with-cloog=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/canadian-cross-build/mingw32-libs --with-zlib=/home/c11067/work/C32/builds/pic32-microchip-release-2.02-freeze-20111128/canadian-cross-build/mingw32-libs --with-bugurl=http://www.microchip.com/support 
+Thread model: single 
+gcc version 4.5.1 MPLAB C Compiler for PIC32 MCUs v2.02-20111116 (Microchip Technology)  
+
+
+ - go to  www.kerhuel.eu  to check installation procedure
+
+ - Check installation : start the script CompileAllModels in the examples directory.
+ (copy-past the following) 
+cd examples
+CompileAllModels
+
+It will compile all the model present in 
+the example directory (for dsPIC and PIC24 and PIC32 ;
+ make sure you install compiler : for dsPIC and PIC24 and PIC32)

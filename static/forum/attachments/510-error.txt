@@ -1,0 +1,67 @@
+PTLibrary detected, Fixed Step artificially set to 1ms
+TimeStep was undefined and is set to : 0.001
+System target file set to dspic.tlc
+file not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+Model configured...
+file not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+file not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PTLinker is now called through pic30-gcc as it did not worked anymore using pic30-ar. Linker options have been updated consequently !
+Linker is now called through pic30-gcc as it did not worked anymore using pic30-ar. Linker options have been updated consequently !
+Warning: The dialog of 'untitled/Master' is being closed because a mask parameter has been changed 
+> In C:\Program Files (x86)\MATLAB\R2011a\toolbox\blocks\dsPIC_Set_Dialog_PopUp_Param.p>dsPIC_Set_Dialog_PopUp_Param at 57
+  In C:\Program Files (x86)\MATLAB\R2011a\toolbox\blocks\dsPIC_MASTER_callback_InitMask.p>dsPIC_MASTER_callback_InitMask at 269
+file not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+Tfile not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PTfile not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PTfile not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PNumber of I/O PINs used : 0
+TTfile not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PTfile not found : C:\PROGRA~2\MICROC~1\MPLABC~1\lib\dsPIC30F\libpchoose_dsPIC_Target-coff.a
+PTTPTTPTPNumber of I/O PINs used : 0
+TPTTPTPTTPTPTPNumber of I/O PINs used : 0
+TModel configured...
+### Starting build procedure for model: baja
+### Generating code into build folder: C:\Users\Ebacher\Desktop\Baja\baja_dspic\sources
+PNumber of I/O PINs used : 1
+TTPTPTPTTPTPTT### Invoking Target Language Compiler on baja.rtw
+### Using System Target File: C:\Users\Ebacher\Desktop\Baja\dspic\dspic.tlc
+### Loading TLC function libraries
+.....
+### Initial pass through model to cache user defined code
+..
+### Caching model source code
+.
+Error: File: C:\Users\Ebacher\Desktop\Baja\blocks\dsPIC_PWM_motor.tlc Line: 149 Column: 25
+The + operator only works on numeric arguments
+Main program:
+==> [00] C:\Users\Ebacher\Desktop\Baja\blocks\dsPIC_PWM_motor.tlc:Outputs(149)
+    [01] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\blocks\gensfun.tlc:Outputs(1196)
+    [02] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\commentlib.tlc:generateNonExprOutput(172)
+    [03] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\opaquelib.tlc:OpaqueTLCBlockFcn(2334)
+    [04] C:\Users\Ebacher\Desktop\Baja\baja_dspic\sources\tlc\s0_b0_vh2ci_Outputs.tlc:Outputs(5)
+    [05] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\opaquelib.tlc:FcnGenRateGroupedCodeFromModule(2844)
+    [06] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\opaquelib.tlc:FcnGenerateCodeFromModule(2753)
+    [07] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\commonbodlib.tlc:FcnGenerateOutput(2342)
+    [08] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\commonbodlib.tlc:FcnGenBodyOutputFcnCache(1800)
+    [09] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\commonbodlib.tlc:FcnGenBodySysCache(1144)
+    [10] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\commonbodlib.tlc:SLibGenBodyCache(5036)
+    [11] C:\Program Files\MATLAB\R2011a\rtw\c\tlc\mw\formatwide.tlc:<NONE>(54)
+
+..............
+### Writing main
+--- Multi Rate & Single Tasking implementation
+.
+### Writing header file baja.h
+.
+### Writing header file baja_types.h
+### Writing header file rtwtypes.h
+### Writing source file baja.c
+.
+### Writing header file baja_private.h
+### Writing source file baja_data.c
+.
+### Writing header file autobuild.h
+### Writing source file baja_main.c
+.
+### TLC code generation complete.
+### Build procedure for model: 'baja' aborted due to an error.

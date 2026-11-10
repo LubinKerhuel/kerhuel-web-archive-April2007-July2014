@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template_Blocks.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ADC Input :: Blocks (Embedded Target for Microchip dsPIC and PIC 24)</title>
+<!-- InstanceEndEditable -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<style type="text/css">
+<!--
+.SousTitre1 {font-size: x-small; color: #000000;}
+.Titre {font-family: Geneva, Arial, Helvetica, sans-serif}
+.Disclamer {font-size: x-small; color: #000000;}
+-->
+</style>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript"> var sc_project=2355118; var sc_invisible=0; var sc_partition=21; var sc_security="1408e96f"; var sc_remove_link=1; </script>
+
+<script type="text/javascript" language="javascript" 
+src="http://www.statcounter.com/counter/counter.js"></script>
+<meta name="Keywords" content="Control applications; Rapid controller prototyping; Computer-aided control system design ; dsPIC ; Simulink ; embedded" />
+<noscript><img
+src="http://c22.statcounter.com/counter.php?sc_project=2355118&java=0&security=1408e96f&invisible=0" 
+alt="web log free" border="0"> </noscript>
+<!-- End of StatCounter Code -->
+</head>
+
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#AED1EE">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+            <tr>
+              <td width="36%">This website is no more updated ! <a href="http://www.kerhuel.eu/wiki/index.php5">New Website</a></td>
+              <td width="63%"><h1 align="center" class="Titre">
+			  <!-- InstanceBeginEditable name="Bandeau" -->Fast Prototyping tool for 16 bits PIC<!-- InstanceEndEditable -->
+			  </h1></td>
+              <td width="1%">&nbsp;</td>
+            </tr>
+        </table></td>
+      </tr>
+    </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+        <tr>
+          <td width="4%" valign="middle" bgcolor="#AED1EE"> <a href="http://www.kerhuel.eu/"><img src="../../Img/Home.png" alt="home" width="30" height="30" border="0" /></a></td>
+          <td width="89%" align="left" valign="middle"><a href="../../index.html">home</a> <strong>&raquo;</strong><!-- InstanceBeginEditable name="TopLink" --> <a href="../index.html">Embedded Target for dsPIC</a> <strong>&raquo; </strong> <a href="index.html">Blocks description</a> <strong>&raquo;</strong> <strong>ADC Input</strong><!-- InstanceEndEditable --> </td>
+          <td width="7%" align="right" bgcolor="#AED1EE"><!-- InstanceBeginEditable name="Previous" --><a href="DigitalOutputRead.html"><img src="../../Img/Back.png" alt="Back" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Next" --><a href="InputCapture.html"><img src="../../Img/Forward.png" alt="Forward" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td width="18%" align="center" valign="bottom"><p align="left">&nbsp;</p>    </td>
+    <td width="82%" align="center" valign="top"><h1><!-- InstanceBeginEditable name="Title" -->ADC Input<!-- InstanceEndEditable --></h1></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bordercolor="#000000"><table width="100%" border="1" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" valign="top" bordercolor="#000000" bgcolor="#66FF99"><div align="center">
+          <p><a href="/RTWdsPIC/Blocks/index.html"><img src="../../Img/Up.png" alt="Up" width="30" height="30" border="0" /></a></p>
+          <div align="left">
+            <p align="left"><span class="noprintable">&#8226; <a href="http://www.kerhuel.eu/wiki/index.php5"><strong>New Website</strong></a></span></p>
+            <p align="left">&#8226;<a href="/wiki/dspic-block-master/">Master</a><br />
+              &#8226;<a href="/wiki/dspic-block-compiler-configuration/">Compiler Configuration</a></p>
+            <p align="left">&#8226; <a href="/wiki/dspic-block-digital-input/">Digital Input</a><br />
+              &#8226; <a href="DigitalOutputWrite.html">Digital Output Write</a><br />
+              &#8226; <a href="DigitalOutputRead.html">Digital Output Read</a></p>
+            <p align="left">&#8226; <a href="adcinput.html">ADC Input</a><br />
+              &#8226; <a href="InputCapture.html">Input Capture </a><br />
+              &#8226; <a href="OutputCompare.html">Output Compare<br />
+              </a>&#8226; <a href="ChangeNotification.html">Change Notification </a><br />
+              &#8226; <a href="ExternalInterrupt.html">External Interrupt &amp; PWM </a><br />
+              &#8226; <a href="PWMMotorOutput.html">PWM Motor Output</a></p>
+            <p align="left">&#8226; <a href="UartConfiguration.html">UART Configuration</a><br />
+              &#8226; <a href="TxOutput.html">Tx Output</a><br />
+              &#8226; <a href="RxInput.html">Rx Input </a><br />
+              &#8226; <a href="TxOutputMultiplexedForMatlabLabview.html">Tx Output Multiplexed for Matlab-Labview</a><br />
+              &#8226; <a href="InterfaceTxMatlab.html">Interface Tx-Matlab</a></p>
+            <p align="left">&#8226; <a href="SPI_Configuration.html">SPI Configuration</a><br />
+              &#8226; <a href="SPIInputOutput.html">SPI Input-Output </a></p>
+            <p align="left">&#8226; <a href="CANConfiguration.html">CAN Configuration</a><br />
+            &#8226; <a href="CANTransmit.html">CAN Transmit  </a><br />
+            &#8226; <a href="CANReceive.html">CAN Recceive</a></p>
+            <p align="left">&#8226; <a href="I2CMaster.html">I2C Master </a></p>
+            <p align="left">&#8226; <a href="CalculusTimeStep.html">Calculus Time Step </a><br />
+              &#8226; <a href="CFunctionCall.html">C Function Call</a><br />
+              &#8226; <a href="nop.html">Nop</a><br />
+              &#8226; <a href="SoftwareRESET.html">Software RESET</a></p>
+            <p align="center">--------------<br />
+              <a href="http://www.kerhuel.eu/forum/index.php">Forum</a></p>
+            </div>
+        </div></td>
+      </tr>
+    </table>      </td>
+    <td align="center" valign="top"><!-- InstanceBeginEditable name="Corps" -->
+      <div align="center">Input driver for Analog-to-Digital Converter peripheral </div>
+      <h2 align="center"><img src="Img/ADCInput.png" alt="" width="104" height="68" /></h2>
+      <h2 align="left">Description </h2>
+      <p align="left">The ADC Input block convert an analog signal from the PIC input channel selected. For each channel  you can, at each time step, either read one sample  (get a scalar result) or several samples  equaly time spreaded separated (with a period time inferior to the block time step). Thus, you get a vector result  within one step time. Result format is specified as signed/unsigned and fractional/integer.  The input pin &quot;voltage reference&quot; can be selected as voltage reference.  10 or 12 bits choice for conversion is available for dsPIC 33f family. On dsPIC 30f, PIC 24F and PIC 24H family, the bit resolution is fixed and device dependant.</p>
+      <h2 align="left">Dialog Box </h2>
+      <p align="center"><img src="Img/ADCInputDialog.png" width="362" height="561" /></p>
+      <dt>
+        <div align="left" class="Style1">Type</div>
+      </dt>
+      <dd>
+        <p align="left">10 or 12 bits resolution depending on the microcontroller used (set in the Master block). The two choices are available for the dsPIC 33f family.</p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Mode</div>
+      </dt>
+      <dd>
+        <p align="left"><strong>Continuous Sampling and get last channel value :</strong> In this mode, all selected channel are continuously scanned and converted at high speed. When the simulink block outputs are read, the last value converted from each channel is used. This method provide the minimum time lag between the end of conversions and the calculations using theses values.<br />
+            <strong>Continuous Sampling get output vector :</strong> In this mode, all channel selected are scanned and converted at low speed allowing to get exactly the number of sample defined in 1 time step. For example, you can get 6 samples from both channels AN0 and AN1. The samples of AN0 (resp AN1) will have a fixed sample rate. To avoid missalignment  between end of time step and sampling rate, considere using ADC as timer refference in the master block. In this case, the time step is triggered by the end of the ADC conversions. </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Number of output samples for each channel at each step </div>
+      </dt>
+      <dd>
+        <p align="left">Only available if Mode is set to &quot;Continuous Sampling get output vector&quot;. Set the number of sample desired for each output. All outputs  have the same number of sample. </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Voltage Reference </div>
+      </dt>
+      <dd>
+        <p align="left">Select the Conversion voltage reference. It can be the microcontroller  alimentation, or external voltage reference when using external PIN reference. </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Output Format </div>
+      </dt>
+      <dd>
+        <p align="left">Select the output. Choice are  integer or fractional (right or left justification) and signed/unsigned.</p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Interrupt Priority </div>
+      </dt>
+      <dd>
+        <p align="left">Used when mode is set to &quot;Continuous Sampling get output vector&quot;. </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">AN Channel to convert </div>
+      </dt>
+      <dd>
+        <p align="left">Choose AN input pins (enter the vector with channel number to convert). This will also set the number of output of the block. Starting at 0 for AN0. For example, [0 1] will convert channels AN0 and AN1 and block will have two  outputs. </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Max Value </div>
+      </dt>
+      <dd>
+        <p align="left">Simulink set this variable equal to the max value for the AN converter. For 10 bits, it is 1024 and for 12 bits it is 4096. This variable is evaluated in the matlab workspace. It allows to normalise the output of the ADC and to keep calculation correct while changing from 10 bits to 12 bits mode.</p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">External Input Resistor </div>
+      </dt>
+      <dd>
+        <p align="left">Define the value (in ohm) of the input resistor. The bigger, the slower is the charge of the capacity and the slower is the conversion time.</p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Temperature &deg;C </div>
+      </dt>
+      <dd>
+        <p align="left">Define the ambiant temperature. The higher, the slower the conversion time is. (see Microchip Refference manual) </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Sample Time</div>
+      </dt>
+      <dd>
+        <p align="left">-1 mean inherited (Define the time step of this block, -1 or a multiple of the diagram time step) </p>
+      </dd>
+      <dt>
+        <div align="left" class="Style1">Info</div>
+      </dt>
+      <dd>
+        <p align="left">Gives several informations : <br />
+          Tsmp : Time to sample 1 channel<br />
+          T/Channel : Time of sample and convert 1 channel<br />
+          Tall : Conversion time for all  samples</p>
+      </dd>
+    <!-- InstanceEndEditable -->
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><div align="center"><img src="../../Img/black.png" width="300" height="1" /></div></td>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p class="Disclamer">The Microchip name PIC, dsPIC, and MPLAB are
+                  registered trademarks of Microchip Technology Inc.<br />
+                  MATLAB, Simulink, and Real-Time Workshop are
+                  registered trademarks of The MathWorks, Inc.</p>
+                <table width="100%" border="0">
+                  <tr>
+                    <td class="Disclamer">Lubin Kerhuel 's Website </td>
+                    <td><div align="right"><span class="Disclamer">Contact : [adresse e-mail retirée] </span></div></td>
+                  </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+        <br />
+        <div align="center">
+          <script src="http://gmodules.com/ig/ifr?url=http://www.google.com/coop/api/015195793385821636816/cse/qtgnealelsm/gadget&amp;synd=open&amp;w=294&amp;h=66&amp;title=Lubin's+Website+search+engine&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+      </div></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-90899-3";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,28 @@
+baseURL = 'https://www.kerhuel.eu/'
+locale = 'en-US'
+title = 'Kerhuel.eu — Wiki & Forum Archive'
+summaryLength = 30
+enableRobotsTXT = true
+publishDir = 'public'
+
+[params]
+  archiveWikiDate = '2019-03-25'
+  archiveForumDate = '2014-07-24'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      table = true
+      strikethrough = true
+      taskList = true
+      # Off: linkify wrapped URLs inside existing <a> tags (forum posts) into nested anchors.
+      linkify = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+

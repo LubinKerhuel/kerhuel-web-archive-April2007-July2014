@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template_Embedded_Target_dspic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Explorer 16 Development Board :: Examples (Embedded Target for Microchip dsPIC and PIC 24)</title><!-- InstanceEndEditable -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+.Disclamer {font-size: x-small; color: #000000;}
+.Titre {font-family: Geneva, Arial, Helvetica, sans-serif}
+--> 
+</style>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript"> var sc_project=2355118; var sc_invisible=0; var sc_partition=21; var sc_security="1408e96f"; var sc_remove_link=1; </script>
+
+<script type="text/javascript" language="javascript" 
+src="http://www.statcounter.com/counter/counter.js"></script>
+<meta name="Keywords" content="Control applications; Rapid controller prototyping; Computer-aided control system design ; dsPIC ; Simulink ; embedded" />
+<noscript><img
+src="http://c22.statcounter.com/counter.php?sc_project=2355118&java=0&security=1408e96f&invisible=0" 
+alt="web log free" border="0"> </noscript>
+<!-- End of StatCounter Code -->
+</head>
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+  <tr>
+    <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#AED1EE">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td>This website is no more updated ! <a href="http://www.kerhuel.eu/wiki/index.php5">New Website</a> </td>
+            <td><h1 align="center" class="Titre">Fast Prototyping tool for 16 bits PIC</h1></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#AED1EE">
+          <tr>
+            <td width="4%" bgcolor="#AED1EE"><a href="http://www.kerhuel.eu/"><img src="../../Img/Home.png" alt="home" width="30" height="30" border="0" /></a></td>
+            <td width="89%" valign="middle"><a href="../../index.html">home</a> <strong>&raquo;</strong> <a href="../index.html">Embedded Target for dsPIC</a> <strong>&raquo;</strong><!-- InstanceBeginEditable name="TopLink" --> <a href="index.html">Examples</a> <strong>&raquo;</strong> <strong>Explorer 16 Development Board </strong><!-- InstanceEndEditable --></td>
+            <td width="7%" align="right"><!-- InstanceBeginEditable name="Previous" --><a href="LoggingMatlab.html"><img src="../../Img/Back.png" alt="Back" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Next" --><a href="ImportSimulinkMPLAB.html"><img src="../../Img/Forward.png" alt="Forward" width="30" height="30" border="0" /></a><!-- InstanceEndEditable --></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td width="18%" align="center" valign="bottom"><p align="left">&nbsp;</p></td>
+    <td width="82%" align="center" valign="top"><h1><!-- InstanceBeginEditable name="Title" -->Explorer 16 Development Board <!-- InstanceEndEditable --><br />
+      </h1></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bordercolor="#000000"><table width="100%" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" bordercolor="#000000" bgcolor="#66FFCC"><div align="center"><span class="noprintable"><a href="/RTWdsPIC/index.html"><img src="../../Img/Up.png" alt="Up" width="30" height="30" border="0" /></a> </span>
+              <p align="left" class="noprintable">&#8226; <a href="http://www.kerhuel.eu/wiki/index.php5"><strong>New Website</strong></a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/dspic-block/">Blocks Description</a><br />
+                <br />
+                &#8226; <a href="/wiki/download/">Download </a><br />
+              &#8226; <a href="../../wiki/Examples">Examples<br />
+              </a>&#8226; <a href="/wiki/licence/">Pricing</a></p>
+              <p align="left" class="noprintable">&#8226; <a href="/wiki/review/">Review</a><a href="http://www.kerhuel.eu/forum/viewforum.php?f=1"><br />
+              </a>&#8226; <a href="http://www.kerhuel.eu/forum/index.php">Forum</a></p>
+              </div></td>
+        </tr>
+      </table></td>
+    <td align="center" valign="top"><!-- InstanceBeginEditable name="Corps" -->
+      <p><em>Acknowledgement: </em>Thanks to Microchip<strong>&reg;</strong> for Providing the Explorer 16 Development Board with the REAL ICE programming system.      <br />
+      ----------------------------------------------------</p>
+      <p>This example use the Explorer 16 Development Board with the dsPIC 33FJ256GP710 or the PIC 24JF128GA010 microcontroller.<br />
+  The model file is in the toolbox directory : <em><strong>examples \ dsPIC_33f_Explorer16.mdl </strong></em></p>
+    <center>
+      <p>With the <a href="../index.html">dsPIC blockset</a>, we get  from the  simulink model:</p>
+  <table width="80%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <th scope="col"><ul>
+        <li>
+          <div align="left">One led blinking at 1Hz (Port A0) </div>
+        </li>
+        <li>
+          <div align="left">One led (Port A7) : <br />
+            - blinking at 2Hz when the left button is pushed (Port D6)<br />
+            - Switeh on or off  depending on the position of the potentiometer (Port AN5)          </div>
+        </li>
+        <li>
+          <div align="left">          Low pass Filtering sample value from the potentiometer
+            (at 1Hz and 10Hz)          </div>
+        </li>
+        <li>
+          <div align="left">          Logging and Plotting with Matlab and in real time the raw and filtered samples  from AN5 : Potentiometer</div>
+        </li>
+      </ul></th>
+    </tr>
+    <tr>
+      <th scope="col">&nbsp;</th>
+    </tr>
+  </table>
+  <center>
+  </center>
+</center>
+      <center>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><p><img src="Img/Explorer16DevBoard33f/SimulinkExplorer16.png" /></p>            </th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em> Simulink Model </em></strong></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/Explorer16Board.png" alt="Explorer16Board" /></th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em>Explorer 16 Development Board with dsPIC 33FJ256GP710 or PIC 24FJ128GA010 </em></strong></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <h1 align="left">Configure Simulink  </h1>
+      </center>
+      <ul>
+        <li>
+          <div align="left">          When starting from scratch, you must configure the simulink compiler:<br />
+            Simulation ==&gt; Configuration Parameters (Ctrl-E) <br />
+            In the Real time workshop pannel, browse the <strong>System Target File</strong> and select  <strong>'dspic.tlc'</strong>.<br />
+            If you do not have 'dspic.tlc' in the list, the blockset is not properly installed.<a href="../download.html"> Download the last demo version</a> and install it.          </div>
+        </li>
+        <li>
+          <div align="left"> Add the  'Master block'  from the 'Embedded Target for Mircochip dsPIC' library. </div>
+        </li>
+        <li>
+          <div align="left">          We set the model Time Step  to 5ms: <br />
+            Simulation ==&gt; Configuration Parameters (Ctrl-E) <br />
+            In the Solver pannel, set the fixed Step size to 0.005 (s).          </div>
+        </li>
+      </ul>
+      <center>
+        <h1 align="left">Set the dsPIC configuration </h1>
+        <p align="left">Open the <a href="../Blocks/Master.html">Master block</a>. </p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+          <tr>
+            <th scope="col"><div align="right"><img src="Img/Explorer16DevBoard33f/MasterBlock_General.png" width="424" height="480" /></div></th>
+            <th scope="col"><div align="left"><img src="Img/Explorer16DevBoard33f/MasterBlock_Clock.png" width="424" height="480" /></div></th>
+          </tr>
+          <tr>
+            <th colspan="2" valign="top" scope="col"><div align="center"><em>Master block configuration </em></div></th>
+          </tr>
+        </table>
+      </center>
+      <ul><li>
+          <div align="left">          First, Select the dsPIC used. Select the 33fj256GP710 (Selected by default) (This ship is provided with the Explorer 16 board).<br />
+            You can also select the PIC 24fJ128GA010 which is also provided with explorer 16 board and which has been tested. You could also use any other PIC. If the PIC target is modified, the model must be updated before compiling, or it must be compiled twice.<br />
+            <br />
+          </div>
+        </li>
+        <li>
+          <div align="left">The dsPIC timer 1 will be used to set the main time step of the model. ( defined previously to 5ms in simulink).<br />
+            In &quot;Real Time - Quartz&quot; Tab, We set the oscillator mode to Quartz (XT-HS) and we set the Quartz to 8MHz. The quartz of the Explorer 16 board is 16MHz. We do not use the PLL here. If you wand to use the PLL, check it and set in the &quot;Desired Instructions Per Secondes&quot; the MIPS you wand. All Prescaler and PLL multiplier will be set automatically to achieve this desired MIPS. Verify however MIPS achieved in &quot;Number Instructions Per seconds&quot;.<br />
+          </div>
+        </li>
+        <li>
+          <div align="left">All Timer will be configured automatically (-1)          </div>
+        </li>
+      </ul>
+      <center>
+        <h1 align="left">Blinking Led  </h1>
+        <p align="left">A counter is used to make blinkind leds.  Its sample time set to 1 for 1 seconde  makes it count at 1Hz. The model has blocks with a sample time of 5ms (model main sample time) and others with 1 seconde (which is a multiple (X200) of the model sample time). Thus, this is a multirate model.<br />
+          Color are used to see the different sample time (option in 
+        Format==&gt; Ports/Signal display ==&gt; '<strong>Sample Time Color</strong>' .</p>
+      </center>
+      <ul>
+        <li>
+          <div align="left">Red blocks have a sampling rate of  5ms (200Hz)</div>
+        </li>
+        <li>
+          <div align="left">Green blocks have a sampling rate of  1s (1Hz) </div>
+        </li>
+      </ul>
+      <center>
+        <p align="left">The <strong>counter</strong> is configured to count from 0 to 3. Bitewise logic and extract bit 0 and bit 1 of the counter. These bits are sent to the <strong>Digital Output Write</strong> bock.</p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+          <tr>
+            <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <th scope="col"><img src="Img/Explorer16DevBoard33f/BitewiseOperator.png" /></th>
+              </tr>
+              <tr>
+                <td><div align="center"><em>Bitewise Operator  extracting bit 0 of counter</em> (0.5Hz blinking led) </div></td>
+              </tr>
+            </table>            </th>
+            <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <th scope="col"><img src="Img/Explorer16DevBoard33f/DigitalOutputWriteDialog.png" align="baseline" /></th>
+              </tr>
+              <tr>
+                <td><div align="center"><em>Digital Output Write (Port A connected to  8 leds of the Explorer 16 Dev Board) </em></div></td>
+              </tr>
+            </table>            </th>
+          </tr>
+        </table>
+        <p align="left">The <strong><a href="../Blocks/DigitalOutputWrite.html">Digital Output Write</a></strong> block switch on or off  Leds connected to the PIN A0 or A7 of the dsPIC depending on the block's input values. The refresh rate of this block is 200Hz (5ms : Red).<br />
+        </p>
+        <p align="left">Note : We could use two separate blocks : one for the port (A0 ) with a refreshing rate of 1Hz and another one for the third led (connected to A7) with a refreshing rate of 200Hz.</p>
+        <h1 align="left">Digital Input </h1>
+        <p align="left">The <a href="../Blocks/DigitalInput.html">Digital Input</a> block's output  value is 0 while the button is pushed. The diagram make the LED blink when the button is pushed. </p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/DigitalInputReadDialog.png" /></th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em>Digital Input Read (Port D6 connected to the left push button  of the Explorer 16 Dev Board) </em></strong></div></td>
+          </tr>
+        </table>
+        <h1 align="left">Sampling and Filtering data from ADC</h1>
+        <p align="left">Potentiometer is connected to the AN5 PIN. We used here the 10 bit ADC converter of the dsPIC but we using the 12 bits ADC is possible and switching from one to the other is as simple as selecting which one you want to use (one click solution !).</p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/ADC_block.png" width="688" height="573" /></th>
+          </tr>
+          <tr>
+            <td><div align="center"><strong><em>ADC Dialog box </em></strong></div></td>
+          </tr>
+        </table>
+        <p align="left">The value converted is an unsigned 16 bit variable where only the 10 lower bites are used. <br />
+          The block create the variable 'ANmax' in the workspace that has the value of the max value taken by the output of the block. If using the 10bit ADC, the max value is 2^10 = 1024. When using the 12 bit ADC, the max value is 2^12 = 4096. </p>
+        <p align="left">The output value of the <a href="../Blocks/adcinput.html">ADC block</a> is compared to ANmax/2 that is the mid position of the potentiometer (corresponding to a tension of 1.65V). When the  value converted is greater than ANmax/2, the led connected to the port A7 switched on otherwise it is switched off.</p>
+        <p align="left">The output value of the ADC block is also filtered with two different filters. <br />
+        One first order filter with a frequency cut off at 1Hz designed with the matlab command line <strong>&gt;&gt;c2d(tf([6],[1 6]),.005,'tustin') </strong>(need the Control System Toolbox) <br />
+        and 
+        One first order filter with a frequency cut off at 10Hz designed with the matlab command line &gt;&gt; <strong>c2d(tf([60],[1 60]),.005,'tustin')</strong></p>
+        <p align="left">The matlab filter block used works using double data type. It needs double data types at its input and provides double data types at its output. Two conversion blocks are used. Note however that calculation using double are time consumming for the dsPIC and it is preferable to realize fixed point filter. The fixed point toolbox is very helpfull to make precise and efficient calculation using only fixed point variables.</p>
+        <h1 align="left">  Logging &amp; Plotting data in Matlab (dsPIC side) </h1>
+        <p align="left">Data transmition is done using the UART dsPIC peripheral and one PC serial COM port. The demo board RS-232 serial port must be connected to one COM port of the PC.</p>
+        <p align="left">First of all, the baud rate of the UART must be set. For each baud selected, the Info text box show the real baud obtained the the % error from the selected baud. The % error must be low  (absolute value of error belo 3%) for the RS-232 serial transmition to work properly. Using a 8Mhz quartz with no PLL (obtaining 4 MIPS) the fastest workable baud rate is 19200. </p>
+        <p align="left">The UART port of the board with the appropriate max3232 component is connected to the UART 2 of the dsPIC. </p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="5">
+          <tr>
+            <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th scope="col"><img src="Img/Explorer16DevBoard33f/UART_config_block.png" alt="UART config block" width="420" height="412" /></th>
+                </tr>
+                <tr>
+                  <td><div align="center">
+                    <p><strong><em><a href="../Blocks/UartConfiguration.html">UART configuration</a> dialob box</em></strong></p>
+                    </div></td>
+                </tr>
+            </table></th>
+            <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th scope="col"><img src="Img/Explorer16DevBoard33f/ToMatlabBlock.png" alt="To matlab block" width="421" height="421" /></th>
+                </tr>
+                <tr>
+                  <td><div align="center"><strong><em><a href="../Blocks/TxOutputMultiplexedForMatlabLabview.html">TX Output Multiplexed
+                    for Matlab</a> / Labview dialog box </em></strong></div></td>
+                </tr>
+            </table></th>
+          </tr>
+        </table>
+        <p align="left">Once the UART is configured, the block to send data from the dsPIC to Matlab is configured. We set 3 channel to send 3 different data. <br />
+          At low level portocol, 
+        the three data are uint16 and needs 3 char each to be sent. All data will be logged since at each time step, 9.6 char can be sent and 9 are required (3X3). Data will be logged with the same sampling rate than the block : 200Hz. It is possible to use more channel but this will lead to data loss (not important for visualisation or debugging). </p>
+        <p align="left">Once the model is generated, compiled and the .hex file is loaded into the dsPIC, data will be logged and view with the matlab User Interface created. This one can be opened either in double clicking onto the block 'Interface Tx-Matlab' or typing at the matlab prompt <strong>&gt;&gt; rs232gui</strong></p>
+        <h1 align="left">Generate C code, Download the hex file into the dsPIC</h1>
+        <p align="left">Once the model is finished, C code is generated and compiled : click on the 'Incremental build' button or press 'Ctrl+b'. The .hex file obtained in the same directory of the. mdl file can be loaded into the dsPIC using MPLAB : go to MPLAB, File==&gt; Import and select the .hex file, then, download it into your dsPIC using either ICD2, Real ICE or others...</p>
+        <p align="left">html report with the C code generated can be generated. Go to Simulation ==&gt; Configuration Parameters ==&gt; select Real Time Workshop on the left column and check the option Generate HTML report on the right pannel. The model was compiled with Matlab 2007.</p>
+        <table width="60%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col">dsPIC 33FJ256GP710 </th>
+            <th scope="col">24JF128GA010</th>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="Explorer16DevBoard/html_Hex_Matlab2007a/dsPIC_33f_Explorer16_codegen_rpt.html">Matlab Report</a></div></td>
+            <td><div align="center"><a href="Explorer16DevBoard/html_Hex_Matlab2007a_24fj/dsPIC_33f_Explorer16_codegen_rpt.html">Matlab Report</a></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="Explorer16DevBoard/html_Hex_Matlab2007a/dsPIC_33f_Explorer16.hex">Hex file to download to target</a> </div></td>
+            <td><div align="center"><a href="Explorer16DevBoard/html_Hex_Matlab2007a_24fj/dsPIC_33f_Explorer16.hex">Hex file to download to target</a></div></td>
+          </tr>
+        </table>
+        <h1 align="left">Logging &amp; Plotting data in Matlab (PC side) </h1>
+        <p align="left">The .hex file is loaded into the dsPIC, you get two led blinking at 1Hz and 0.5Hz and the Explorer 16 Demo board is connected to one PC COM port.</p>
+        <p align="left">Open the rs232gui user interface ( click twice on the block  '<a href="../Blocks/InterfaceTxMatlab.html">Interface Tx-Matlab</a>' or type <strong> rs232gui</strong> at the matlab prompt.</p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/rs232GUI_Start.png" alt="rs232GUI" width="604" height="187" /></th>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p><strong><em>RS232gui User Interface to log and plot data </em></strong></p>
+            </div></td>
+          </tr>
+        </table>
+        <p align="left">Set the COM port to the one you are using (PC side) and set the baud rate to 19200 (same as dsPIC). No flow control used. Then,click on Connexion, wait 3 seconds and click on the Start button. On some PC, Matlab closed if you click on Connexion while data are being sent from the dsPIC to the PC. In that case, disconnect the dsPIC before pushing the Connexion button.</p>
+        <p align="left">Moving the Potentiometer, you will obtain  the following graphic with three curves : the blue curve is the raw data (unfiltred), the red curve is the data filtred at 1Hz and the green curve is the data filtered at 10Hz. </p>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/CurvesResult.png" alt="" width="568" height="502" /></th>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p><strong><em>Raw and filtred data (at 1Hz and 10Hz) from the ADC 5 channel connected to the potentiometer </em></strong></p>
+            </div></td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th scope="col"><img src="Img/Explorer16DevBoard33f/LoggingDataMatlab.gif" alt=" " width="568" height="502" /></th>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p><strong><em>Animation showing Raw and filtred data (at 1Hz and 10Hz) from the ADC 5 channel connected to the potentiometer </em></strong></p>
+            </div></td>
+          </tr>
+        </table>
+        <h1 align="left">Next...</h1>
+        <p>You can now modify the model and compile it with the free <a href="../download.html">demonstration version</a> available. Note however that you could not add PINs to the model due to the  6 I/O PINs limitation of  the downloadable version. You could however remove used PIN to replace them by others.</p>
+        <p>For any question or unclear point, feel free to ask technical question on the <a href="http://www.kerhuel.eu/forum/viewforum.php?f=1">forum</a>.  </p>
+      </center>
+      <!-- InstanceEndEditable -->
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><div align="center"><img src="../../Img/black.png" width="300" height="1" /></div></td>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <p class="Disclamer">The Microchip name PIC, dsPIC, and MPLAB are
+                  registered trademarks of Microchip Technology Inc.<br />
+                  MATLAB, Simulink, and Real-Time Workshop are
+                  registered trademarks of The MathWorks, Inc.</p>
+                <table width="100%" border="0">
+                  <tr>
+                    <td class="Disclamer">Lubin Kerhuel 's Website </td>
+                    <td><div align="right"><span class="Disclamer">Contact : [adresse e-mail retirée] </span></div></td>
+                  </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+        <br />
+        <div align="center">
+          <script src="http://gmodules.com/ig/ifr?url=http://www.google.com/coop/api/015195793385821636816/cse/qtgnealelsm/gadget&amp;synd=open&amp;w=294&amp;h=66&amp;title=Lubin's+Website+search+engine&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+      </div></td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-90899-3";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>

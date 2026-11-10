@@ -1,0 +1,28 @@
+### Processing Template Makefile: C:\Program Files\LubinKerhuelBlockset\install_dsPIC_R2010bJohnRogers_ClassroomCadets_711566_WestPointUniversity\dspic\pic32_gcc.tmf
+-- Bypassing matlab internal LCC configuration --
+### I2C_test_simple2.mk which is generated from C:\Program Files\LubinKerhuelBlockset\install_dsPIC_R2010bJohnRogers_ClassroomCadets_711566_WestPointUniversity\dspic\pic32_gcc.tmf is up to date
+### Building I2C_test_simple2: "C:\Users\ij8977\Desktop\MATLAB~1\bin\win32\gmake" -f I2C_test_simple2.mk  GENERATE_REPORT=0 MULTI_INSTANCE_CODE=0 PORTABLE_WORDSIZES=0 GENERATE_ASAP2=0 TMW_EXTMODE_TESTING=0
+''pic32-gcc  -c -mprocessor=32MX320F128H -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\Users\ij8977\Desktop\MATLAB~1/simulink/include -IC:\Users\ij8977\Desktop\MATLAB~1/extern/include -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/ert -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src/ext_mode/common -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning\I2C_test_simple2_dspic\sources -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning -IC:\Users\ij8977\Desktop\MATLAB~1\toolbox\dsp\include   -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include\peripheral    I2C_test_simple2_data.c 
+I2C_test_simple2_data.c:1:0: warning: Compiler option (forward propagate) ignored due to lite-mode limitations 
+''pic32-gcc  -c -mprocessor=32MX320F128H -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\Users\ij8977\Desktop\MATLAB~1/simulink/include -IC:\Users\ij8977\Desktop\MATLAB~1/extern/include -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/ert -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src/ext_mode/common -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning\I2C_test_simple2_dspic\sources -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning -IC:\Users\ij8977\Desktop\MATLAB~1\toolbox\dsp\include   -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include\peripheral    I2C_test_simple2_main.c 
+I2C_test_simple2_main.c:1:0: warning: Compiler option (forward propagate) ignored due to lite-mode limitations 
+''pic32-gcc  -c -mprocessor=32MX320F128H -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\Users\ij8977\Desktop\MATLAB~1/simulink/include -IC:\Users\ij8977\Desktop\MATLAB~1/extern/include -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/ert -IC:\Users\ij8977\Desktop\MATLAB~1/rtw/c/src/ext_mode/common -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning\I2C_test_simple2_dspic\sources -IC:\Users\ij8977\Documents\microcontrollers\work\I2Cwork\i2c_learning -IC:\Users\ij8977\Desktop\MATLAB~1\toolbox\dsp\include   -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include -IC:\PROGRA~1\MICROC~1\mplabc32\v2.01\pic32mx\include\peripheral    I2C_test_simple2.c 
+I2C_test_simple2.c:1:0: warning: Compiler option (forward propagate) ignored due to lite-mode limitations 
+I2C_test_simple2.c: In function 'I2C_test_simple2_step1': 
+I2C_test_simple2.c:106:18: error: 'I2CCON' undeclared (first use in this function) 
+I2C_test_simple2.c:106:18: note: each undeclared identifier is reported only once for each function it appears in 
+I2C_test_simple2.c:113:15: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:121:17: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:128:25: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:131:17: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:140:27: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:143:19: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:152:29: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:155:21: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:164:31: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:167:23: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:182:27: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+I2C_test_simple2.c:185:19: error: '__IFS1bits_t' has no member named 'MI2C1IF' 
+gmake: *** [I2C_test_simple2.o] Error 1 
+### Build procedure for model: 'I2C_test_simple2' aborted due to an error.
+>> 

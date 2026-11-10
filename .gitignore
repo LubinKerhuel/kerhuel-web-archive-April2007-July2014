@@ -1,0 +1,24 @@
+# Hugo generated output and caches
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Private source databases/backups and credentials (never publish)
+/private-source/
+*.sql
+*.sql.gz
+forum/config.php
+config.php
+.env
+.env.*
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local build reports (absolute local paths, not for publication)
+/reports/
+
+# Oversized video (169 MB): publish later as a GitHub Release asset, never in Git
+*.mov
