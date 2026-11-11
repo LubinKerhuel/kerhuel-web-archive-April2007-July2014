@@ -19,7 +19,7 @@ I am an undergraduate in electrical and computer engineering. I am using the dig
 <article class="forum-post" id="p3481">
 <header><strong>migueleteabril</strong><time datetime="2014-02-21 16:41 UTC">2014-02-21 16:41 UTC</time></header>
 <h3>Re: dsPIC33fj256GP710A</h3>
-<div class="forum-post-body">Your version of the Embedded Coder for dsPIC Toolox support model using 7 I/O pins for the selected PIC. Your Simulink Diagram uses too many I/O pins. Considere purchasing the toolbox. Informations available on <a href="/">http://archive.kerhuel.eu</a><br>
+<div class="forum-post-body">Your version of the Embedded Coder for dsPIC Toolox support model using 7 I/O pins for the selected PIC. Your Simulink Diagram uses too many I/O pins. Considere purchasing the toolbox. Informations available on <a href="/">http://www.kerhuel.eu</a><br>
 <br>
 <br>
 <br>

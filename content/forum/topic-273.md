@@ -51,6 +51,6 @@ Regards,</div>
 <article class="forum-post" id="p1071">
 <header><strong>Bobes</strong><time datetime="2010-02-03 13:42 UTC">2010-02-03 13:42 UTC</time></header>
 <h3>Re: Need Help</h3>
-<div class="forum-post-body">read <a href="/wiki/download/">http://archive.kerhuel.eu/wiki/Download</a> there is all you need to know</div>
+<div class="forum-post-body">read <a href="/wiki/download/">http://www.kerhuel.eu/wiki/Download</a> there is all you need to know</div>
 </article>
 

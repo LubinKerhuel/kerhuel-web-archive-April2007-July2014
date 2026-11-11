@@ -19,7 +19,7 @@ I'm evaluating that method adopted to generate the artificial horizon. <br>
 <br>
 regarding the procedure of complementary filters for mixing Gyro and accelerometer, I see no way that prevents the spurious signals produced by the accelerations in typical flight.<br>
 <br>
-In <a href="/images/IMU_Simulation_ComplementaryFilter.png">http://archive.kerhuel.eu/wiki/Image:IMU_Si ... Filter.png</a> <br>
+In <a href="/images/IMU_Simulation_ComplementaryFilter.png">http://www.kerhuel.eu/wiki/Image:IMU_Si ... Filter.png</a> <br>
 <br>
 I can see that an input acceleration will produce a change in the angle output.<br>
 <br>

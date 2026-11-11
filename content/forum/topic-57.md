@@ -167,8 +167,8 @@ Several improvement have also been made to this version which now support 56 Mic
 <br>
 <br>
 <br>
-Download it here : <a href="/RTWdsPIC/download.html">http://archive.kerhuel.eu/RTWdsPIC/download.html</a><br>
+Download it here : <a href="/RTWdsPIC/download.html">http://www.kerhuel.eu/RTWdsPIC/download.html</a><br>
 <br>
-Release notes can be found here : <a href="/RTWdsPIC/ReleaseNotes.html">http://archive.kerhuel.eu/RTWdsPIC/ReleaseNotes.html</a></div>
+Release notes can be found here : <a href="/RTWdsPIC/ReleaseNotes.html">http://www.kerhuel.eu/RTWdsPIC/ReleaseNotes.html</a></div>
 </article>
 

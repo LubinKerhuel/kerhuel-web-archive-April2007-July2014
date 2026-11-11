@@ -78,7 +78,7 @@ Lubin</div>
 <article class="forum-post" id="p1569">
 <header><strong>joanpamo</strong><time datetime="2011-05-07 15:14 UTC">2011-05-07 15:14 UTC</time></header>
 <h3>Re: error 255 - tcpip not found</h3>
-<div class="forum-post-body">I'm uploading the simulink model that I use. It's the example that there is on: <a href="/wiki/animation-compiling-your-first-model/">http://archive.kerhuel.eu/wiki/Animation_Co ... irst_model</a>, but it's applied to dsPIC30f4013. All properties of the dsPIC's blockset are default, in order not to get errors.<br>
+<div class="forum-post-body">I'm uploading the simulink model that I use. It's the example that there is on: <a href="/wiki/animation-compiling-your-first-model/">http://www.kerhuel.eu/wiki/Animation_Co ... irst_model</a>, but it's applied to dsPIC30f4013. All properties of the dsPIC's blockset are default, in order not to get errors.<br>
 <br>
 <br>
 <br>

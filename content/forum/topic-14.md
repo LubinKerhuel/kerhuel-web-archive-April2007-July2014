@@ -58,7 +58,7 @@ You MUST go to the <br>
 <br>
 <br>
 <br>
-Please, have a look on the first part of the "Sinus PWM" animation where I build a small diagram for dsPIC from scratch : <a href="/RTWdsPIC/examples/SinusPWM.html">http://archive.kerhuel.eu/RTWdsPIC/examples/SinusPWM.html</a><br>
+Please, have a look on the first part of the "Sinus PWM" animation where I build a small diagram for dsPIC from scratch : <a href="/RTWdsPIC/examples/SinusPWM.html">http://www.kerhuel.eu/RTWdsPIC/examples/SinusPWM.html</a><br>
 <br>
 <br>
 <br>

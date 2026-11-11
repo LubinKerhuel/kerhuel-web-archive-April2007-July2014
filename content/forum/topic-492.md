@@ -17,11 +17,11 @@ Please look into this. I believe it is a bug.<br>
 <br>
 There are two other related posts from 2010:<br>
 <br>
-<a href="/forum/topic/318/">http://archive.kerhuel.eu/forum/viewtopic.php?f=1&amp;t=318</a><br>
+<a href="/forum/topic/318/">http://www.kerhuel.eu/forum/viewtopic.php?f=1&amp;t=318</a><br>
 <br>
 and<br>
 <br>
-<a href="/forum/topic/267/">http://archive.kerhuel.eu/forum/viewtopic.php?f=8&amp;t=267</a><br>
+<a href="/forum/topic/267/">http://www.kerhuel.eu/forum/viewtopic.php?f=8&amp;t=267</a><br>
 <br>
 Thanks<br>
 <br>

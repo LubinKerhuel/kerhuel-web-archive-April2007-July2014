@@ -34,7 +34,7 @@ Jose Luis</div>
 <br>
 <br>
 <br>
-I would like to do a case-study with that example if that's Ok with you. I posted few elements on the wiki : <a href="/wiki/case-study-position-control-of-dc-motor/">http://archive.kerhuel.eu/wiki/Case_Study:_ ... f_DC_Motor</a> <br>
+I would like to do a case-study with that example if that's Ok with you. I posted few elements on the wiki : <a href="/wiki/case-study-position-control-of-dc-motor/">http://www.kerhuel.eu/wiki/Case_Study:_ ... f_DC_Motor</a> <br>
 <br>
 <br>
 <br>

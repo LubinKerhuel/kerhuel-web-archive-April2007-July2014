@@ -151,7 +151,7 @@ John<br>
 <br>
  *                                                              |<br>
 <br>
- *   Written by Lubin KERHUEL -  <a href="/">http://archive.kerhuel.eu</a>          |<br>
+ *   Written by Lubin KERHUEL -  <a href="/">http://www.kerhuel.eu</a>          |<br>
 <br>
  *  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |<br>
 <br>

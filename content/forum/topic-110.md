@@ -172,7 +172,7 @@ Lubin</div>
 <br>
 Experimental version is available.<br>
 <br>
-Go to release note : <a href="/wiki/release-notes/">http://archive.kerhuel.eu/wiki/Release_Note ... 4a30be2655</a><br>
+Go to release note : <a href="/wiki/release-notes/">http://www.kerhuel.eu/wiki/Release_Note ... 4a30be2655</a><br>
 <br>
 <br>
 <br>

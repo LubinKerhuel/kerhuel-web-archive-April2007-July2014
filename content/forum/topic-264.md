@@ -251,7 +251,7 @@ Embedded Coder for dsPIC V3.1(17-Nov-2009) for Matlab R2007b.
 Licence Accorded to  Demonstration Version
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://archive.kerhuel.eu/wiki
+                     WEBSITE : http://www.kerhuel.eu/wiki
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
@@ -264,7 +264,7 @@ Licence Accorded to  Demonstration Version
                      FRANCE
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  http://archive.kerhuel.eu 
+Check updates and new informations at :  http://www.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -465,7 +465,7 @@ Licence Accorded to  &amp;&amp;               Licence Name          &amp;&amp;
                      &amp;&amp;               BuyerAddress4         &amp;&amp;
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  archive.kerhuel.eu 
+Check updates and new informations at :  www.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -556,7 +556,7 @@ stack                        0x86e                               0x792  (1938)
                         Maximum dynamic memory (bytes):          0x792  (1938) 
 <wbr>
  ================================================================
-*** Embedded Target for dsPIC by Lubin KERHUEL - http://archive.kerhuel.eu
+*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu
  | Licence Accorded to &amp;&amp;               Licence Name          &amp;&amp;|
  |                     &amp;&amp;               Mailcontact           &amp;&amp;|
  |          Companie : &amp;&amp;               Companie              &amp;&amp;|
@@ -664,7 +664,7 @@ But more recent Matlab works perfectly with C30ComboLite_v3_22.<br>
 <br>
 <br>
 <br>
-I attached the previous C30 version ( <a href="/archive-assets/">MPLAB_C_dsPICStudentv3_11B</a> and <a href="/archive-assets/">MPLAB_C_PIC24Studentv3_11B</a> for student, previously available on the microchip website). Install them booth and try to compile again. Delete first the two directory created by matlab (slpjr and directory created with the same name as the model you compile. )<br>
+I attached the previous C30 version ( <a href="https://archive.kerhuel.eu/download/MPLAB_C_dsPICStudentv3_11B.exe">MPLAB_C_dsPICStudentv3_11B</a> and <a href="https://archive.kerhuel.eu/download/MPLAB_C_PIC24Studentv3_11B.exe">MPLAB_C_PIC24Studentv3_11B</a> for student, previously available on the microchip website). Install them booth and try to compile again. Delete first the two directory created by matlab (slpjr and directory created with the same name as the model you compile. )<br>
 <br>
 <br>
 <br>
@@ -950,7 +950,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
                      Author : Lubin KERHUEL<br>
 <br>
-                     WEBSITE : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki</a><br>
+                     WEBSITE : <a href="https://archive.kerhuel.eu/wiki">http://www.kerhuel.eu/wiki</a><br>
 <br>
                      <br>
 <br>
@@ -976,7 +976,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
      ----------------------------------------------------<br>
 <br>
-Check updates and new informations at :  <a href="/">http://archive.kerhuel.eu</a> <br>
+Check updates and new informations at :  <a href="/">http://www.kerhuel.eu</a> <br>
 <br>
      ----------------------------------------------------<br>
 <br>
@@ -1638,7 +1638,7 @@ Lubin</div>
 <article class="forum-post" id="p1130">
 <header><strong>LubinKerhuel</strong><time datetime="2010-03-11 07:25 UTC">2010-03-11 07:25 UTC</time></header>
 <h3>Re: Build error in function rt_MatMultAndIncCC_Dbl</h3>
-<div class="forum-post-body">You should find information here : <a href="/wiki/dspic-block-pwm-motor-output/">http://archive.kerhuel.eu/wiki/Block/PWM_Motor_Output</a><br>
+<div class="forum-post-body">You should find information here : <a href="/wiki/dspic-block-pwm-motor-output/">http://www.kerhuel.eu/wiki/Block/PWM_Motor_Output</a><br>
 <br>
 hope it's clear enough as it seem to be tricky when I am reading it today !<br>
 <br>

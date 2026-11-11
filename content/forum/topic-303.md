@@ -185,7 +185,7 @@ In debug mode the WDT is disable but in release mode, it can be enable in the co
 <br>
 <br>
 <br>
-<a href="/forum/topic/11/#p1139">http://archive.kerhuel.eu/forum/viewtopic.p ... ECAN#p1162</a></div>
+<a href="/forum/topic/11/#p1139">http://www.kerhuel.eu/forum/viewtopic.p ... ECAN#p1162</a></div>
 </article>
 
 <article class="forum-post" id="p1235">

@@ -141,7 +141,7 @@ Embedded Coder for dsPIC V0.97(01-Apr-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  http://archive.kerhuel.eu 
+informations available at  http://www.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\dspic_toolbox\dspic\dspic_pic30_gcc.tmf
@@ -406,7 +406,7 @@ Embedded Coder for dsPIC V0.98(21-May-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  archive.kerhuel.eu 
+informations available at  www.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\dspic_toolbox\dspic\dspic_pic30_gcc.tmf
@@ -760,7 +760,7 @@ Embedded Coder for dsPIC V0.98f(09-Aug-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at http://archive.kerhuel.eu 
+informations available at http://www.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\Users\james\Desktop\some_programes\dspic\dspic\dspic_pic30_gcc.tmf
@@ -1077,7 +1077,7 @@ Embedded Coder for dsPIC V0.98f(09-Aug-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  archive.kerhuel.eu 
+informations available at  www.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\Users\james\Desktop\some_programes\dspic\dspic\dspic_pic30_gcc.tmf

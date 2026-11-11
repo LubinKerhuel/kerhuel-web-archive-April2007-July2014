@@ -45,6 +45,6 @@ Lubin</div>
 <article class="forum-post" id="p1528">
 <header><strong>LubinKerhuel</strong><time datetime="2011-03-30 23:21 UTC">2011-03-30 23:21 UTC</time></header>
 <h3>Re: CAN block on 33fj256MC710 target</h3>
-<div class="forum-post-body">See post <a href="/forum/topic/371/#p1525">http://archive.kerhuel.eu/forum/viewtopic.p ... 1525#p1525</a> for link to a git repository with ECAN projects from Bryant Mairs.</div>
+<div class="forum-post-body">See post <a href="/forum/topic/371/#p1525">http://www.kerhuel.eu/forum/viewtopic.p ... 1525#p1525</a> for link to a git repository with ECAN projects from Bryant Mairs.</div>
 </article>
 

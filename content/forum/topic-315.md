@@ -280,7 +280,7 @@ This demo-version license for MPLAB C for 16-bit devices,
 &gt;&gt;!pic32-gcc -v
 'pic32-gcc' 
 <wbr>
- - go to  archive.kerhuel.eu  to check installation procedure
+ - go to  www.kerhuel.eu  to check installation procedure
  - Check installation : start the script CompileAllModels in the examples directory.
  (copy-past the following) 
 cd examples
@@ -894,7 +894,7 @@ Embedded Coder for dsPIC V3.3a(22-Nov-2010) for Matlab R2009a.
 Licence Accorded to  Demonstration Version
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://archive.kerhuel.eu/wiki
+                     WEBSITE : http://www.kerhuel.eu/wiki
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
@@ -907,7 +907,7 @@ Licence Accorded to  Demonstration Version
                      FRANCE
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  archive.kerhuel.eu 
+Check updates and new informations at :  www.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 <wbr>
@@ -934,7 +934,7 @@ This demo-version license for MPLAB C for 16-bit devices,
 program ya da toplu iŸ dosyas olarak tannmyor. 
 <wbr>
 <wbr>
- - go to  archive.kerhuel.eu  to check installation procedure
+ - go to  www.kerhuel.eu  to check installation procedure
 <wbr>
  - Check installation : start the script CompileAllModels in the examples directory.
  (copy-past the following) 

@@ -220,7 +220,7 @@ Embedded Coder for dsPIC V3.4b(14-Jan-2011) for Matlab R2009b.
 Licence Accorded to  Demonstration Version
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://archive.kerhuel.eu/wiki
+                     WEBSITE : http://www.kerhuel.eu/wiki
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
@@ -233,7 +233,7 @@ Licence Accorded to  Demonstration Version
                      FRANCE
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  archive.kerhuel.eu 
+Check updates and new informations at :  www.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .

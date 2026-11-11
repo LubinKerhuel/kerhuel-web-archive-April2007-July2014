@@ -382,7 +382,7 @@ Licence Accorded to  &amp;&amp;               Licence Name          &amp;&amp;
                      &amp;&amp;               BuyerAddress4         &amp;&amp;
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  archive.kerhuel.eu 
+Check updates and new informations at :  www.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -403,7 +403,7 @@ SD_Datalogger5_main.c:1:0: warning: Compiler option (forward propagate) ignored 
 ''pic32-gcc  -c -mprocessor=32MX460F512L -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2011A~1/simulink/include -IC:\PROGRA~1\MATLAB\R2011A~1/extern/include -IC:\PROGRA~1\MATLAB\R2011A~1/rtw/c/src -IC:\PROGRA~1\MATLAB\R2011A~1/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2011A~1/rtw/c/src/ext_mode/common -IC:\M91449\Perso\RTWdsPIC\Developpements\Forum\resodad_john\myFolder\SDtroubleshooting\SD_Datalogger5_dspic\sources -IC:\M91449\Perso\RTWdsPIC\Developpements\Forum\resodad_john\myFolder\SDtroubleshooting -IC:\M91449\Perso\RTWdsPIC\Developpements\Forum\resodad_john\myFolder\SDtroubleshooting\..\Microchip\Include -IC:\M91449\Perso\RTWdsPIC\Developpements\Forum\resodad_john\myFolder\SDtroubleshooting\..\MICROC~1\MDDFIL~1 -IC:\M91449\Perso\RTWdsPIC\Developpements\Forum\resodad_john\myFolder\SDtroubleshooting\..\MICROC~1\Include\MDDFIL~1   -IC:\PROGRA~2\MICROC~1\mplabc32\v2.01\pic32mx\include -IC:\PROGRA~2\MICROC~1\mplabc32\v2.01\pic32mx\include\PERIPH~1    SD_Datalogger5.c 
 SD_Datalogger5.c:1:0: warning: Compiler option (forward propagate) ignored due to lite-mode limitations 
 " ================================================================" 
-"*** Embedded Target for dsPIC by Lubin KERHUEL - http://archive.kerhuel.eu" 
+"*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu" 
 " | Licence Accorded to &amp;&amp;               Licence Name          &amp;&amp;|" 
 " |                     &amp;&amp;               Mailcontact           &amp;&amp;|"	     
 " |          Companie : &amp;&amp;               Companie              &amp;&amp;|"  

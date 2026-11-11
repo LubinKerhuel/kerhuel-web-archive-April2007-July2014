@@ -66,7 +66,7 @@ An evaluation version of the Microchip compiler can be found on the microchip we
 # Installation
 
 - An animation (flash) of the installation process is available on the page. This animation is quite old now.
-- A recent video witn installation and with example is available : [Screencast](/archive-assets/#large-file-dspicscreencastfrommarianomov) (.mov file, 164Mo), from [Mariano Lizarraga](http://users.soe.ucsc.edu/~malife/)(April, 28th 2009).
+- A recent video witn installation and with example is available : [Screencast](https://github.com/LubinKerhuel/kerhuel-web-archive-April2007-July2014/releases/download/large-files-v1/dsPicScreencastFromMariano.mov) (.mov file, 164Mo), from [Mariano Lizarraga](http://users.soe.ucsc.edu/~malife/)(April, 28th 2009).
 
 ## Installation of C30 compiler and/or C32 compiler: {#installation_of_c30_compiler_andor_c32_compiler}
 

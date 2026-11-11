@@ -239,7 +239,7 @@ Thanks a lot.</div>
 <h3>Re: UART on DsPic33FJ256MC710</h3>
 <div class="forum-post-body">Okay, I found the answer myself in master block description.<br>
 <br>
-  <a href="/RTWdsPIC/Blocks/Master.html">http://archive.kerhuel.eu/RTWdsPIC/Blocks/Master.html</a></div>
+  <a href="/RTWdsPIC/Blocks/Master.html">http://www.kerhuel.eu/RTWdsPIC/Blocks/Master.html</a></div>
 </article>
 
 <article class="forum-post" id="p576">
@@ -260,7 +260,7 @@ To complete the topic :<br>
 <br>
 <blockquote><header class="quote-author">Citation : Ender</header>Okay, I found the answer myself in master block description.<br>
 <br>
-<a href="/RTWdsPIC/Blocks/Master.html">http://archive.kerhuel.eu/RTWdsPIC/Blocks/Master.html</a></blockquote>This is the old page and will not be updated anymore. Please use this on : <a href="/wiki/dspic-block-master/">http://archive.kerhuel.eu/wiki/Block/Master</a><br>
+<a href="/RTWdsPIC/Blocks/Master.html">http://www.kerhuel.eu/RTWdsPIC/Blocks/Master.html</a></blockquote>This is the old page and will not be updated anymore. Please use this on : <a href="/wiki/dspic-block-master/">http://www.kerhuel.eu/wiki/Block/Master</a><br>
 <br>
 <br>
 <br>

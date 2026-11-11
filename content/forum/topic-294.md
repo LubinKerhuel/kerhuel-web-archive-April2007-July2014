@@ -63,7 +63,7 @@ You are using Microchip blockset.<br>
 <br>
 Please give a try using this one: <br>
 <br>
-<a href="/wiki/download/">http://archive.kerhuel.eu/wiki/Download</a><br>
+<a href="/wiki/download/">http://www.kerhuel.eu/wiki/Download</a><br>
 <br>
 <br>
 <br>

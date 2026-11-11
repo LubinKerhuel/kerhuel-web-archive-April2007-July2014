@@ -13,6 +13,6 @@ Forum : [General Remark and Questions](/forum/#forum-1)
 <header><strong>els</strong><time datetime="2014-06-11 16:28 UTC">2014-06-11 16:28 UTC</time></header>
 <div class="forum-post-body">What is the accuracy of angle measurement of the Miniature Inertial Measurement Unit posted over at <br>
 <br>
-<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a></div>
+<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a></div>
 </article>
 

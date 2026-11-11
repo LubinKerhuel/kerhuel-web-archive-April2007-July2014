@@ -35,7 +35,7 @@ Do you mean using MATLAB .m file programming, or using Simulink?<br>
 <br>
 <br>
 <br>
-See my "Getting Started with Digilent Cerebot 32MX4" on the examples page under "Microchip Kits." or cut and paste this link: <a href="/wiki/getting-started-with-digilent-cerebot-32mx4/">http://archive.kerhuel.eu/wiki/Getting_Star ... ebot_32MX4</a> <br>
+See my "Getting Started with Digilent Cerebot 32MX4" on the examples page under "Microchip Kits." or cut and paste this link: <a href="/wiki/getting-started-with-digilent-cerebot-32mx4/">http://www.kerhuel.eu/wiki/Getting_Star ... ebot_32MX4</a> <br>
 <br>
 There find a getting started .pdf document and a simulink file for LED flashing.<br>
 <br>

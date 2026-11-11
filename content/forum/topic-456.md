@@ -23,7 +23,7 @@ Forum : [dsPIC Peripherals](/forum/#forum-9)
 <br>
 <br>
 <br>
-                                             <a href="/wiki/release-notes/">http://archive.kerhuel.eu/wiki/Release_Notes</a><br>
+                                             <a href="/wiki/release-notes/">http://www.kerhuel.eu/wiki/Release_Notes</a><br>
 <br>
 <br>
 <br>

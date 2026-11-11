@@ -52,6 +52,6 @@ The Duty Cycle time is defines in the same way...<br>
 <br>
 <br>
 <br>
-Help is available on the web page : <a href="/RTWdsPIC/Blocks/OutputCompare.html">http://archive.kerhuel.eu/RTWdsPIC/Blocks/O ... mpare.html</a></div>
+Help is available on the web page : <a href="/RTWdsPIC/Blocks/OutputCompare.html">http://www.kerhuel.eu/RTWdsPIC/Blocks/O ... mpare.html</a></div>
 </article>
 

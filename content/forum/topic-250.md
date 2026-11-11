@@ -113,7 +113,7 @@ I implemented the Dead time on the PWM motor peripheral.<br>
 <br>
 Please test the new blockset version and let me know if the way it is implemented is usefull for BLDC motor control.<br>
 <br>
-download link : <a href="/wiki/download/">http://archive.kerhuel.eu/wiki/Download</a><br>
+download link : <a href="/wiki/download/">http://www.kerhuel.eu/wiki/Download</a><br>
 <br>
 <br>
 <br>

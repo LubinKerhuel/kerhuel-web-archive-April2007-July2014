@@ -41,7 +41,7 @@ This demo-version license has 37 days remaining after today. <br>
 <br>
 operable program or batch file. <br>
 <br>
- - go to  <a href="/">archive.kerhuel.eu</a>  to check installation procedure<br>
+ - go to  <a href="/">www.kerhuel.eu</a>  to check installation procedure<br>
 <br>
  - YOU MUST INSTALL THE INDEPENDANT VERSION OF THE C30 COMPILER AVAILABLE ON THE  MICROCHIP WEBSITE <br>
 <br>

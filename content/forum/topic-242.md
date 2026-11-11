@@ -33,7 +33,7 @@ Quan</div>
 <article class="forum-post" id="p931">
 <header><strong>LubinKerhuel</strong><time datetime="2009-07-30 11:31 UTC">2009-07-30 11:31 UTC</time></header>
 <h3>Re: Duty cycle of OC(HW)</h3>
-<div class="forum-post-body">Could you please have a look on the block's page : <a href="/wiki/dspic-block-output-compare-hw/">http://archive.kerhuel.eu/wiki/Block/Output_Compare_HW</a><br>
+<div class="forum-post-body">Could you please have a look on the block's page : <a href="/wiki/dspic-block-output-compare-hw/">http://www.kerhuel.eu/wiki/Block/Output_Compare_HW</a><br>
 <br>
 <br>
 <br>
@@ -104,7 +104,7 @@ For example, <br>
 <br>
 Please feel free to add any usefull explanation on the Wiki page about OC(HW)<br>
 <br>
-<a href="/wiki/dspic-block-output-compare-hw/">http://archive.kerhuel.eu/wiki/Block/Output_Compare_HW</a></div>
+<a href="/wiki/dspic-block-output-compare-hw/">http://www.kerhuel.eu/wiki/Block/Output_Compare_HW</a></div>
 </article>
 
 <article class="forum-post" id="p936">

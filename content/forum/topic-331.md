@@ -51,7 +51,7 @@ Then GENERATE CODE which is generated successfully.<br>
 <br>
 " ================================================================" <br>
 <br>
-"*** Embedded Target for dsPIC by Lubin KERHUEL - <a href="/">http://archive.kerhuel.eu</a>" <br>
+"*** Embedded Target for dsPIC by Lubin KERHUEL - <a href="/">http://www.kerhuel.eu</a>" <br>
 <br>
 " | Licence Accorded to Demonstration Version                    |" <br>
 <br>
@@ -59,7 +59,7 @@ Then GENERATE CODE which is generated successfully.<br>
 <br>
 " |          Companie : Author : Lubin KERHUEL                   |"  <br>
 <br>
-" |                     WEBSITE : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki</a>     |" <br>
+" |                     WEBSITE : <a href="https://archive.kerhuel.eu/wiki">http://www.kerhuel.eu/wiki</a>     |" <br>
 <br>
 " |                                                              |" 		 <br>
 <br>

@@ -53,7 +53,7 @@ Let me know if you encounter problems. <br>
 <br>
 I am interested by your project. Are you going to publish it somewhere?<br>
 <br>
-You may find similar project I started few years ago: <a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a>.<br>
+You may find similar project I started few years ago: <a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a>.<br>
 <br>
 Sparkfun board is better!<br>
 <br>

@@ -30,6 +30,8 @@ TEXT_EXTENSIONS = {'.txt', '.m', '.c', '.h', '.log', '.csv', '.md', '.ini', '.xm
                    '.s', '.asm', '.inc', '.mdl', '.tmf', '.lst', '.map', '.def', '.cpp', '.py', '.htm', '.html'}
 PICLIST_TOKEN = 'KERHUELPICLISTTOKEN'
 MAX_GIT_FILE = 95 * 1024 * 1024  # leave headroom below GitHub's 100 MiB hard limit
+ARCHIVE_HOST = 'archive.kerhuel.eu'
+LARGE_FILES_RELEASE = 'https://github.com/LubinKerhuel/kerhuel-web-archive-April2007-July2014/releases/download/large-files-v1/'
 
 
 def eprint(*args):
@@ -257,9 +259,9 @@ def mathml_markdown(md, warnings):
 
 
 def archive_host(text):
-    """Old absolute links to www.kerhuel.eu point to the archive, which moves to archive.kerhuel.eu;
-    www.kerhuel.eu is reserved for the daily site."""
-    return re.sub(r'\bwww\.kerhuel\.eu\b', 'archive.kerhuel.eu', text, flags=re.I)
+    """Link TARGETS (href / src / markdown targets) that point to www.kerhuel.eu are moved to the archive
+    host, because www.kerhuel.eu becomes the daily site. Visible link text is left as written."""
+    return re.sub(r'((?:\bhref|\bsrc)\s*=\s*["\']?|\]\()\s*((?:https?:)?//)www\.kerhuel\.eu', r'\1\2archive.kerhuel.eu', text, flags=re.I)
 
 
 def join_raw_html_blocks(markup):
@@ -530,7 +532,7 @@ class SiteBuilder:
         too_large = (self.site_root / rel).resolve()
         if too_large.is_file() and too_large.stat().st_size > MAX_GIT_FILE:
             self.report['wiki_links_rewritten'] += 1
-            return '/archive-assets/#large-file-' + slugify(Path(rel).name)
+            return LARGE_FILES_RELEASE + quote(Path(rel).name)
         if path.startswith(('/w/images/', '/images/')):
             name = Path(path).name.casefold()
             target = self.image_sources.get(name)
@@ -694,7 +696,7 @@ class SiteBuilder:
             mapped = self.image_sources.get(Path(unquote(dest)).name.casefold())
             if not mapped: mapped = self.copy_image(Path(unquote(dest)).name)
             if mapped: return f'![{alt}]({mapped}{rest})'
-            return f'![{alt}](/archive-assets/)'
+            return f'*[image non archivée : {html.escape(Path(unquote(dest)).name)}]*'
         md = re.sub(r'!\[([^\]]*)\]\(([^\s)]+)([^)]*)\)', img_repl, md)
         def html_img(m):
             tag = m.group(0)
@@ -765,6 +767,13 @@ class SiteBuilder:
         def repl(m):
             target = self.resolve_wiki_title(m.group(2))
             return f'{m.group(1)}="{target}' if target else m.group(0)
+        def idx_title(m):
+            target = self.resolve_wiki_title(unquote(m.group(2)))
+            return f'{m.group(1)}="{target}' if target else m.group(0)
+        old_host = r'(?:https?://(?:www\.|archive\.)?kerhuel\.eu)?'
+        text = re.sub(r'(href|src)="' + old_host + r'/wiki/index\.php5\?title=([^"#]*)', idx_title, text)
+        text = re.sub(r'(href|src)="' + old_host + r'/wiki/index\.php5(?=["#?])', r'\1="/wiki/main-page/', text)
+        text = re.sub(r'(href|src)="' + old_host + r'/forum/(?:index\.php|viewforum\.php)[^"#]*', r'\1="/forum/', text)
         return archive_host(re.sub(r'(href|src)="(?:\.\./)+wiki/([^"#?]*)', repl, text))
 
     def copy_legacy_tree(self):
@@ -808,7 +817,13 @@ class SiteBuilder:
         if mapped: return mapped
         u = urlsplit(url)
         if (u.hostname or '').lower() in {'kerhuel.eu', 'www.kerhuel.eu', 'kerhuel.fr', 'www.kerhuel.fr'}:
-            return '/archive-assets/'
+            # Not archived under this URL: use the local copy if it exists, otherwise the same path on the
+            # archive host (may be a 404, counted in the report). Never the file-download page.
+            local = self.root / 'static' / u.path.lstrip('/')
+            if u.path and local.is_file():
+                return u.path + (('#' + u.fragment) if u.fragment else '')
+            self.report['old_links_not_archived'] = self.report.get('old_links_not_archived', 0) + 1
+            return f'https://{ARCHIVE_HOST}{u.path}' + (f'?{u.query}' if u.query else '') + (f'#{u.fragment}' if u.fragment else '')
         return None
 
     def render_text(self, text):
@@ -1115,9 +1130,9 @@ class SiteBuilder:
             self.rewrite_url(url)
         if self.report['large_files_not_copied']:
             lines = ['# Fichiers non inclus dans le dépôt', '',
-                     'Certains fichiers dépassent la limite pratique/technique d’un dépôt GitHub. Ils ne sont pas intégrés au site statique ; ajouter les originaux comme assets de GitHub Releases puis mettre à jour les liens avant publication.', '']
+                     'Certains fichiers dépassent la limite pratique/technique d’un dépôt GitHub. Ils ne sont pas dans le dépôt : les originaux sont publiés comme assets de la release GitHub « large-files-v1 ».', '']
             for item in self.report['large_files_not_copied']:
-                lines.append(f'- <span id="large-file-{slugify(Path(item["path"]).name)}"></span>`{item["path"]}` — {item["size"]:,} octets')
+                lines.append(f'- <span id="large-file-{slugify(Path(item["path"]).name)}"></span>[`{item["path"]}`]({LARGE_FILES_RELEASE}{quote(Path(item["path"]).name)}) — {item["size"]:,} octets')
             (self.root / 'content/archive-assets.md').write_text(self.frontmatter('Fichiers volumineux', '/archive-assets/', kind='page') + '\n'.join(lines) + '\n', encoding='utf-8')
 
     def build_home(self):

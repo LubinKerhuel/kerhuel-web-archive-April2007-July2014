@@ -47,7 +47,7 @@ Vânia Almeida</div>
 <br>
 I updated the wiki page with a response to your question.<br>
 <br>
-<a href="/wiki/dspic-block-interface-tx-matlab/">http://archive.kerhuel.eu/wiki/Block/Interf ... b#Long_log</a><br>
+<a href="/wiki/dspic-block-interface-tx-matlab/">http://www.kerhuel.eu/wiki/Block/Interf ... b#Long_log</a><br>
 <br>
 <br>
 <br>

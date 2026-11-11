@@ -24,7 +24,7 @@ arci</div>
 <br>
 <br>
 <br>
-As you can read on the  [url <a href="/RTWdsPIC/download.html">http://archive.kerhuel.eu/RTWdsPIC/download.html</a>]download page[/url], "Only two Input/Output pins can be used with this demonstration version". <br>
+As you can read on the  [url <a href="/RTWdsPIC/download.html">http://www.kerhuel.eu/RTWdsPIC/download.html</a>]download page[/url], "Only two Input/Output pins can be used with this demonstration version". <br>
 <br>
 The limitation is not on the number of block but on the number of I/O pin used by the compiled model. (Note that some if you use only the UART Tx pin, the Rx is also activated, either you use it or not.)<br>
 <br>

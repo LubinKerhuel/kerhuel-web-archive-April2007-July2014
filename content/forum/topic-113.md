@@ -17,7 +17,7 @@ Forum : [Requirement, Installation &amp; Configuration](/forum/#forum-4)
 <article class="forum-post" id="p325">
 <header><strong>LubinKerhuel</strong><time datetime="2008-05-05 22:37 UTC">2008-05-05 22:37 UTC</time></header>
 <h3>Re: 100% beginners</h3>
-<div class="forum-post-body">- On the website : <a href="/archive-assets/">http://archive.kerhuel.eu/RTWdsPIC</a><br>
+<div class="forum-post-body">- On the website : <a href="https://archive.kerhuel.eu/RTWdsPIC">http://www.kerhuel.eu/RTWdsPIC</a><br>
 <br>
 - The blockset contains few examples.<br>
 <br>

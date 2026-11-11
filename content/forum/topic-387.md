@@ -13,7 +13,7 @@ Forum : [bug reports](/forum/#forum-8)
 <header><strong>Bernard Leak</strong><time datetime="2011-04-20 12:33 UTC">2011-04-20 12:33 UTC</time></header>
 <div class="forum-post-body">See also my changes to<br>
 <br>
-<a href="/wiki/dspic-block-can-configuration/">http://archive.kerhuel.eu/wiki/Block/CAN_Configuration</a><br>
+<a href="/wiki/dspic-block-can-configuration/">http://www.kerhuel.eu/wiki/Block/CAN_Configuration</a><br>
 <br>
 These include suggestions for better prompts in the block's masked parameter<br>
 <br>
