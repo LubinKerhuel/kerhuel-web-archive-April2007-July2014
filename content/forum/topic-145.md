@@ -91,7 +91,7 @@ C30 Compiler found
 C30 Compiler found
 Model configured...</code></pre><br>
 <br>
-Oya and that hex file i got from <a href="/wiki/explorer-16-board/">http://www.kerhuel.eu/wiki/Explorer_16_Board</a><br>
+Oya and that hex file i got from <a href="/wiki/explorer-16-board/">http://archive.kerhuel.eu/wiki/Explorer_16_Board</a><br>
 <br>
 <br>
 <br>

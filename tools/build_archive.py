@@ -256,6 +256,12 @@ def mathml_markdown(md, warnings):
     return MATH_RE.sub(lambda _m: next(it), md)
 
 
+def archive_host(text):
+    """Old absolute links to www.kerhuel.eu point to the archive, which moves to archive.kerhuel.eu;
+    www.kerhuel.eu is reserved for the daily site."""
+    return re.sub(r'\bwww\.kerhuel\.eu\b', 'archive.kerhuel.eu', text, flags=re.I)
+
+
 def join_raw_html_blocks(markup):
     """Forum post HTML must stay one raw HTML block: a blank line ends it (even inside <pre>),
     and then Markdown turns text such as '### ...' or lines followed by '----' into headings.
@@ -759,7 +765,7 @@ class SiteBuilder:
         def repl(m):
             target = self.resolve_wiki_title(m.group(2))
             return f'{m.group(1)}="{target}' if target else m.group(0)
-        return re.sub(r'(href|src)="(?:\.\./)+wiki/([^"#?]*)', repl, text)
+        return archive_host(re.sub(r'(href|src)="(?:\.\./)+wiki/([^"#?]*)', repl, text))
 
     def copy_legacy_tree(self):
         """Publish the old RTWdsPIC static mirror at /RTWdsPIC/ with the same paths."""
@@ -1028,7 +1034,7 @@ class SiteBuilder:
                 lastmod = dt.datetime.strptime(a['date'], '%Y%m%d%H%M%S').replace(tzinfo=dt.timezone.utc).isoformat().replace('+00:00', 'Z')
             except (ValueError, TypeError):
                 lastmod = '2019-03-25T00:00:00Z'
-            body = mathml_markdown(self.redact_emails(md), self.report['warnings'])
+            body = archive_host(mathml_markdown(self.redact_emails(md), self.report['warnings']))
             out.write_text(self.frontmatter(normalized_title(a['title']), url, extra={'source': 'MediaWiki snapshot 2019-03-25', 'lastmod': lastmod}) + body, encoding='utf-8')
             self.report['wiki_pages_exported'] += 1
             self.exported_titles.append(a['title'])
@@ -1082,7 +1088,7 @@ class SiteBuilder:
                     url = self.copy_attachment(att['id'])
                     if url: body.append(f'<p class="attachment-line"><a class="attachment" download href="{html_attr(url)}">Pièce jointe : {html.escape(att["name"])}</a></p>')
                 body.append('</article>\n')
-            md = join_raw_html_blocks(fix_nested_anchors('\n'.join(body)))
+            md = archive_host(join_raw_html_blocks(fix_nested_anchors('\n'.join(body))))
             out = self.root / 'content/forum' / f'topic-{topic["id"]}.md'
             out.write_text(self.frontmatter(topic['title'], turl, kind='topic') + md + '\n', encoding='utf-8')
             self.report['forum_posts_exported'] += len(topic['posts'])

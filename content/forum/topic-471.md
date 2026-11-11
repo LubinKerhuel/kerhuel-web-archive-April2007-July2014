@@ -45,7 +45,7 @@ Vladimir</div>
 <h3>Re: Recive Multiple Data from the same UART</h3>
 <div class="forum-post-body">Vladimir,<br>
 <br>
-You want to parse incoming data (UART Rx). I did similar for Tx. See the post "Rx Interrupt buffer size" linked here: <a href="/forum/topic/143/#p453">http://www.kerhuel.eu/forum/viewtopic.p ... +uart#p453</a>.<br>
+You want to parse incoming data (UART Rx). I did similar for Tx. See the post "Rx Interrupt buffer size" linked here: <a href="/forum/topic/143/#p453">http://archive.kerhuel.eu/forum/viewtopic.p ... +uart#p453</a>.<br>
 <br>
 <br>
 <br>

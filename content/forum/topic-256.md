@@ -37,7 +37,7 @@ Please upload the model you made (adding screenshoot is even better). this will 
 <br>
 <br>
 <br>
-On 30f chip, the real MIPS is the frequency of the quartz <strong>divided by 4</strong>, and then multiplied with the choosen PLL (1 if no PLL) . See help <a href="/wiki/dspic-block-master/">http://www.kerhuel.eu/wiki/Block/Master</a><br>
+On 30f chip, the real MIPS is the frequency of the quartz <strong>divided by 4</strong>, and then multiplied with the choosen PLL (1 if no PLL) . See help <a href="/wiki/dspic-block-master/">http://archive.kerhuel.eu/wiki/Block/Master</a><br>
 <br>
 <br>
 <br>

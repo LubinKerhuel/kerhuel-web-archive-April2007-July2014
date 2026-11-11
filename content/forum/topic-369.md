@@ -212,7 +212,7 @@ Embedded Coder for dsPIC V3.4b(14-Jan-2011) for Matlab R2009b.
 Licence Accorded to  Demonstration Version
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://www.kerhuel.eu/wiki
+                     WEBSITE : http://archive.kerhuel.eu/wiki
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
@@ -225,7 +225,7 @@ Licence Accorded to  Demonstration Version
                      FRANCE
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at : &lt;a href = "http://www.kerhuel.eu/wiki/index.php5#3"&gt; www.kerhuel.eu &lt;/a&gt;
+Check updates and new informations at : &lt;a href = "http://archive.kerhuel.eu/wiki/index.php5#3"&gt; archive.kerhuel.eu &lt;/a&gt;
      ----------------------------------------------------
 <wbr>
 .
@@ -298,11 +298,11 @@ stack                        0x88c                               0x774  (1908)
                         Maximum dynamic memory (bytes):          0x774  (1908) 
 <wbr>
 " ================================================================" 
-"*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu" 
+"*** Embedded Target for dsPIC by Lubin KERHUEL - http://archive.kerhuel.eu" 
 " | Licence Accorded to Demonstration Version                    |" 
 " |                     [adresse e-mail retirée]                      |"	     
 " |          Companie : Author : Lubin KERHUEL                   |"  
-" |                     WEBSITE : http://www.kerhuel.eu/wiki     |" 
+" |                     WEBSITE : http://archive.kerhuel.eu/wiki     |" 
 " |                                                              |" 		 
 " |                     SIRENE : 503 920 456                     |" 
 " |                     SIRET : 503 920 456 00012                |"		 		 

@@ -39,7 +39,7 @@ You will also need Stateflow Coder : <a href="http://www.mathworks.fr/products/s
 <br>
 For compiling the stateflow model, just place it in a simulink model, and compile the simulink model. <br>
 <br>
-Have a look on the many examples (and video) <a href="/wiki/category/example/">http://www.kerhuel.eu/wiki/Category:Example</a><br>
+Have a look on the many examples (and video) <a href="/wiki/category/example/">http://archive.kerhuel.eu/wiki/Category:Example</a><br>
 <br>
 <br>
 <br>

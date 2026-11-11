@@ -43,7 +43,7 @@ Laura Andrea Gonzalez<br>
 <article class="forum-post" id="p337">
 <header><strong>malife</strong><time datetime="2008-05-12 20:26 UTC">2008-05-12 20:26 UTC</time></header>
 <h3>Re: tutorial</h3>
-<div class="forum-post-body">Hello Laura, If you read the tutorials at <a href="/RTWdsPIC/examples/index.html">http://www.kerhuel.eu/RTWdsPIC/examples/index.html</a> that should get you started. Regarding the manual, every block is documented and you can read it off the website or in Matlab's Help once you install the blockset<br>
+<div class="forum-post-body">Hello Laura, If you read the tutorials at <a href="/RTWdsPIC/examples/index.html">http://archive.kerhuel.eu/RTWdsPIC/examples/index.html</a> that should get you started. Regarding the manual, every block is documented and you can read it off the website or in Matlab's Help once you install the blockset<br>
 <br>
 <br>
 <br>

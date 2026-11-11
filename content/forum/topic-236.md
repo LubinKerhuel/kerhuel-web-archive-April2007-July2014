@@ -15,7 +15,7 @@ Forum : [General Remark and Questions](/forum/#forum-1)
 <br>
 <br>
 <br>
-I am trying to compile my first model from your demo <a href="/wiki/animation-compiling-your-first-model/">http://www.kerhuel.eu/wiki/Animation_Co ... irst_model</a>    and keep getting the error:<br>
+I am trying to compile my first model from your demo <a href="/wiki/animation-compiling-your-first-model/">http://archive.kerhuel.eu/wiki/Animation_Co ... irst_model</a>    and keep getting the error:<br>
 <br>
 <br>
 <br>
@@ -142,7 +142,7 @@ Embedded Coder for dsPIC V0.99g(08-Jul-2009) for Matlab R2007b.
 Licence Accorded to  Demonstration Version
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://www.kerhuel.eu
+                     WEBSITE : http://archive.kerhuel.eu
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
@@ -155,7 +155,7 @@ Licence Accorded to  Demonstration Version
                      FRANCE
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  www.kerhuel.eu 
+Check updates and new informations at :  archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .

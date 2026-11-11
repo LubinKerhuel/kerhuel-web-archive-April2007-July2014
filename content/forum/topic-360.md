@@ -79,7 +79,7 @@ Josef</div>
 <br>
 It seems to be a microchip error in the pwm12.h definition file still remaining in v3.22 compiler version !<br>
 <br>
-already published on the wiki :<a href="/wiki/pic30-gcc-v3-12-bugfix/">http://www.kerhuel.eu/wiki/Pic30-gcc_v3.12_bugfix</a><br>
+already published on the wiki :<a href="/wiki/pic30-gcc-v3-12-bugfix/">http://archive.kerhuel.eu/wiki/Pic30-gcc_v3.12_bugfix</a><br>
 <br>
 <br>
 <br>

@@ -88,7 +88,7 @@ The method you describe looks like the one that was described by Pisano (2005) (
 <br>
 This filtering method works fines, but when the gyro drift, a static error remains on the angle estimation. I did simulation recently including this method ("Pisano") and I am about to update the IMU page. Feel free to add your comment on this page or on the related discussion page. (Login first on the wiki)<br>
 <br>
-<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a><br>
+<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... Unit_-_IMU</a><br>
 <br>
 <br>
 <br>
@@ -152,7 +152,7 @@ Lubin</div>
 <br>
 <br>
 <br>
-<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
+<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
 <br>
 <br>
 <br>

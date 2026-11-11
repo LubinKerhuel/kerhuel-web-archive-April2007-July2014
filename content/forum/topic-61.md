@@ -418,7 +418,7 @@ Companie =
 ----------------------------------------------------
 Embedded Coder for dsPIC V0.94eb(26-Sep-2007) for Matlab R2007a.
 Licence Accorded to Demonstration Version - 
-informations available at http://www.kerhuel.eu/
+informations available at http://archive.kerhuel.eu/
 ----------------------------------------------------
 .
 ### Processing Template Makefile: E:\Work\MATLAB\dsPIC_RTW\dspic\dspic_pic30_gcc.tmf
@@ -580,7 +580,7 @@ Companie =
 ----------------------------------------------------
 Embedded Coder for dsPIC V0.94eb(26-Sep-2007) for Matlab R2007a.
 Licence Accorded to Demonstration Version - 
-informations available at http://www.kerhuel.eu/
+informations available at http://archive.kerhuel.eu/
 ----------------------------------------------------
 .
 ### Processing Template Makefile: E:\Work\MATLAB\dsPIC_RTW\dspic\dspic_pic30_gcc.tmf
@@ -830,7 +830,7 @@ The bug is corrected! The optimization algorithm takes into account this constra
 <br>
 Download the last version : <br>
 <br>
-<a href="/RTWdsPIC/download.html">http://www.kerhuel.eu/RTWdsPIC/download.html</a></div>
+<a href="/RTWdsPIC/download.html">http://archive.kerhuel.eu/RTWdsPIC/download.html</a></div>
 </article>
 
 <article class="forum-post" id="p138">

@@ -41,7 +41,7 @@ Lubin</div>
 <br>
 <br>
 <br>
-check installed mediawiki extensions : <a href="/archive-assets/">http://www.kerhuel.eu/wiki/Special:Version</a></div>
+check installed mediawiki extensions : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki/Special:Version</a></div>
 </article>
 
 <article class="forum-post" id="p1290">
@@ -65,6 +65,6 @@ check installed mediawiki extensions : <a href="/archive-assets/">http://www.ker
 <br>
 <br>
 <br>
-check installed mediawiki extensions : <a href="/archive-assets/">http://www.kerhuel.eu/wiki/Special:Version</a></div>
+check installed mediawiki extensions : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki/Special:Version</a></div>
 </article>
 

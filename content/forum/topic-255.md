@@ -68,7 +68,7 @@ putU2(c);
 <article class="forum-post" id="p1003">
 <header><strong>LubinKerhuel</strong><time datetime="2009-11-17 15:39 UTC">2009-11-17 15:39 UTC</time></header>
 <h3>Re: PIC24 RS-232???</h3>
-<div class="forum-post-body">Provided you have simulink, try to program your dsPIC using Simulink and this blockset : <a href="/wiki/release-notes/">http://www.kerhuel.eu/wiki/Release_Notes</a><br>
+<div class="forum-post-body">Provided you have simulink, try to program your dsPIC using Simulink and this blockset : <a href="/wiki/release-notes/">http://archive.kerhuel.eu/wiki/Release_Notes</a><br>
 <br>
 Otherwise, you would porbably get better responses on the microchip forum.<br>
 <br>

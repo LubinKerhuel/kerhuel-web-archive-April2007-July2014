@@ -171,7 +171,7 @@ Licence Accorded to  Ismaeel Tijani
                      Tel: +603 6187 3179 Fax: +603 4147 3179
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  http://www.kerhuel.eu 
+Check updates and new informations at :  http://archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -184,7 +184,7 @@ Check updates and new informations at :  http://www.kerhuel.eu
 ''pic30-gcc  -c -mcpu=24fJ128GA010 -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2007b/simulink/include -IC:\PROGRA~1\MATLAB\R2007b/extern/include -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/src -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/src/ext_mode/common -ID:\EMBEDD~1\BUILDC~1\UAV_VN~2\sources -ID:\EMBEDD~1\BUILDC~1 -IC:\PROGRA~1\MATLAB\R2007b\rtw\c\libsrc   -I C:\PROGRA~1\MICROC~1\MPLABC~2\include    dsPIC_UART2_Interrupt.c 
 ''pic30-gcc  -c -mcpu=24fJ128GA010 -O3 -fschedule-insns -fschedule-insns2	 -O   -I. -I..\.. -IC:\PROGRA~1\MATLAB\R2007b/simulink/include -IC:\PROGRA~1\MATLAB\R2007b/extern/include -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/src -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/ert -IC:\PROGRA~1\MATLAB\R2007b/rtw/c/src/ext_mode/common -ID:\EMBEDD~1\BUILDC~1\UAV_VN~2\sources -ID:\EMBEDD~1\BUILDC~1 -IC:\PROGRA~1\MATLAB\R2007b\rtw\c\libsrc   -I C:\PROGRA~1\MICROC~1\MPLABC~2\include    UAV_VN1002b.c 
 " ================================================================" 
-"*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu" 
+"*** Embedded Target for dsPIC by Lubin KERHUEL - http://archive.kerhuel.eu" 
 " | Licence Accorded to Ismaeel Tijani                           |" 
 " |                     [adresse e-mail retirée]                     |"	     
 " |          Companie : Faculty of Engineering                   |"  

@@ -19,7 +19,7 @@ I have some questions about the RTWdsPIC: <br>
 <br>
 - Is an I2C link forecast in the future ? <br>
 <br>
-- I tested the evaluation version ... I find it really powerfull but I'm interested by some features of the complete version (C Function Call and number of I/O). How to request the evaluation version ? (the link <a href="/RTWdsPIC/pricing.html">http://www.kerhuel.eu/RTWdsPIC/pricing.html</a> is not updated)<br>
+- I tested the evaluation version ... I find it really powerfull but I'm interested by some features of the complete version (C Function Call and number of I/O). How to request the evaluation version ? (the link <a href="/RTWdsPIC/pricing.html">http://archive.kerhuel.eu/RTWdsPIC/pricing.html</a> is not updated)<br>
 <br>
 <br>
 <br>
@@ -39,7 +39,7 @@ Johan</div>
 <br>
 I worked recently on the I2C Peripheral. It is finished and will be released in the next version (one or two weeks...).<br>
 <br>
-The page <a href="/RTWdsPIC/pricing.html">http://www.kerhuel.eu/RTWdsPIC/pricing.html</a>  will be updated in march (2008).</div>
+The page <a href="/RTWdsPIC/pricing.html">http://archive.kerhuel.eu/RTWdsPIC/pricing.html</a>  will be updated in march (2008).</div>
 </article>
 
 <article class="forum-post" id="p207">
@@ -49,7 +49,7 @@ The page <a href="/RTWdsPIC/pricing.html">http://www.kerhuel.eu/RTWdsPIC/pricing
 <br>
 <br>
 <br>
-Go to <a href="/RTWdsPIC/download.html">http://www.kerhuel.eu/RTWdsPIC/download.html</a> to download the last version of the blockset.</div>
+Go to <a href="/RTWdsPIC/download.html">http://archive.kerhuel.eu/RTWdsPIC/download.html</a> to download the last version of the blockset.</div>
 </article>
 
 <article class="forum-post" id="p295">

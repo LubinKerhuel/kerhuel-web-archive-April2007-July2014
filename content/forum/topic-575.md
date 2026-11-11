@@ -19,7 +19,7 @@ I'm trying to get the dsblock set running.<br>
 <br>
 <br>
 <br>
-After I installed it, I tried to build the LED example <a href="/wiki/getting-started-with-digilent-cerebot-32mx4/">http://www.kerhuel.eu/wiki/Getting_Star ... ebot_32MX4</a><br>
+After I installed it, I tried to build the LED example <a href="/wiki/getting-started-with-digilent-cerebot-32mx4/">http://archive.kerhuel.eu/wiki/Getting_Star ... ebot_32MX4</a><br>
 <br>
 <br>
 <br>

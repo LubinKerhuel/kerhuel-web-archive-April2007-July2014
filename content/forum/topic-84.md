@@ -466,7 +466,7 @@ Embedded Coder for dsPIC V0.96b(13-Feb-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  http://www.kerhuel.eu 
+informations available at  http://archive.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\MyToolBox\dspic\dspic_pic30_gcc.tmf
@@ -609,7 +609,7 @@ stack                        0x810                               0x1f0  (496)
 <wbr>
                         Maximum dynamic memory (bytes):          0x1f0  (496) 
 <wbr>
-"*** Embedded Target for dsPIC written by Lubin KERHUEL -  http://www.kerhuel.eu" 
+"*** Embedded Target for dsPIC written by Lubin KERHUEL -  http://archive.kerhuel.eu" 
 "*** Licence Accorded to Demonstration Version                                                              " 
 "*** Version 0.96b                             13-Feb-2008      " 
 "*** For Matlab 7.5             R2007b       " 
@@ -664,7 +664,7 @@ Embedded Coder for dsPIC V0.96b(13-Feb-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  www.kerhuel.eu 
+informations available at  archive.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\MyToolBox\dspic\dspic_pic30_gcc.tmf
@@ -809,7 +809,7 @@ Embedded Coder for dsPIC V0.96b(13-Feb-2008) for Matlab R2007b.
 Licence Accorded to Demonstration Version - 
 <wbr>
 <wbr>
-informations available at  www.kerhuel.eu 
+informations available at  archive.kerhuel.eu 
 <wbr>
 .
 ### Processing Template Makefile: C:\MyToolBox\dspic\dspic_pic30_gcc.tmf
@@ -852,7 +852,7 @@ I do not know why, if anybody has a suggestion.<br>
 <br>
 <br>
 <br>
-The solution is described on the release page: <a href="/RTWdsPIC/ReleaseNotes.html">http://www.kerhuel.eu/RTWdsPIC/ReleaseNotes.html</a><br>
+The solution is described on the release page: <a href="/RTWdsPIC/ReleaseNotes.html">http://archive.kerhuel.eu/RTWdsPIC/ReleaseNotes.html</a><br>
 <blockquote>Know bug : before compiling schematic for dsPIC 24f, you must remove the line 56 of Generic.h file which is in<br>
 <br>
 "C:\Program Files\Microchip\MPLAB C30\support\h\peripheral_24F"<br>

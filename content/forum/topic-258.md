@@ -333,7 +333,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
                      Author : Lubin KERHUEL<br>
 <br>
-                     WEBSITE : <a href="/archive-assets/">http://www.kerhuel.eu/wiki</a><br>
+                     WEBSITE : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki</a><br>
 <br>
                      <br>
 <br>
@@ -359,7 +359,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
      ----------------------------------------------------<br>
 <br>
-Check updates and new informations at :  <a href="/">www.kerhuel.eu</a> <br>
+Check updates and new informations at :  <a href="/">archive.kerhuel.eu</a> <br>
 <br>
      ----------------------------------------------------<br>
 <br>
@@ -653,7 +653,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
                      Author : Lubin KERHUEL<br>
 <br>
-                     WEBSITE : <a href="/archive-assets/">http://www.kerhuel.eu/wiki</a><br>
+                     WEBSITE : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki</a><br>
 <br>
                      <br>
 <br>
@@ -679,7 +679,7 @@ Licence Accorded to  Demonstration Version<br>
 <br>
      ----------------------------------------------------<br>
 <br>
-Check updates and new informations at :  <a href="/">www.kerhuel.eu</a> <br>
+Check updates and new informations at :  <a href="/">archive.kerhuel.eu</a> <br>
 <br>
      ----------------------------------------------------<br>
 <br>

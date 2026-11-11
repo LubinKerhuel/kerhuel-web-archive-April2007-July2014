@@ -15,7 +15,7 @@ Forum : [Website](/forum/#forum-10)
 <br>
 I used to find an article about IMU under the URL:<br>
 <br>
-<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
+<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
 <br>
 with the title:<br>
 <br>
@@ -45,7 +45,7 @@ Converting old URL to new one is simple : remove from the URL : <strong>index.ph
 <br>
 Thus, the new URL is :<br>
 <br>
-<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://www.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
+<a href="/wiki/miniature-inertial-measurement-unit-imu/">http://archive.kerhuel.eu/wiki/Miniature_In ... U#Download</a><br>
 <br>
 <br>
 <br>

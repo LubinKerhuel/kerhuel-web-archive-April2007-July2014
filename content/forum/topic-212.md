@@ -71,7 +71,7 @@ Thx for the Screen shoot.<br>
 I am not sure that model was very well doccumented. However, you may find on the page :<br>
 <blockquote>On the embedded simulink model, a mechanism allow to send data during a predefined time: The model embedded on the dsPIC send data only when the value variable60 is different from 0. This variable is changed through the UART using the same rs232gui graphical user interface with the send1 and send2 button. When receiving values [60 x], the embedded simulink model load the value x into the Simulink variable 'variable60'. The Simulink model decreases automatically this variable at a sampling rate of 1 second. This mechanism makes the user able to log data during a predefined time. </blockquote><br>
 <br>
-There was on the original model a block with sublocks that received data from the UART interface. This one is not present on your model. It is inside the TinyBld Reset block in the model : <a href="/archive-assets/">http://www.kerhuel.eu/wiki/images/8/86/ ... ta_Raw.png</a><br>
+There was on the original model a block with sublocks that received data from the UART interface. This one is not present on your model. It is inside the TinyBld Reset block in the model : <a href="/archive-assets/">http://archive.kerhuel.eu/wiki/images/8/86/ ... ta_Raw.png</a><br>
 <br>
 <br>
 <br>

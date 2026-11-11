@@ -56,7 +56,7 @@ There may be a problem with the filters you design. You should post a model with
 <br>
 It may help you to do simulation with filters you just design, checking that they are doing the job. Simulink is a very powerful tool for such design. <br>
 <br>
-You may also use an UART and looking at signals at different steps. Have a look on the video Mariano has done. At the end, it shows how using the UART interface with the graphical user interface: <a href="/archive-assets/#large-file-dspicscreencastfrommarianomov">http://www.kerhuel.eu/download/dsPicScr ... ariano.mov</a><br>
+You may also use an UART and looking at signals at different steps. Have a look on the video Mariano has done. At the end, it shows how using the UART interface with the graphical user interface: <a href="/archive-assets/#large-file-dspicscreencastfrommarianomov">http://archive.kerhuel.eu/download/dsPicScr ... ariano.mov</a><br>
 <br>
 <br>
 <br>

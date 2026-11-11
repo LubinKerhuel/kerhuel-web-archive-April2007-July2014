@@ -671,7 +671,7 @@ Licence Accorded to  &amp;&amp;               Licence Name          &amp;&amp;
                      &amp;&amp;               BuyerAddress4         &amp;&amp;
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  www.kerhuel.eu 
+Check updates and new informations at :  archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -1649,7 +1649,7 @@ Licence Accorded to  &amp;&amp;               Licence Name          &amp;&amp;
                      &amp;&amp;               BuyerAddress4         &amp;&amp;
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  www.kerhuel.eu 
+Check updates and new informations at :  archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -1858,7 +1858,7 @@ stack                       0x209c                              0x5e96  (24214)
                         Maximum dynamic memory (bytes):         0x5e96  (24214) 
 <wbr>
  ================================================================
-*** Embedded Target for dsPIC by Lubin KERHUEL - http://www.kerhuel.eu
+*** Embedded Target for dsPIC by Lubin KERHUEL - http://archive.kerhuel.eu
  | Licence Accorded to &amp;&amp;               Licence Name          &amp;&amp;|
  |                     &amp;&amp;               Mailcontact           &amp;&amp;|
  |          Companie : &amp;&amp;               Companie              &amp;&amp;|
@@ -3687,7 +3687,7 @@ Licence Accorded to  Blake Mills
 <wbr>
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  www.kerhuel.eu 
+Check updates and new informations at :  archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .

@@ -45,7 +45,7 @@ Lubin</div>
 <br>
 <br>
 <br>
-An overview is available at <a href="/archive-assets/">http://www.kerhuel.eu/wiki</a><br>
+An overview is available at <a href="/archive-assets/">http://archive.kerhuel.eu/wiki</a><br>
 <br>
 <br>
 <br>

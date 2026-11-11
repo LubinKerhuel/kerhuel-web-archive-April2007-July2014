@@ -28,7 +28,7 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Build site
-        run: hugo --minify --baseURL 'https://www.kerhuel.eu/'
+        run: hugo --minify --baseURL 'https://archive.kerhuel.eu/'
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:

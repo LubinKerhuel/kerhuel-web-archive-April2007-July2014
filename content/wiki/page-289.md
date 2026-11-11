@@ -80,11 +80,11 @@ Shadok motto - Provided there is no solution, there is no problem.
 
 ### Patents
 
-- Kerhuel, L. ; Viollet, S. & Franceschini, N. \"***[Method and device for measuring the angular position of a rectilinear contrasting edge of an object, and system for fixation and tracking a target comprising at least one such contrasting edge](http://www.kerhuel.eu/publi/Kerhuel_2011_VODKA_WO2011073079A1.pdf)***\". Patent, [EP2341312 (A1)](http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20110706&DB=EPODOC&locale=en_EP&CC=EP&NR=2341312A1&KC=A1), issued 15 december 2009.
+- Kerhuel, L. ; Viollet, S. & Franceschini, N. \"***[Method and device for measuring the angular position of a rectilinear contrasting edge of an object, and system for fixation and tracking a target comprising at least one such contrasting edge](http://archive.kerhuel.eu/publi/Kerhuel_2011_VODKA_WO2011073079A1.pdf)***\". Patent, [EP2341312 (A1)](http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20110706&DB=EPODOC&locale=en_EP&CC=EP&NR=2341312A1&KC=A1), issued 15 december 2009.
 
 <!-- -->
 
-- Kerhuel, L. ; Ruffier, F. & Franceschini, N. \"***[Method and device for measuring the angular velocity of a light transition zone and steering aid system for fixing and tracking a target comprising at least one such light transition](http://www.kerhuel.eu/publi/Kerhuel_2011_VODKA_WO2011073079A1.pdf)***\". Patent, [EP2341352 (A1)](http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20110706&DB=EPODOC&locale=en_EP&CC=EP&NR=2341352A1&KC=A1), issued 15 december 2009.
+- Kerhuel, L. ; Ruffier, F. & Franceschini, N. \"***[Method and device for measuring the angular velocity of a light transition zone and steering aid system for fixing and tracking a target comprising at least one such light transition](http://archive.kerhuel.eu/publi/Kerhuel_2011_VODKA_WO2011073079A1.pdf)***\". Patent, [EP2341352 (A1)](http://worldwide.espacenet.com/publicationDetails/biblio?FT=D&date=20110706&DB=EPODOC&locale=en_EP&CC=EP&NR=2341352A1&KC=A1), issued 15 december 2009.
 
 ### Book Chapters {#book_chapters}
 

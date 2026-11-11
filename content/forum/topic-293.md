@@ -141,7 +141,7 @@ Lubin</div>
 <br>
 <br>
 <br>
-I did not post the message, But problem has been solved, please give a try with the latest version (3.2b)  : <a href="/wiki/release-notes/">http://www.kerhuel.eu/wiki/Release_Notes</a></div>
+I did not post the message, But problem has been solved, please give a try with the latest version (3.2b)  : <a href="/wiki/release-notes/">http://archive.kerhuel.eu/wiki/Release_Notes</a></div>
 </article>
 
 <article class="forum-post" id="p1258">

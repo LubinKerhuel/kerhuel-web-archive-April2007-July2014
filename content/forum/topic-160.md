@@ -162,20 +162,20 @@ Embedded Coder for dsPIC V0.98fe(16-Sep-2008) for Matlab R2008a.
 Licence Accorded to  Demo
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://www.kerhuel.eu
+                     WEBSITE : http://archive.kerhuel.eu
 <wbr>
                      SIRENE : 503 920 456
                      SIRENE : 503 920 456
 <wbr>
  Facturation to :    
 <wbr>
-                     WEBSITE : http://www.kerhuel.eu
+                     WEBSITE : http://archive.kerhuel.eu
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  http://www.kerhuel.eu 
+Check updates and new informations at :  http://archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .
@@ -205,7 +205,7 @@ C30 Compiler found</code></pre></div>
 <h3>Re: Build error</h3>
 <div class="forum-post-body">You must update your C30 compiler to version (3.10b or 3.11b) (student version is also Ok)<br>
 <br>
-See requirements <a href="/wiki/download/">http://www.kerhuel.eu/wiki/Download#Requirement</a><br>
+See requirements <a href="/wiki/download/">http://archive.kerhuel.eu/wiki/Download#Requirement</a><br>
 <br>
 <br>
 <br>

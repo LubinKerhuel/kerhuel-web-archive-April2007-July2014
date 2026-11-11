@@ -139,7 +139,7 @@ Does this mean that SPI functionality is not supported for PIC32 uCs with those 
 <br>
 See the note: " * PIC 32F<br>
 <br>
-    SPI function not suported yet;" under the list of supported chips on page: <a href="/wiki/simulink-embedded-target-for-pic/">http://www.kerhuel.eu/wiki/Simulink_-_E ... et_for_PIC</a>.</div>
+    SPI function not suported yet;" under the list of supported chips on page: <a href="/wiki/simulink-embedded-target-for-pic/">http://archive.kerhuel.eu/wiki/Simulink_-_E ... et_for_PIC</a>.</div>
 </article>
 
 <article class="forum-post" id="p1452">

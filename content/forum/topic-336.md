@@ -91,7 +91,7 @@ You should find better feedback on their forum regarding their installation.<br>
 <br>
 Alternatively, please try the "LK" blockset available on this website ;-)<br>
 <br>
-<a href="/wiki/download/">http://www.kerhuel.eu/wiki/Download</a><br>
+<a href="/wiki/download/">http://archive.kerhuel.eu/wiki/Download</a><br>
 <br>
 <br>
 <br>

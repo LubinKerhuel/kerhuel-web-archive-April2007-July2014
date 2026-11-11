@@ -41,13 +41,13 @@ I hope this is a nice accident !<br>
 <br>
 <br>
 <br>
-you will find example about Input Capture block on the example page : <a href="/wiki/category/example/">http://www.kerhuel.eu/wiki/Category:Example</a><br>
+you will find example about Input Capture block on the example page : <a href="/wiki/category/example/">http://archive.kerhuel.eu/wiki/Category:Example</a><br>
 <br>
 look at the autopilote model, I think it's using IC blocks.<br>
 <br>
 <br>
 <br>
-Also, have a look on the IC block help : <a href="/wiki/dspic-block-output-compare/">http://www.kerhuel.eu/wiki/Block/Output_Compare</a><br>
+Also, have a look on the IC block help : <a href="/wiki/dspic-block-output-compare/">http://archive.kerhuel.eu/wiki/Block/Output_Compare</a><br>
 <br>
 <br>
 <br>
@@ -109,7 +109,7 @@ Ok, I did not upload it yet. my mistake. Will do it soon.<br>
 <br>
 <br>
 <blockquote><header class="quote-author">Citation : val</header>Please give me the name of the examples.</blockquote><br>
-<a href="/wiki/explorer-16-board/">http://www.kerhuel.eu/wiki/Explorer_16_Board</a><br>
+<a href="/wiki/explorer-16-board/">http://archive.kerhuel.eu/wiki/Explorer_16_Board</a><br>
 <br>
 <br>
 <blockquote><header class="quote-author">Citation : val</header>I suppose the time step in the solver must be the same as in the ADC block?</blockquote><br>

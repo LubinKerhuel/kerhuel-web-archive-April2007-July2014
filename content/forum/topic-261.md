@@ -63,7 +63,7 @@ It may not be possible to get two different PWM period from one "PWM motor" peri
 <br>
 <br>
 <br>
-I just updated the PWM  help page <a href="/wiki/dspic-block-pwm-motor-output/">http://www.kerhuel.eu/wiki/Block/PWM_Mo ... ut#Periode</a><br>
+I just updated the PWM  help page <a href="/wiki/dspic-block-pwm-motor-output/">http://archive.kerhuel.eu/wiki/Block/PWM_Mo ... ut#Periode</a><br>
 <br>
 Please feel free to complete wiki help page for others usefull informations.<br>
 <br>

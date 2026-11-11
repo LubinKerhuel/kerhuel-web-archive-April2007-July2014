@@ -175,7 +175,7 @@ I have tried another way too, by writing the data directly in a files or memory.
 <h3>Re: GUI in Matlab2010a with virtual Com port problem</h3>
 <div class="forum-post-body">I uploaded my "old" labview schema on the wiki :<br>
 <br>
-bottom of page : <a href="/wiki/dspic-block-tx-output-multiplexed-for-matlab-labview/">http://www.kerhuel.eu/wiki/Block/Tx_Out ... ab-Labview</a> <br>
+bottom of page : <a href="/wiki/dspic-block-tx-output-multiplexed-for-matlab-labview/">http://archive.kerhuel.eu/wiki/Block/Tx_Out ... ab-Labview</a> <br>
 <br>
 <br>
 <br>

@@ -15,7 +15,7 @@ Forum : [General Remark and Questions](/forum/#forum-1)
 <br>
 <br>
 <br>
-I followed every step described on <a href="/RTWdsPIC/examples/ImportSimulinkMPLAB.html">http://www.kerhuel.eu/RTWdsPIC/examples ... MPLAB.html</a> , also have c32 c30 and c24 compiler installated (was automatically installed with mplab!!)<br>
+I followed every step described on <a href="/RTWdsPIC/examples/ImportSimulinkMPLAB.html">http://archive.kerhuel.eu/RTWdsPIC/examples ... MPLAB.html</a> , also have c32 c30 and c24 compiler installated (was automatically installed with mplab!!)<br>
 <br>
 <br>
 <br>
@@ -67,7 +67,7 @@ Error(s) encountered while building model "suprer".</div>
 That mean that you did not selected the target in the Master block !<br>
 <br>
 <br>
-<blockquote><header class="quote-author">Citation : HTL</header><a href="/archive-assets/">http://www.kerhuel.eu/RTWdsPIC/examples</a> ... MPLAB.html</blockquote><br>
+<blockquote><header class="quote-author">Citation : HTL</header><a href="/archive-assets/">http://archive.kerhuel.eu/RTWdsPIC/examples</a> ... MPLAB.html</blockquote><br>
 That's may be old pages. Please go to the wiki for more "up to date ;-)" informations.<br>
 <br>
 Try compiling an example from the example directory ! and then adapt it to your needs...<br>
@@ -265,20 +265,20 @@ Embedded Coder for dsPIC V0.99a(28-Oct-2008) for Matlab R2006b.
 Licence Accorded to  Demo
                      [adresse e-mail retirée]
                      Author : Lubin KERHUEL
-                     WEBSITE : http://www.kerhuel.eu
+                     WEBSITE : http://archive.kerhuel.eu
 <wbr>
                      SIRENE : 503 920 456
                      SIRENE : 503 920 456
 <wbr>
  Facturation to :    
 <wbr>
-                     WEBSITE : http://www.kerhuel.eu
+                     WEBSITE : http://archive.kerhuel.eu
 <wbr>
                      SIRENE : 503 920 456
                      SIRET : 503 920 456 00012
 <wbr>
      ----------------------------------------------------
-Check updates and new informations at :  www.kerhuel.eu 
+Check updates and new informations at :  archive.kerhuel.eu 
      ----------------------------------------------------
 <wbr>
 .

@@ -437,7 +437,7 @@ Masaki<br>
  * 
  * 
  *                                                              |
- *   Written by Lubin KERHUEL -  http://www.kerhuel.eu          |
+ *   Written by Lubin KERHUEL -  http://archive.kerhuel.eu          |
  *  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  *   Version 0.95ba                            07-Feb-2008      |
  *   For Matlab 7.5             R2007b                          |
